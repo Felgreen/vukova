@@ -1,0 +1,149 @@
+{
+    "nav":{
+        "training":"ENTRENAMIENTO",
+        "nosotros":"NOSOTROS",
+        "contact":"CONTACTO"
+    },
+    "about":{"header":"The Surf House te esta esperando",
+            "desc":"The Surf House nace a partir de la necesidad de estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa."
+            },
+    
+    "reserva":{
+        "head":"Otra manera de vivir la cuidad",
+        "button":"RESERVA HOY",
+        "class":"Reserva tu primera clase gratuita hoy!",
+        "desc":"Veni a conocer el primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado."
+    },
+    "entrenamiento":{
+        "hiit":"El Entrenamiento de intervalos de alta intensidad, es un entrenamiento de fuerza-resistencia que exigirá al límite tu rendimiento, a través de ejercicios exigentes con y sin presencia de oxígeno.",
+        "surf":"Entrenamiento físico técnico de SURF, ideal para incorporar conceptos y movimientos específicos del deporte, que te van a ayudar a evolucionar en este deporte donde vas a aprender técnicas básicas de surf.",
+        "metatitle":"METABÓLICOS",
+        "metabolico":"Entrenamiento basado en mejorar la capacidad de poder sostener el esfuerzo el mayor tiempo posible. Ideal para potenciar el metabolismo oxidativo y aeróbico.",
+        "strengthtitle":"DESARROLLO DE FUERZA",
+        "strength":"Entrenamiento basado en estimular la producción y desarrollo de altos niveles de fuerza. Claves para el accionar diario de las personas.",
+        "functionaltitle":"ENTRENAMIENTO FUNCIONAL",
+        "functional":"Entrenamiento orientado en mejorar los patrones básicos de movimiento, transferibles a todos los deportes."
+    },
+    "wellness":{
+        "OSTEOPATIA1":"OSTEOPATIA",
+        "KINESIOLOGIA1":"KINESIOLOGIA",
+        "NUTRICION1":"NUTRICION",
+        "GKP1":"GIMNASIA KINESICA PREVENTIVA (GKP)",
+        "Prev1":"EVALUACIONES DEPORTIVAS PREVENTIVAS",
+        "OSTEOPATIA":"La osteopatía es una disciplina cuya máxima reside en la visión holística del cuerpo humano, entendiendo este como una unidad, y no como un conjunto independiente de órganos y estructuras. Esta especialidad está orientada a restaurar y mantener el equilibrio del cuerpo para conseguir su recuperación y conservar su capacidad de autorregulación.",
+        "KINESIOLOGIA":"Nuestros kinesiólogos te ayudaran en los procesos de recuperación de lesiones elaborando rutinas de ejercicios específicos, acompañadas de terapias complementarias, para favorecer la rápida reincorporación del paciente a su rutina diaria y disciplina deportiva.",
+        "NUTRICION":"Sabemos que la nutrición de nuestros deportistas es un pilar fundamental para mejorar la performance y rendimiento. Nuestros nutricionistas te evaluaran, diagnosticaran y planificaran un plan nutricional que sea adecuado para tu día a día y tus objetivos deportivos.",
+        "GIMNASIA KINESICA PREVENTIVA (GKP)":"Consiste en el cuidado y mejoramiento del ser por medio del movimiento voluntario. Clases basadas en diferentes ejercicios de flexibilidad, movilidad y fuerza para prevenir las lesiones mas frecuentes en los deportistas.",
+        "EVALUACIONES DEPORTIVAS PREVENTIVAS":"Moverse bien y  seguro es indispensable para la práctica deportiva. Por medio de estas evaluaciones logramos detectar factores de riesgos, asimetrías y desbalances con la intención de abordar un programa de prevención específico para cada deportista."
+    },
+    "faq":{
+        "preg1":"¿Alquilan tabla?",
+        "preg2":"¿Puedo ir sin experiencia?",
+        "preg3":"¿Que valor tiene ir a patinar?",
+        "preg4":"¿Me recomiendan empezar en los lagos de palermo antes del bowl?",
+        "resp1":"Para nosotros es fundamental que puedas probar las tablas y analizar cual se adapta mejor a vos para que tu compra sea inteligente, por ese motivo conta con tu primer mes de membresia con tabla bonificada!",
+        "resp2":"Sin dudas, la experiencia solo se logra dando el primer paso, y en ese también estamos para acompañarte! Podes empezar de cero sin problemas.",
+        "resp3":"Contamos con diferentes opciones de planes y membresias, podes venirte a patinar una hora libre o sacar clases sueltas también, contactanos y te contamos todo con detalle.",
+        "resp4":"Si, nuestra recomendación es empezar con las clases de los lagos que son en plano, ya que el surfpak tiene un nivel mayor de dificultad, sin embargo podes empezar con las clases de principiantes en el bowl sin problema."
+    },
+    "grid":{
+        "title1":"SURFPARK",
+        "desc1":"Entrenamiento personalizado de surf skate, coaching y perfeccionamiento, clases para niños.",
+        "title2":"SURFSKATE",
+        "desc2":"Aprende los movimientos fundamentales a traves de nuestras clases progresivas de surfskate.", 
+        "title3":"BOX DE ENTRENAMIENTO",
+        "desc3":"SURF TRAINING, DESARROLLO DE FUERZA, HIIT, ENTRENAMIENTO FUNCIONAL, METABÓLICOS",
+        "title4":"SHOP",
+        "desc4":"Mucho mas que un surfshop, vamos a ser tu centro de consulta técnico de surf para que puedas realizar tu compra con el mejor asesoramiento posible.",
+        "title5":"KANDUI BAR",
+        "desc5":"Tu bar de playa en plena ciudad. Menú simple y de calidad, combinando platos clásicos con platos modernos, variedad en verduras y sanguches icónicos que no te vas a cansar de pedirlos.",
+        "title6":"EVENTOS",
+        "desc6":"Musica en vivo, fiestas, eventos privados y mucho mas. Contactanos!",
+        "title7":"CONSULTORIO",
+        "desc7":"Profesionales en Osteopatía, kinesiología y nutrición van a conformar el equipo médico que vas a poder consultar.",
+        "title8":"",
+        "desc8":"",
+        "last":"Lunes a Sábados 08AM - 23HS"
+    },
+    "pricing":{
+        "title":"MEMBRESIAS",
+        "button":"COMPRAR",
+        "main":"Elegí el plan que mejor se adapte a vos y a tu estilo de vida."
+
+    },
+    "button":{
+        "horarios":"Horarios"
+    },
+    "surfskate":{
+        "sen1":"Vivir lejos de la ciudad muchas veces es un limitante para poder crecer y avanzar en este deporte y nosotros buscamos romper esa barrera. ",
+        "sen2":"Junto al N°1 en la construcción de skateparks, Martin Pibotto  y al conocimiento teórico-practico de surf del equipo de APSURF creamos un espacio donde vas a sentir que fluis y dibujas líneas como si estuvieses en una ola. El objetivo es que puedas trabajar las técnicas básicas del surf para después trasladarlas al mar.",
+        "sen3":"Un parque 100% de madera, ubicado en el corazón de la ciudad, que no lo vas a poder creer.",
+        "sen4":"Entrenamiento personalizado de surf skate: en estas sesiones contaras con la atención de un profesor de forma exclusiva. Así podrás abordar una planificación especifica y adaptada a tus condiciones, rendimientos y objetivos personales.",
+        "sen6":"Desarrollado por el N°1 de la Argentina en la construccion de Skateparks, Martin Pibotto, en conjunto con Surfista profesionales. Un park que no lo vas a poder creer.",
+        "block1title":"Park a medida",
+        "block1sen":"Creamos un espacio donde vas a sentir que fluis y dibujas líneas como si estuvieses en una ola.",
+        "block2title":"Ubicación",
+        "block2sen":"Un parque 100% de madera, ubicado en el corazón de la ciudad.",
+        "block3title":"Coaching",
+        "block3sen":"Video análisis,  con la finalidad de analizar, evaluar y planificar en base a los aspectos técnicos.",
+        "block4title":"Clases para niños",
+        "block4sen":"Clases de surf skate para niños a cargo de profesores de educación física.",
+        "block5title":"Clases progresivas",
+        "block5sen":"Aprende los movimientos fundamentales en los bosques de palermo.",
+        "sen5":"Clases grupales en los Lagos de Palermo.",
+        "surfpark1":"Primer surfpark de la Argentina.",
+        "lakesTitle":"LAGOS",
+        "lakesSen1":"Clases para todos los niveles y edades.",
+        "lakesSen2":"Con profesores enfocados en un aprendizaje correcto y con una metodología desarrollada con más de 5 años de experiencia. Un espacio donde vas a aprender las técnicas básicas para trasladarte y moverte sin problema. Salí de la rutina, y veni a probar la primer clase gratis!"
+    },
+    "contact":{
+        "title":"TE ESPERAMOS!",
+        "button":"Reserva hoy"
+    },
+    "footer":{
+        "title":"HAY OTRA MANERA DE VIVIR LA CIUDAD"  
+    },
+    "seo":{
+        "title":"The Surf House",
+        "desc":"Vivir la cuidad de otra manera. Veni a estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa. ",
+        "trainingTitle":"Entrenamiento - Surf House Box ",
+        "trainingogTitle":"Entrenamiento - Surf House Box ",
+        "trainingdesc":"Gimnasio de entrenamiento personalizado y focalizado a deportes de tabla",
+        "surfskatetitle":"Surfbowl - Skatepark - The Surf House",
+        "surfskateDesc":"El primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado.",
+        "wellnessTitle":"Consultorio médico - Especialistas en medicina del deporte -  Osteopatia - Kinesiologia - Nutricion - Gimnasia Kinesica Preventiva - Evaluaciones Deportivas Preventivas",
+        "wellnessDesc":"Profesionales en Osteopatía, kinesiología y nutrición van a conformar el equipo médico que vas a poder consultar.",
+        "aboutTitle":" Nosotros - The Surf House"
+        
+    },
+    "nosotros":{
+        "title":"The Surfhouse es un espacio que nace con la intención de acercar el mar a la ciudad.",
+        "set1":"Somos amantes de los deportes de tablas, vivimos para surfear y creemos que HAY OTRA MANERA DE VIVIR LA CIUDAD.",
+        "set2":"Desarrollamos una metodología integral de entrenamiento pensando en tu evolución física y técnica. Contamos con un grupo de especialistas en nutrición, kinesiología y osteopatía,disponibles para acompañarte en todo momento.",
+        "set3":"Queremos ayudarte a lograr tu mejor versión."
+    },
+    "manifesto":{
+        "title":"NUESTRO MANIFIESTO",
+        "title2":"Surfeá",
+        "set1":"Surfea la rutina, la ciudad, las reglas. Surfeá aunque no estés arriba de una tabla. Surfeá hasta que no des más. Hasta que las cosas salgan como vos quieras. Surfeá hasta ser tu mejor versión. Y cuando lo alcances, seguí surfeando. Surfeá tus límites. SURFEA HASTA LA ULTIMA OLA."
+    },
+    "beneficios":{
+        "title":"BENEFICIOS",
+        "surfhouse":"10%",
+        "descuento":"Descuento en:",
+        "surfhouse1":"WELLNESS, SURFSHOP*, KANDUI BAR**",
+        "surftrips":"15%",
+        "surftrips1":"SURFCAMPS, SURFTRIPS, TRIPS INT.",
+        "hostel":"10%",
+        "hostel1":"HOSPEDAJE",
+        "escuela":"ESCUELA SURF",
+        "escuela1":"15%",
+        "escuela2":"CLASES DE SURF",
+        "disclaimer":"*Unicamente en productos tecnicos **Solo en efectivo."
+    }
+
+          
+
+}
+
+

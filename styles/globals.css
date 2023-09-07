@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .square{
+    aspect-ratio: 1/1;
+  }
+}
+
+@font-face {
+  font-family:"ArchivoBlack";
+  src: url("../public/ArchivoBlack-Regular.ttf");
+}
+@font-face {
+  font-family:"MontSemiBold";
+  src: url("../public/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family:"MontBold";
+  src: url("../public/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family:"MontBlack";
+  src: url("../public/Montserrat-Black.ttf");
+}
+@font-face {
+  font-family:"MontReg";
+  src: url("../public/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family:"MontBoldItalic";
+  src: url("../public/Montserrat-BoldItalic.ttf");
+}
+@font-face {
+  font-family:"MontBlackItalic";
+  src: url("../public/Montserrat-BlackItalic.ttf");
+}
+@font-face {
+  font-family:"MontThinItalic";
+  src: url("../public/Montserrat-ThinItalic.ttf");
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding:80px!important;
+  }
+body{
+  padding:0;
+  margin:0;
+  background-color: #011C35;
+}
+
+.custom-img {
+  background-image: url('/images/vertical.webp')
+}
+
+.surfbowl-img {
+background-image: url('/images/surfbowl4.webp')
+}
+.custom-img2 {
+background-image: url('/images/surfskate.jpeg')
+}
+
+.map-responsive iframe {
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

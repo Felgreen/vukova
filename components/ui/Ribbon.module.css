@@ -1,0 +1,30 @@
+
+.tech-slideshow {
+  height: 200px;
+  width: 100%;
+  margin: 0 auto;
+  position: flex;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.tech-slideshow > div {
+  height: auto;
+  width: 3000px;
+  background: url('../../assets/images/logos3.svg');
+  position: flex;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+.tech-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}
+
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-33.6666%);  
+  }
+}
