@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
-import logo from "./../public/images/logo-1.png";
+
 
 const Footer = () => {
   const router = useRouter();
@@ -18,13 +18,13 @@ const Footer = () => {
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div className="mx-auto">
-              <Image
+              {/* <Image
                 src={logo}
                 alt="The Surf House logo"
                 width={300}
                 height={100}
                 className="mx-auto"
-              />
+              /> */}
             </div>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
               <div>

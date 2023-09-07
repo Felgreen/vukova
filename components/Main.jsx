@@ -4,7 +4,7 @@ import Ribbon from "../components/ui/Ribbon";
 
 const Main = () => {
   return (
-    <div className="w-screen h-screen flex text-center bg-[#011C35]">
+    <div className="w-screen h-screen flex text-center bg-black ">
       <div className="flex-1 text-center w-full">
         <p className="text-white w-full text-3xl absolute mt-20 text-center ">
           <Image
@@ -23,7 +23,7 @@ const Main = () => {
         loop
         className=" hidden md:inline-block md:object-cover w-full h-[100vh] md:object-bottom"
       >
-        <source src="/video/VideoBG.mp4" type="video/mp4" />
+        
       </video>
       <video
         autoPlay
@@ -31,7 +31,7 @@ const Main = () => {
         loop
         className=" md:hidden object-cover w-full h-[100vh] md:object-bottom"
       >
-        <source src="/video/mobilevideo2.mp4" type="video/mp4" />
+     
       </video>
     </div>
   );
