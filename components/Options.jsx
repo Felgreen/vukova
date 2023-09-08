@@ -5,7 +5,7 @@ import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
 import Reserva from "./Reserva";
 
-import Eval from "../public/images/eval.webp";
+
 
 export default function Options({ option }) {
   const router = useRouter();
@@ -43,13 +43,13 @@ export default function Options({ option }) {
               />
             </svg>
           </a>
-          <Image
+          {/* <Image
             className="rounded-lg"
             src={Eval}
             width="590"
             height="500"
             alt=""
-          />
+          /> */}
         </div>
       );
     case "GKP":
@@ -233,13 +233,13 @@ export default function Options({ option }) {
               />
             </svg>
           </a>
-          <Image
+          {/* <Image
             className="rounded-lg"
             src={Eval}
             width="590"
             height="280"
             alt=""
-          />
+          /> */}
         </div>
       );
   }

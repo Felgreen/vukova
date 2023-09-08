@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import en from "../../public/locales/en/english.json"
 import es from "../../public/locales/es/espanol.json"
 import { Evaluation } from "../../components/svg";
-import { Yoga,Kinio,Nutrition,Ostio } from "../../components/svg";
+import { Yoga,Kinio,Nutrition,Ostio } from "../../components/svg"
 
 
 export default function Wellness() {
