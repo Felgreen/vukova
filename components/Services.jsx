@@ -13,11 +13,11 @@ const Services = ({ option }) => {
   switch (option) {
     case "HIIT":
       return (
-        <section className="bg-[#011C35]">
+        <section className="">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className=" text-md text-white sm:mt-4 sm:block font-montSemiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className=" text-md text-black sm:mt-4 sm:block font-montSemiBold">
                 {t.entrenamiento.hiit}
               </p>
             </div>
@@ -29,8 +29,8 @@ const Services = ({ option }) => {
         <section className="bg-[#081B33]">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className=" text-white-500 sm:mt-4 sm:block font-montSemiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className=" text-black-500 sm:mt-4 sm:block font-montSemiBold">
                 {t.entrenamiento.metabolico}
               </p>
             </div>
@@ -42,8 +42,8 @@ const Services = ({ option }) => {
         <section className="bg-[#081B33]">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className="text-white-500 sm:mt-4 sm:block font-montSemiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className="text-black-500 sm:mt-4 sm:block font-montSemiBold">
                 {t.entrenamiento.surf}
               </p>
             </div>
@@ -56,8 +56,8 @@ const Services = ({ option }) => {
         <section className="bg-[#081B33]">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className=" text-white-500 sm:mt-4 sm:block font-montSemiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className=" text-black-500 sm:mt-4 sm:block font-montSemiBold">
                 {t.entrenamiento.strength}
               </p>
             </div>
@@ -69,8 +69,8 @@ const Services = ({ option }) => {
         <section className="bg-[#081B33]">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className="text-white-500 sm:mt-4 sm:block font-montSemiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className="text-black-500 sm:mt-4 sm:block font-montSemiBold">
                 {t.entrenamiento.functional}
               </p>
             </div>
@@ -82,8 +82,8 @@ const Services = ({ option }) => {
         <section className="bg-[#081B33]">
           <div className="p-8 md:p-12 lg:px-16 lg:py-10">
             <div className="mx-auto max-w-lg text-center">
-              <h2 className="text-2xl font-montSemiBold text-white md:text-3xl"></h2>
-              <p className=" text-md text-white sm:mt-4 sm:block font-semiBold">
+              <h2 className="text-2xl font-montSemiBold text-black md:text-3xl"></h2>
+              <p className=" text-md text-black sm:mt-4 sm:block font-semiBold">
                 {t.entrenamiento.hiit}
               </p>
             </div>

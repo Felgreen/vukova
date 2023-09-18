@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Head from "next/head"
+import Head from "next/head";
 import { useRouter } from "next/router";
 import en from "../../public/locales/en/english.json";
 import es from "../../public/locales/es/espanol.json";
@@ -48,16 +48,15 @@ export default function Entrenamiento() {
   };
 
   return (
-    <>   
-    <Head>
-    <title>{t.seo.trainingTitle}</title>
-    <meta name="description" content={t.seo.trainingdesc}/>
-    <meta property="og:title" content={t.seo.trainingogTitle}/>
-    <link rel="icon" href="/favicon.ico"/>
-    </Head>
-      <div className="h-auto w-screen bg-[#011C35]">
-     
-        <section id="slider" className=" text-white">
+    <>
+      <Head>
+        <title>{t.seo.trainingTitle}</title>
+        <meta name="description" content={t.seo.trainingdesc} />
+        <meta property="og:title" content={t.seo.trainingogTitle} />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div className="h-auto w-screen ">
+        <section id="slider" className=" text-black">
           <div className="mx-auto w-full text-center py-10 md:py-20">
             <p className="mt-4 text-gray-300 text-9xl"></p>
           </div>
@@ -85,8 +84,8 @@ export default function Entrenamiento() {
                   objectPosition="bottom"
                   className="relative opacity-80 rounded-xl "
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold">
                     HIIT
                   </h1>
                   <p className="mt-2 text-sm text-gray-300"></p>
@@ -101,8 +100,8 @@ export default function Entrenamiento() {
                   objectPosition="center"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold">
                     {t.entrenamiento.metatitle}
                   </h1>
                   <p className="mt-2 text-sm text-gray-300"></p>
@@ -117,8 +116,8 @@ export default function Entrenamiento() {
                   objectPosition="center"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     SURF TRAINING
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>
@@ -133,8 +132,8 @@ export default function Entrenamiento() {
                   objectPosition="center"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     {t.entrenamiento.strengthtitle}
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>
@@ -149,8 +148,8 @@ export default function Entrenamiento() {
                   objectPosition="center"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     {t.entrenamiento.functionaltitle}
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>
@@ -179,11 +178,10 @@ export default function Entrenamiento() {
                   alt="surfbowl"
                   layout="fill"
                   objectFit="cover"
-              
                   className="relative opacity-80 rounded-xl "
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold">
                     HIIT
                   </h1>
                   <p className="mt-2 text-sm text-gray-300"></p>
@@ -198,8 +196,8 @@ export default function Entrenamiento() {
                   objectPosition="top"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold">
                     {t.entrenamiento.metatitle}
                   </h1>
                   <p className="mt-2 text-sm text-gray-300"></p>
@@ -214,8 +212,8 @@ export default function Entrenamiento() {
                   objectPosition="center"
                   className="relative opacity-80 rounded-xl"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     SURF TRAINING
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>
@@ -227,11 +225,10 @@ export default function Entrenamiento() {
                   alt="Gym"
                   layout="fill" // required
                   objectFit="cover" // change to suit your needs
-                
                   className="relative opacity-80 rounded-xl object-center"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     {t.entrenamiento.strengthtitle}
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>
@@ -243,11 +240,10 @@ export default function Entrenamiento() {
                   alt="surfbowl"
                   layout="fill" // required
                   objectFit="cover" // change to suit your needs
-                  
                   className="relative opacity-80 rounded-xl object-top"
                 />
-                <div className="absolute text-5xl text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
-                  <h1 className="text-xl lg:text-8xl text-white font-bold text-center">
+                <div className="absolute text-5xl text-black top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 ">
+                  <h1 className="text-xl lg:text-8xl text-black font-bold text-center">
                     {t.entrenamiento.functionaltitle}
                   </h1>
                   <p className="mt-2 text-xs lg:text-base text-center font-semibold text-gray-300"></p>

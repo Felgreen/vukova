@@ -3,8 +3,6 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
-import Reserva from "./Reserva";
-
 
 
 export default function Options({ option }) {
@@ -15,7 +13,7 @@ export default function Options({ option }) {
   switch (option) {
     case "EDP":
       return (
-        <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full bg-[#011C35]">
+        <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full ">
           <h2 className="text-3xl font-bold ">{t.wellness.Prev1}</h2>
 
           <p className="mt-4 text-gray-200">
@@ -23,7 +21,7 @@ export default function Options({ option }) {
           </p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium"> {t.reserva.button} </span>
@@ -62,7 +60,7 @@ export default function Options({ option }) {
           </p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button} </span>
@@ -99,7 +97,7 @@ export default function Options({ option }) {
           <p className="mt-4 text-gray-200">{t.wellness.KINESIOLOGIA}</p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button}</span>
@@ -137,7 +135,7 @@ export default function Options({ option }) {
           <p className="mt-4 text-gray-200">{t.wellness.NUTRICION}</p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button} </span>
@@ -174,7 +172,7 @@ export default function Options({ option }) {
           <p className="mt-4 text-gray-200">{t.wellness.OSTEOPATIA}</p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button}</span>
@@ -213,7 +211,7 @@ export default function Options({ option }) {
           </p>
 
           <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-white hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium"> {t.reserva.button} </span>

@@ -9,36 +9,33 @@ import Faq from "../components/ui/Faq";
 import GridLayout from "./ui/GridLayout";
 import GridLayoutMobile from "./ui/GridLayoutMobile";
 import Benefits from "./Benefits";
-import Image from 'next/image'; 
-
-
-
-
+import Image from "next/image";
 
 const Layout = () => (
   <>
     <div className="overflow-hidden ">
       <Main />
-      
-      <Reserva />
-      <Banner />
-      <GridLayoutMobile/>
-      <GridLayout/>
+      <GridLayoutMobile />
+      <GridLayout />
       <Pricing />
-      <Benefits/>
-   
-  
-      <Faq />
-      <Map />
-      <a href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
-      target="_blank">
-      <button title="Contact whatsapp now"
-        class="fixed z-90 bottom-10 right-8  bg-green-600 w-10 md:w-20 md:h-20 rounded-full drop-shadow-lg flex justify-center items-center text-white text-4xl hover:drop-shadow-2xl animate-pulse md:animate-none hover:animate-bounce duration-300"><Image
-        src="/images/icon-whatsapp.svg"
-        width={42}
-        height={42}
-        
-        className=""/></button></a>
+      <Benefits />
+
+      <a
+        href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
+        target="_blank"
+      >
+        <button
+          title="Contact whatsapp now"
+          class="fixed z-90 bottom-10 right-8  bg-green-600 w-10 md:w-20 md:h-20 rounded-full drop-shadow-lg flex justify-center items-center text-black text-4xl hover:drop-shadow-2xl animate-pulse md:animate-none hover:animate-bounce duration-300"
+        >
+          <Image
+            src="/images/icon-whatsapp.svg"
+            width={42}
+            height={42}
+            className=""
+          />
+        </button>
+      </a>
     </div>
   </>
 );

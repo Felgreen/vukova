@@ -54,16 +54,16 @@ export default function Surfskate() {
         >
           
           <div className="absolute inset-0 flex flex-col items-center justify-center">
-            <h1 className="text-5xl md:text-8xl text-white font-montBold">
+            <h1 className="text-5xl md:text-8xl text-black font-montBold">
               SURFPARK
             </h1>
-            <h1 className="text-xl lg:text-4xl text-white font-montBold">
+            <h1 className="text-xl lg:text-4xl text-black font-montBold">
               {t.surfskate.surfpark1}
             </h1>
 
             <Parallax speed={22} easing="easeIn">
             
-            <p className="mt-20 md:mt-14 lg:mt-4 text-lg md:text-2xl mx-4 md:mx-12 lg:mx-20 text-center font-montSemiBold text-white items-center justify-center">
+            <p className="mt-20 md:mt-14 lg:mt-4 text-lg md:text-2xl mx-4 md:mx-12 lg:mx-20 text-center font-montSemiBold text-black items-center justify-center">
               {t.surfskate.sen6}
            </p>
       
@@ -73,7 +73,7 @@ export default function Surfskate() {
         </ParallaxBanner>
 {/* <header className="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover surfbowl-img" > 
 <Parallax speed={-17} easing="easeIn">
-  <div className="p-5 text-4xl text-white font-archivoBlack text-center">
+  <div className="p-5 text-4xl text-black font-archivoBlack text-center">
     <p>CLASES PARA NIÑOS Y ADULTOS DE TODOS LOS NIVELES</p>
   </div>
   </Parallax>
@@ -111,14 +111,14 @@ export default function Surfskate() {
  
     <div className="grid grid-cols-1 gap-y-8 lg:grid-cols-2 lg:items-center lg:gap-x-16">
       <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
-        <h2 className="text-3xl  sm:text-4xl text-white font-archivoBlack">SURFKSATE</h2>
-        <p className="mt-4  font-montSemiBold text-white ">
+        <h2 className="text-3xl  sm:text-4xl text-black font-archivoBlack">SURFKSATE</h2>
+        <p className="mt-4  font-montSemiBold text-black ">
           {t.surfskate.sen1}
         </p>
       
         <a
                     href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
-                    className="animate-bounce mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20] px-8 py-3 text-white hover:bg-transparent hover:text-[#FF3B18] "
+                    className="animate-bounce mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20] px-8 py-3 text-black hover:bg-transparent hover:text-[#FF3B18] "
                   >
                     <span className="text-sm font-medium">
                       {" "}
@@ -128,11 +128,11 @@ export default function Surfskate() {
         </a>
         
       </div>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 text-white">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 text-black">
         <div className="block rounded-xl border border-gray-100 p-4 shadow-sm hover:border-gray-200 hover:ring-1 hover:ring-gray-200 focus:outline-none focus:ring" >
           
           <h2 className="mt-2 font-montSemiBold">{t.surfskate.block1title}</h2>
-          <p className="mt-1 block text-sm text-white font-montReg">
+          <p className="mt-1 block text-sm text-black font-montReg">
             {t.surfskate.block1sen}
           </p>
         </div>
@@ -145,7 +145,7 @@ export default function Surfskate() {
             </svg>
           </span> */}
           <h2 className="mt-2  font-montSemiBold">{t.surfskate.block2title}</h2>
-           <p className="mt-1 block text-sm text-white font-montReg">
+           <p className="mt-1 block text-sm text-black font-montReg">
             {t.surfskate.block2sen}
           </p>
         </div>
@@ -158,7 +158,7 @@ export default function Surfskate() {
             </svg>
           </span> */}
           <h2 className="mt-2 font-montSemiBold">{t.surfskate.block3title}</h2>
-           <p className="mt-1 block text-sm font-montReg text-white">
+           <p className="mt-1 block text-sm font-montReg text-black">
             {t.surfskate.block3sen}
           </p>
         </div>
@@ -171,7 +171,7 @@ export default function Surfskate() {
             </svg>
           </span> */}
           <h2 className="mt-2 font-montSemiBold">{t.surfskate.block4title}</h2>
-           <p className="mt-1  block text-sm text-white">
+           <p className="mt-1  block text-sm text-black">
            {t.surfskate.block4sen}
           </p>
         </div>
@@ -184,7 +184,7 @@ export default function Surfskate() {
             </svg>
           </span> */}
           <h2 className="mt-2 font-montSemiBold">{t.surfskate.block5title}</h2>
-           <p className="mt-1 block text-sm font-montReg text-white">
+           <p className="mt-1 block text-sm font-montReg text-black">
             {t.surfskate.block5sen}
           </p>
         </div>
@@ -215,13 +215,13 @@ export default function Surfskate() {
 
 
 {/* <div className="max-w-lg mx-auto p-2 text-center">
-  <p className="mb-4 text-white font-montSemiBold">
+  <p className="mb-4 text-black font-montSemiBold">
    {t.surfskate.sen1}
   </p>
-  <p className="mb-4 text-center p-2 text-white font-montSemiBold">
+  <p className="mb-4 text-center p-2 text-black font-montSemiBold">
    {t.surfskate.sen2}
   </p>
-  <p className="mb-4 text-white font-montSemiBold">
+  <p className="mb-4 text-black font-montSemiBold">
    {t.surfskate.sen3}
   </p>
 </div> */}
@@ -230,16 +230,16 @@ export default function Surfskate() {
   className=" flex items-center justify-center h-screen m-auto mb-12 bg-fixed bg-center bg-cover custom-img2 bg-blend-darken"
 >
 <Parallax speed={-10} easing="easeIn">
-  <div className="p-5 text-4xl text-white font-archivoBlack text-center">
+  <div className="p-5 text-4xl text-black font-archivoBlack text-center">
   <Parallax speed={12} easing="easeIn">
-  <div className="p-5 text-5xl md:text-8xl text-white font-archivoBlack text-center">
+  <div className="p-5 text-5xl md:text-8xl text-black font-archivoBlack text-center">
    {t.surfskate.lakesTitle}
   </div>
-  <h1 className="text-xl lg:text-4xl text-white font-montBold">
+  <h1 className="text-xl lg:text-4xl text-black font-montBold">
     {t.surfskate.lakesSen1}
   </h1>
   <Parallax speed={13} easing="easeIn">
-  <p className="mt-10 md:mt-14 lg:mt-4 text-lg md:text-2xl mx-4 md:mx-12 lg:mx-20 text-center font-montSemiBold text-white items-center justify-center bg-gray-400 bg-opacity-20 rounded-md">
+  <p className="mt-10 md:mt-14 lg:mt-4 text-lg md:text-2xl mx-4 md:mx-12 lg:mx-20 text-center font-montSemiBold text-black items-center justify-center bg-gray-400 bg-opacity-20 rounded-md">
               {t.surfskate.lakesSen2}
   </p>
   </Parallax>
@@ -252,7 +252,7 @@ export default function Surfskate() {
 </section>
 <div className="max-w-lg m-auto">
   
-  {/* <p className="mb-4 p-2 text-center text-white font-montSemiBold">
+  {/* <p className="mb-4 p-2 text-center text-black font-montSemiBold">
    
   </p>
   <p className="mb-4">

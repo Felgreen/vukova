@@ -13,7 +13,7 @@ const Hero = () => {
       />
 
       {/* <div className='absolute top-0 left-0 right-0 bottom-0 bg-black/70 z-[2]  '/> */}
-      <div className="p-5  text-white z-[2] mt-10  flex flex-col divide-y-2 divide-white  ">
+      <div className="p-5  text-black z-[2] mt-10  flex flex-col divide-y-2 divide-white  ">
         <div className=""> </div>
         <h2 className="w-full text-4xl md:text-7xl lg:text-9xl font-bold">
           THE SURF HOUSE

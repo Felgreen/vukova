@@ -37,7 +37,7 @@ const Map = () => {
 
   return (
     <section id="map">
-      <div className="w-screen bg-[#011C35] ">
+      <div className="w-screen  ">
         <AnimatePresence mode="wait">
           <motion.div
             ref={ref}
@@ -45,7 +45,7 @@ const Map = () => {
             animate={control}
             variants={reservaVariant}
           >
-            <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 text-white">
+            <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 lg:px-8 text-black">
               <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div className="flex flex-col h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full items-center">
                   <div className="map-responsive mb-4">
@@ -70,7 +70,7 @@ const Map = () => {
                     <div>
                       <a
                         href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
-                        className="mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20]  px-8 py-3 text-white hover:bg-transparent hover:text-[#FF3B18] "
+                        className="mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20]  px-8 py-3 text-black hover:bg-transparent hover:text-[#FF3B18] "
                       >
                         <span className="text-sm font-medium">
                           {" "}

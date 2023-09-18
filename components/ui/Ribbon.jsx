@@ -27,7 +27,7 @@ const Ribbon = () => {
   return (
       <div className="flex screen my-[1px] "> 
       {/* <!-- ribbon --> */}
-      <div className="mx-auto  bg-[#011C35]  text-center font-semibold w-screen px-4 py-16 sm:px-6 lg:px-8 text-white">
+      <div className="mx-auto    text-center font-semibold w-screen px-4 py-16 sm:px-6 lg:px-8 text-black">
         <AnimatePresence mode="wait">
           <motion.div
           ref={ref}

@@ -13,22 +13,15 @@ const Footer = () => {
     <div>
       <footer
         aria-label="Site Footer"
-        className="bg-[#011C35]  font-montSemiBold"
+        className="  font-montSemiBold"
       >
         <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
             <div className="mx-auto">
-              {/* <Image
-                src={logo}
-                alt="The Surf House logo"
-                width={300}
-                height={100}
-                className="mx-auto"
-              /> */}
             </div>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
               <div>
-                <p className="font-medium text-white dark:text-white">
+                <p className="font-medium text-black dark:text-black">
                   Partners
                 </p>
                 <nav aria-label="Footer Navigation - Services" className="mt-6">
@@ -73,7 +66,7 @@ const Footer = () => {
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white dark:text-white">Links</p>
+                <p className="font-medium text-black dark:text-black">Links</p>
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>
@@ -99,7 +92,7 @@ const Footer = () => {
                 </nav>
               </div>
               <div>
-                <p className="font-medium text-white dark:text-white">
+                <p className="font-medium text-black dark:text-black">
                   Telefono
                 </p>
                 <nav aria-label="Footer Navigation - Company" className="mt-6">
@@ -114,7 +107,7 @@ const Footer = () => {
               </div>
 
               <div>
-                <p className="font-medium text-white dark:text-white">Mails</p>
+                <p className="font-medium text-black dark:text-black">Mails</p>
                 <nav aria-label="Footer Navigation - Legal" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>

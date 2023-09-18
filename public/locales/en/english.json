@@ -1,14 +1,16 @@
 {
     "nav":{
-        "training":"TRAINING",
+        "inicio": "HOME",
+        "servicios":"SERVICES",
         "nosotros":"ABOUT US",
-        "contact":"CONTACT"
+        "horarios": "SCHEDULE",
+        "contacto":"CONTACT"
     },
     "button":{
         "horarios":"Schedule"
     },
-    "about":{"header":"The Surf House is waiting for you",
-            "desc":"The Surf House was born from the need to be connected to the sea, surfing and board sports all year round and close to home."
+    "about":{"header":"Vukova is waiting for you",
+            "desc":"Vukova was born from the need to be connected to the sea, surfing and board sports all year round and close to home."
             },
    
     "reserva":{
@@ -120,16 +122,16 @@
         
     },
     "seo":{
-        "title":"The Surf House",
+        "title":"Vukova",
         "desc":"Another way to experience the city. Come and be conneced to the sea, surfing and boardsports all year round and close to home.",
         "trainingTitle":"Training - Surf House Box ",
         "trainingogTitle":"Entrenamiento - Surf House Box ",
         "trainingdesc":" Personalized and focused training gym for board sports",
-        "surfskatetitle":"Surfbowl - Skatepark - The Surf House",
+        "surfskatetitle":"Surfbowl - Skatepark - Vukova",
         "surfskateDesc":"The first closed Surfskate park in Argentina designed and developed so that you can improve your surfing technique, regardless of whether you are a beginner or advanced.",
         "wellnessTitle":"Medical office- Sport medicine - Osteopathy - Kinesiology - Nutrition - Preventive Kinestic Gymnastics - Preventive Sports Assessments",
-        "wellnessDesc":"Professionals in osteopathy , kinesiology and nutrition avaliable at The Surf House.",
-        "aboutTitle":" About Us - The Surf House"
+        "wellnessDesc":"Professionals in osteopathy , kinesiology and nutrition avaliable at Vukova.",
+        "aboutTitle":" About Us - Vukova"
      
     },
     "nosotros":{

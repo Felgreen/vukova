@@ -21,7 +21,7 @@ export default function Entrenamiento() {
         <link rel="icon" href="/favicon.ico"/>
       </Head>
       <div className="mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:px-8 text-justify">
-      <h2 className="text-2xl text-white font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
+      <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
                 {t.nosotros.title}
               </h2>
 
@@ -69,7 +69,7 @@ export default function Entrenamiento() {
           </div>
           
         </div>
-        <h2 className="text-2xl text-white font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
+        <h2 className="text-2xl text-black font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
                 {t.nosotros.title}
         </h2>
 

@@ -44,7 +44,7 @@ const item = {
   return (
         <AnimatePresence>
         <m.div
-         className='grid grid-col-1 auto-cols-fr md:grid-cols-4 md:grid-flow-col place-items-center content-center h-40 w-full mt-10  gap-4 mx-auto my-auto text-white' 
+         className='grid grid-col-1 auto-cols-fr md:grid-cols-4 md:grid-flow-col place-items-center content-center h-40 w-full mt-10  gap-4 mx-auto my-auto text-black' 
          variants={variants}
          initial='hidden'
          animate='show'>

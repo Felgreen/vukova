@@ -34,7 +34,7 @@ const Reserva = () => {
 
   return (
     <section id="reserva">
-      <div className="w-screen bg-[#011C35] ">
+      <div className="w-screen mt-30">
         <AnimatePresence mode="wait">
           <motion.div
             ref={ref}
@@ -42,29 +42,22 @@ const Reserva = () => {
             animate={control}
             variants={reservaVariant}
           >
-            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8  text-white font-montBold">
+            <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8  text-black font-montBold">
               <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                 <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                  <Image
-                    src="/images/surfbowl3.webp"
-                    alt="surfbowl"
-                    layout="fill"
-                    objectFit="cover"
-                    objectPosition="center"
-                  />
                 </div>
                 <div className="lg:py-24 space-y-8">
                   <h2 className="text-3xl font-bold sm:text-5xl font-montBold">
                     {t.reserva.head}
                   </h2>
-                  <p className="mt-4 text-gray-200">{t.reserva.desc}</p>
+                  <p className="mt-4 text-black">{t.reserva.desc}</p>
                   <p className="underline decoration-2  decoration-[#FF3B18] underline-offset-4">
                     {t.reserva.class}
                   </p>
                   <a
                     href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
                     target="_blank"
-                    className="animate-bounce mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20]  px-8 py-3 text-white hover:bg-transparent hover:text-[#FF3B18] "
+                    className="animate-bounce mt-8 inline-flex items-center rounded border-2 border-[#e33d20] bg-[#e33d20]  px-8 py-3 text-black hover:bg-transparent hover:text-[#FF3B18] "
                   >
                     <span className="text-sm font-medium">
                       {" "}

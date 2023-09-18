@@ -3,64 +3,65 @@
 @tailwind utilities;
 
 @layer utilities {
-  .square{
+  .square {
     aspect-ratio: 1/1;
   }
 }
 
 @font-face {
-  font-family:"ArchivoBlack";
+  font-family: "ArchivoBlack";
   src: url("../public/ArchivoBlack-Regular.ttf");
 }
 @font-face {
-  font-family:"MontSemiBold";
+  font-family: "MontSemiBold";
   src: url("../public/Montserrat-SemiBold.ttf");
 }
 
 @font-face {
-  font-family:"MontBold";
+  font-family: "MontBold";
   src: url("../public/Montserrat-Bold.ttf");
 }
 
 @font-face {
-  font-family:"MontBlack";
+  font-family: "MontBlack";
   src: url("../public/Montserrat-Black.ttf");
 }
 @font-face {
-  font-family:"MontReg";
+  font-family: "MontReg";
   src: url("../public/Montserrat-Regular.ttf");
 }
 @font-face {
-  font-family:"MontBoldItalic";
+  font-family: "MontBoldItalic";
   src: url("../public/Montserrat-BoldItalic.ttf");
 }
 @font-face {
-  font-family:"MontBlackItalic";
+  font-family: "MontBlackItalic";
   src: url("../public/Montserrat-BlackItalic.ttf");
 }
 @font-face {
-  font-family:"MontThinItalic";
+  font-family: "MontThinItalic";
   src: url("../public/Montserrat-ThinItalic.ttf");
 }
-html{
+html {
   scroll-behavior: smooth;
-  scroll-padding:80px!important;
-  }
-body{
-  padding:0;
-  margin:0;
-  background-color: #011C35;
+  scroll-padding: 80px !important;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  color: black;
 }
 
 .custom-img {
-  background-image: url('/images/vertical.webp')
+  background-image: url("/images/vertical.webp");
 }
 
 .surfbowl-img {
-background-image: url('/images/surfbowl4.webp')
+  background-image: url("/images/surfbowl4.webp");
 }
 .custom-img2 {
-background-image: url('/images/surfskate.jpeg')
+  background-image: url("/images/surfskate.jpeg");
 }
 
 .map-responsive iframe {
@@ -70,4 +71,10 @@ background-image: url('/images/surfskate.jpeg')
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.background {
+
+  background-color: rgb(234, 88, 12);
+  background-image: radial-gradient(at 100% 97%, rgb(255, 255, 255) 0, transparent 90%), radial-gradient(at 50% 0%, rgb(234, 88, 12) 0, transparent 53%), radial-gradient(at 18% 0%, rgb(234, 88, 12) 0, transparent 50%), radial-gradient(at 20% 100%, rgb(255, 255, 255) 0, transparent 100%), radial-gradient(at 5% 91%, rgb(255, 255, 255) 0, transparent 100%), radial-gradient(at 84% 0%, rgb(234, 88, 12) 0, transparent 44%), radial-gradient(at 86% 100%, rgb(255, 255, 255) 0, transparent 100%);
 }

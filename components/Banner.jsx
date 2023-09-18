@@ -7,9 +7,9 @@ import GridLayout from "./ui/GridLayout";
 const Banner = () => {
   return (
     <>
-      <div className="h-auto w-screen rounded bg-[#011C35]">
+      <div className="h-auto w-screen rounded ">
         <Ribbon />
-        <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  text-white"></div>
+        <div className="mx-auto max-w-screen-xl px-4  sm:px-6 lg:px-8  text-black"></div>
 
         {/* <Image 
           src={yoga}

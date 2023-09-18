@@ -45,7 +45,7 @@ const Faq = () => {
             <div className="my-8 divide-y divide-gray-100">
                 <details className="group py-8 [&_summary::-webkit-details-marker]:hidden" >
                     <summary className="flex items-center justify-between cursor-pointer">
-                        <h2 className="text-lg font-medium text-white">
+                        <h2 className="text-lg font-medium text-black">
                         {t.faq.preg1}
                         </h2>
                         <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
@@ -64,7 +64,7 @@ const Faq = () => {
                 </details>
                 <details className="group py-8 [&_summary::-webkit-details-marker]:hidden">
                     <summary className="flex items-center justify-between cursor-pointer">
-                        <h2 className="text-lg font-medium text-white">
+                        <h2 className="text-lg font-medium text-black">
                         {t.faq.preg2}
                         </h2>
                         <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
@@ -82,7 +82,7 @@ const Faq = () => {
                 </details>
                 <details className="group py-8 [&_summary::-webkit-details-marker]:hidden" >
                     <summary className="flex items-center justify-between cursor-pointer">
-                        <h2 className="text-lg font-medium text-white">
+                        <h2 className="text-lg font-medium text-black">
                         {t.faq.preg3}
                         </h2>
                         <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">
@@ -100,7 +100,7 @@ const Faq = () => {
                 </details>
                 <details className="group py-8 [&_summary::-webkit-details-marker]:hidden" >
                     <summary className="flex items-center justify-between cursor-pointer">
-                        <h2 className="text-lg font-medium text-white">
+                        <h2 className="text-lg font-medium text-black">
                         {t.faq.preg4}
                         </h2>
                         <span className="relative ml-1.5 h-5 w-5 flex-shrink-0">

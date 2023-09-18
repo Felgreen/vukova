@@ -65,7 +65,7 @@ const Pricing = () => {
   }, [control, inView]);
 
   return (
-    <div className="container my-6 px-6 mx-auto p-4 bg-[#011C35]">
+    <div className="container my-6 px-6 mx-auto p-4 ">
       {/* Section: Design Block */}
       <AnimatePresence mode="wait">
         <motion.div
@@ -76,10 +76,10 @@ const Pricing = () => {
           viewport={{ once: true, amount: 0.1 }}
         >
           <section className="mb-16 text-gray-800 font-montBold">
-            <h2 className="text-3xl lg:text-6xl md:text-5xl  text-center text-white mb-6">
+            <h2 className="text-3xl lg:text-6xl md:text-5xl  text-center text-black mb-6">
               {t.pricing.title}
             </h2>
-            <p className="text-center mb-12 text-white">{t.pricing.main}</p>
+            <p className="text-center mb-12 text-black">{t.pricing.main}</p>
             <div className="grid lg:grid-cols-2 gap-6 xl:gap-x-12">
               <div className="mb-6 lg:mb-0">
                 <div className="block rounded-lg bg-white h-full ">
@@ -104,7 +104,7 @@ const Pricing = () => {
                     >
                       <button
                         type="button"
-                        className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                        className="inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                         data-mdb-ripple="true"
                         data-ripple-color="light"
                       >
@@ -134,8 +134,8 @@ const Pricing = () => {
                           CLASES <span className="text-[#e33d20]">FITNESS</span>{" "}
                           {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-16 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-16 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           LIBRE
                         </div>
                       </li>
@@ -162,8 +162,8 @@ const Pricing = () => {
                           SURF <span className="text-[#e33d20]">PARK</span>{" "}
                           {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           10 CRÉDITOS
                         </div>
                       </li>
@@ -193,8 +193,8 @@ const Pricing = () => {
                           SURF PARK
                           <span className="text-[#e33d20]"> CLASES</span> {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           2 CLASES 1H
                         </div>
                       </li>
@@ -225,8 +225,8 @@ const Pricing = () => {
                           SURF SKATE{" "}
                           <span className="text-[#e33d20]">LAGOS</span> {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           LIBRE
                         </div>
                       </li>
@@ -255,8 +255,8 @@ const Pricing = () => {
                         <p className="">
                           OPEN <span className="text-[#e33d20]">BOX</span> {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           LIBRE
                         </div>
                       </li>
@@ -315,8 +315,8 @@ const Pricing = () => {
                           CLASE <span className="text-[#e33d20]">GKP</span>{" "}
                           {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           LIBRE
                         </div>
                       </li> */}
@@ -372,8 +372,8 @@ const Pricing = () => {
                         <p className="">
                           PAUSÁ <span className="text-[#e33d20]">TU PLAN</span> {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           1 MES
                         </div>
                       </li>
@@ -405,7 +405,7 @@ const Pricing = () => {
                     >
                       <button
                         type="button"
-                        className="inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
+                        className="inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out w-full"
                         data-mdb-ripple="true"
                         data-ripple-color="light"
                       >
@@ -435,8 +435,8 @@ const Pricing = () => {
                           CLASES <span className="text-[#e33d20]">FITNESS</span>{" "}
                           {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span class="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span class="absolute text-3xl left-0 top-0 text-black"></span>
                           8 CLASES
                         </div>
                       </li>
@@ -463,8 +463,8 @@ const Pricing = () => {
                           SURF <span className="text-[#e33d20]">PARK</span>{" "}
                           {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           6 CRÉDITOS
                         </div>
                       </li>
@@ -495,8 +495,8 @@ const Pricing = () => {
                           <span className="text-[#e33d20]">CLASES</span>
                           {">"}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           1 CLASE 1H
                         </div>
                       </li>
@@ -527,8 +527,8 @@ const Pricing = () => {
                           SURF SKATE{" "}
                           <span className="text-[#e33d20]">LAGOS</span> {">"}{" "}
                         </p>
-                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-white">
-                          <span className="absolute text-3xl left-0 top-0 text-white"></span>
+                        <div className="relative mx-1 w-18 h-4 bg-[#e33d20] rounded-xl flex justify-center items-center text-center p-3 shadow-xl text-black">
+                          <span className="absolute text-3xl left-0 top-0 text-black"></span>
                           8 CLASES
                         </div>
                       </li>

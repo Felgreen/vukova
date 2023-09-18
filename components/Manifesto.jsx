@@ -14,21 +14,14 @@ const Manifesto = () => {
 
   return (
     <section className="h-60">
-      <div className="pt-14 items-center lg:p-8 text-center  text-white font-montBold">
+      <div className="pt-14 items-center lg:p-8 text-center  text-black font-montBold">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold sm:text-5xl text-gray-900 font-montBold m-2 ">
             {t.manifesto.title}
           </h2>
-          <h2 className="text-3xl font-bold sm:text-5xl text-white font-montBold md:text-3xl"></h2>
+          <h2 className="text-3xl font-bold sm:text-5xl text-black font-montBold md:text-3xl"></h2>
 
           <div className=" text-gray-700 font-montBold sm:mt-2 sm:block">
-            {/* <Typewriter
-        options={{
-            strings: [title1,set1],
-            autoStart: true,
-            loop: true,
-            }}
-      /> */}
             {t.manifesto.set1}
           </div>
         </div>
