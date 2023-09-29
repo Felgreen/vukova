@@ -17,7 +17,8 @@ module.exports = {
         montBoldItalic:"MontBoldItalic",
         montBlackItalic:"MontBlackItalic",
         montLightItalic:"MontLightItalic",
-        montThinItalic:"MontThinItalic"
+        montThinItalic:"MontThinItalic",
+        antonioBold:"AntonioBold",
         },
       },
   },

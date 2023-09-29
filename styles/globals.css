@@ -13,6 +13,10 @@
   src: url("../public/ArchivoBlack-Regular.ttf");
 }
 @font-face {
+  font-family: "AntonioBold";
+  src: url("../public/Antonio-Bold.ttf");
+}
+@font-face {
   font-family: "MontSemiBold";
   src: url("../public/Montserrat-SemiBold.ttf");
 }
