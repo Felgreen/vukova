@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
-import SectionWithAnimation from "./ui/SectionWithAnimation";
+
 
 const Main = () => {
   return (
