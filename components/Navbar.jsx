@@ -38,7 +38,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-
+//TODO cambiar color de nav , probar glass effect con blur. 
   useEffect(() => {
     console.log(path);
     const changeColor = () => {

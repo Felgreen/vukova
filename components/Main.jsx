@@ -1,25 +1,17 @@
 import React from "react";
 import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
+import SectionWithAnimation from "./ui/SectionWithAnimation";
 
 const Main = () => {
   return (
     <div className="w-screen h-screen background flex text-center bg-black ">
-      <div className="flex-1 text-center w-full">
-        <p className="text-black w-full text-3xl absolute mt-20 text-center ">
-          <Image
-            className="landscape:hidden"
-            src="/images/logo-house-linea.png"
-            width="590"
-            height="500"
-            alt=""
-          />
-        </p>
-      </div>
-      <div class="container pt-24 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+
+      
+      <div class="container p-10    mx-auto flex flex-wrap flex-col md:flex-row items-center">
 
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
-          <h1 class="my-4 text-3xl md:text-5xl text-black opacity-75 font-bold leading-tight text-center md:text-left">
+          <h1 class="my-4 text-3xl md:text-5xl text-black opacity-75 font-antonioBold leading-tight text-center md:text-left">
             BIENVENIDO A TU SUPERACIÓN
           </h1>
           <p class="leading-normal text-base md:text-2xl mb-8 text-center md:text-left">

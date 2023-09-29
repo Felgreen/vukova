@@ -9,6 +9,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
+        antonRegular:"AntonReg",
         archivoBlack: "ArchivoBlack",
         montSemiBold:"MontSemiBold",
         montBold:"MontBold",

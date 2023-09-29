@@ -10,12 +10,14 @@ import GridLayout from "./ui/GridLayout";
 import GridLayoutMobile from "./ui/GridLayoutMobile";
 import Benefits from "./Benefits";
 import Image from "next/image";
+import SectionWithAnimation from "./ui/SectionWithAnimation";
 
 const Layout = () => (
   <>
     <div className="overflow-hidden ">
       <Main />
       <GridLayoutMobile />
+      <SectionWithAnimation />
       <GridLayout />
       <Pricing />
       <Benefits />

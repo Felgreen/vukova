@@ -7,7 +7,10 @@
     aspect-ratio: 1/1;
   }
 }
-
+@font-face {
+  font-family: "AntonReg";
+  src: url("../public/Anton-Regular.ttf");
+}
 @font-face {
   font-family: "ArchivoBlack";
   src: url("../public/ArchivoBlack-Regular.ttf");
@@ -79,6 +82,23 @@ a {
 
 .background {
 
-  background-color: rgb(234, 88, 12);
-  background-image: radial-gradient(at 100% 97%, rgb(255, 255, 255) 0, transparent 90%), radial-gradient(at 50% 0%, rgb(234, 88, 12) 0, transparent 53%), radial-gradient(at 18% 0%, rgb(234, 88, 12) 0, transparent 50%), radial-gradient(at 20% 100%, rgb(255, 255, 255) 0, transparent 100%), radial-gradient(at 5% 91%, rgb(255, 255, 255) 0, transparent 100%), radial-gradient(at 84% 0%, rgb(234, 88, 12) 0, transparent 44%), radial-gradient(at 86% 100%, rgb(255, 255, 255) 0, transparent 100%);
+  background-color: rgb(0, 0, 0);
+  background-image: radial-gradient(at 100% 100%, rgb(0, 0, 0) 0, transparent 63%), radial-gradient(at 14% 46%, rgb(234, 88, 12) 0, transparent 82%), radial-gradient(at 76% 27%, rgb(236, 72, 153) 0, transparent 100%), radial-gradient(at 100% 100%, rgb(231, 229, 228) 0, transparent 100%);
 }
+
+.bg4colores2 {
+  background-image: radial-gradient(at 58% 77%, rgb(251, 146, 60) 0, transparent 69%), radial-gradient(at 91% 81%, rgb(162, 28, 175) 0, transparent 88%), radial-gradient(at 19% 65%, rgb(252, 165, 165) 0, transparent 75%), radial-gradient(at 9% 97%, rgb(209, 250, 229) 0, transparent 70%), radial-gradient(at 7% 75%, rgb(6, 78, 59) 0, transparent 49%), radial-gradient(at 20% 12%, rgb(254, 240, 138) 0, transparent 91%);
+}
+
+.bgotob{ 
+  background-color: rgb(0, 0, 0);
+        background-image: radial-gradient(at 0% 42%, rgb(190, 24, 93) 0, transparent 69%), radial-gradient(at 0% 0%, rgb(190, 24, 93) 0, transparent 74%), radial-gradient(at 0% 82%, rgb(234, 88, 12) 0, transparent 47%);
+
+}
+
+.bgotow {
+  background-color: rgb(255, 255, 255);
+  background-image: radial-gradient(at 0% 70%, rgb(234, 88, 12) 0, transparent 81%), radial-gradient(at 0% 16%, rgb(234, 88, 12) 0, transparent 56%), radial-gradient(at 0% 100%, rgb(234, 88, 12) 0, transparent 71%);
+
+}
+
