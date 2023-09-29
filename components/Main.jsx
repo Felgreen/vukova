@@ -33,7 +33,7 @@ const Main = () => {
 
             <div class="flex items-center justify-between pt-4">
               <button
-                class="bg-gradient-to-r from-orange-600 to-white hover:from-white hover:to-orange-700 text-black font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
+                class="bg-gradient-to-r from-orange-600 to-white hover:from-orange-600 hover:to-pink-700 text-black font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-105 duration-300 ease-in-out"
                 type="button"
               >
                 Registrate
