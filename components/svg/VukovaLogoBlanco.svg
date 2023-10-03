@@ -3,7 +3,7 @@
    id="Layer_1"
    viewBox="0 0 350.39 350.93"
    version="1.1"
-   sodipodi:docname="logoVukovaISO.svg"
+   sodipodi:docname="VukovaLogoBlanco.svg"
    width="350.39001"
    height="350.92999"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
@@ -32,13 +32,33 @@
      inkscape:current-layer="Layer_1" />
   <defs
      id="defs20">
+    <rect
+       x="398.62546"
+       y="394.57853"
+       width="121.35452"
+       height="29.67749"
+       id="rect6787" />
+    <rect
+       x="87.759373"
+       y="303.90762"
+       width="182.89034"
+       height="24.455826"
+       id="rect5277" />
     <style
        id="style18">.cls-1{fill:#010101;}</style>
   </defs>
   <polygon
      class="cls-1"
-     points="434.71,330.66 473,236.27 451.38,252.91 432.47,267.48 422.19,297.85 406.86,252.58 377.39,252.58 409.22,330.66 "
+     points="422.19,297.85 406.86,252.58 377.39,252.58 409.22,330.66 434.71,330.66 473,236.27 451.38,252.91 432.47,267.48 "
      id="polygon22"
-     transform="matrix(2.2499948,0,0,2.2500265,-779.63084,-462.98784)"
-     style="stroke-width:0.444442" />
+     transform="matrix(2.2499948,0,0,2.2500265,-779.20085,-473.39182)"
+     style="stroke-width:0.444442;fill:#ffffff;fill-opacity:1" />
+  <text
+     xml:space="preserve"
+     id="text5275"
+     style="font-size:21.3333px;white-space:pre;shape-inside:url(#rect5277);fill:#000000" />
+  <text
+     xml:space="preserve"
+     id="text6785"
+     style="fill:#000000;font-size:21.33333333px;white-space:pre;shape-inside:url(#rect6787)" />
 </svg>

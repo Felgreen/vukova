@@ -4,32 +4,25 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
+import { LogoB, LogoN } from "./svg/index";
 
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+  const [color, setColor] = useState("transparent");
+  const [textColor, setTextColor] = useState("white");
+  const [scrolled, setScrolled] = useState(false);
+  const [menu, setMenu] = useState(false);
   const router = useRouter();
   const path = router.pathname;
   const { locale } = router;
   const t = locale === "es" ? es : es;
 
-  const MyButton = React.forwardRef(({ onClick, href }, ref) => {
-    return (
-      <a href={href} onClick={onClick} ref={ref}>
-        Click Me
-      </a>
-    );
-  });
-
   const changeLanguage = (e) => {
     const locale = e.target.value;
     router.push(router.pathname, router.asPath, { locale });
   };
-
-  const [color, setColor] = useState("transparent");
-
-  const [textColor, setTextColor] = useState("white");
 
   const handleColor = () => {
     setColor(!color);
@@ -38,17 +31,19 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
-//TODO cambiar color de nav , probar glass effect con blur. 
+  //TODO cambiar color de nav , probar glass effect con blur.
   useEffect(() => {
     console.log(path);
     const changeColor = () => {
       console.log(window.scrollY);
       if (window.scrollY >= 90) {
-        setColor("#eb6724");
-        setTextColor("#0c0c0c");
-      } else {
         setColor("transparent");
-        setTextColor("#0c0c0c");
+        setScrolled(true);
+        setTextColor("black");
+      } else {
+        setColor("black");
+        setScrolled(false);
+        setTextColor("white");
       }
     };
     window.addEventListener("scroll", changeColor);
@@ -57,71 +52,84 @@ const Navbar = () => {
   return (
     <div
       className="fixed left-0 top-0 w-screen z-20 ease-in duration-300"
+      id="navbar"
       style={{ backgroundColor: `${color}` }}
     >
-      <div className="w-full m-auto flex justify-center md:justify-end lg:justify-center  first-letter:items-center p-4 md:text-sm xl:text-base font-archivoBlack">
-        <ul
-          style={{ color: `${textColor}` }}
-          className="hidden md:flex  hover:underline-offset-2 "
-        >
-          <li
-            className={
-              path === "/"
-                ? "p-4 text-[#0c0c0c]"
-                : "p-4 hover:text-[#090909] text-black"
-            }
+      <div className="w-full px-10 flex justify-between items-center md:justify-end lg:justify-between first-letter:items-center p-1 md:text-sm xl:text-base font-archivoBlack">
+        <div className="w-20">
+          {scrolled ? (
+            <LogoN className={`h-full w-full`} />
+          ) : (
+            <LogoB className={`h-full w-full`} />
+          )}
+        </div>
+        <div>
+          <ul
+            style={{ color: `${textColor}` }}
+            className="hidden md:flex  hover:underline-offset-2 "
           >
-            <Link href="/">{t.nav.inicio}</Link>
-          </li>
-          <li
-            className={
-              path === "/surfskate"
-                ? "p-4 text-[#0c0c0c] "
-                : "p-4 hover:text-[#0c0c0c] text-black"
-            }
-          >
-            <Link href="/surfskate">{t.nav.servicios}</Link>
-          </li>
-          <li
-            className={
-              path === "/nosotros"
-                ? "p-4 text-[#0c0c0c]"
-                : "p-4 hover:text-[#0c0c0c] text-black"
-            }
-          >
-            <Link href="/nosotros">{t.nav.nosotros}</Link>
-          </li>
-          <li
-            className={
-              path === "/entrenamiento"
-                ? "p-4  text-[#0c0c0c]"
-                : "p-4 hover:text-[#0c0c0c] text-black"
-            }
-          >
-            <Link href="/entrenamiento">{t.nav.horarios}</Link>
-          </li>
-          <li
-            className={
-              path === "/contact"
-                ? "p-4  text-[#0c0c0c]"
-                : "p-4 hover:text-[#0c0c0c] text-black"
-            }
-          >
-            <Link href={"/contact"}>{t.nav.contacto}</Link>
-          </li>
-          <select
-            onChange={changeLanguage}
-            defaultValue={locale}
-            className="text-[#0c0c0c] text-shadow-sm text-lg bg-transparent tracking-wide"
-          >
-            <option className="text-black" value="en">
-              EN
-            </option>
-            <option className="text-black" value="es">
-              ES
-            </option>
-          </select>
-        </ul>
+            <li
+              className={
+                path === "/"
+                  ? `p-4 text-[${textColor}] underline`
+                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+              }
+            >
+              <Link href="/">{t.nav.inicio}</Link>
+            </li>
+            <li
+              className={
+                path === "/surfskate"
+                  ? `p-4 text-[${textColor}] underline`
+                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+              }
+            >
+              <Link href="/surfskate">{t.nav.servicios}</Link>
+            </li>
+            <li
+              className={
+                path === "/nosotros"
+                  ? `p-4 text-[${textColor}] underline`
+                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+              }
+            >
+              <Link href="/nosotros">{t.nav.nosotros}</Link>
+            </li>
+            <li
+              className={
+                path === "/entrenamiento"
+                  ? `p-4 text-[${textColor}] underline`
+                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+              }
+            >
+              <Link href="/entrenamiento">{t.nav.horarios}</Link>
+            </li>
+            <li
+              className={
+                path === "/contact"
+                  ? `p-4 text-[${textColor}] underline`
+                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+              }
+            >
+              <Link href={"/contact"}>{t.nav.contacto}</Link>
+            </li>
+            <button className="bg-[#f37032] p-3 rounded-xl text-black px-2">
+              PROBA UNA CLASE
+            </button>
+            <select
+              onChange={changeLanguage}
+              defaultValue={locale}
+              className={`text-[${textColor}] p-3 text-shadow-sm text-lg bg-transparent tracking-wide`}
+            >
+              <option className={`text-[${textColor}]`} value="en">
+                EN
+              </option>
+              <option className={`text-[${textColor}]`} value="es">
+                ES
+              </option>
+            </select>
+          </ul>
+        </div>
         <div className="black md:hidden">
           {nav ? (
             <AiOutlineClose
@@ -154,9 +162,7 @@ const Navbar = () => {
           <ul style={{ color: `${textColor}` }}>
             <li
               className={
-                path === "/"
-                  ? "p-4 text-4xl mt-4 text-[#0c0c0c]"
-                  : "p-4 text-4xl"
+                path === "/" ? "p-4 text-4xl mt-4 text-[white]" : "p-4 text-4xl"
               }
             >
               <Link href="/">{t.nav.inicio}</Link>
@@ -164,7 +170,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/surfskate"
-                  ? "p-4 text-4xl text-[#0c0c0c]"
+                  ? "p-4 text-4xl text-[white]"
                   : "p-4 text-4xl"
               }
             >
@@ -173,7 +179,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/nosotros"
-                  ? "p-4 text-4xl text-[#0c0c0c]"
+                  ? "p-4 text-4xl text-[white]"
                   : "p-4 text-4xl"
               }
             >
@@ -182,7 +188,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/entrenamiento"
-                  ? "p-4 text-4xl text-[#0c0c0c]"
+                  ? "p-4 text-4xl text-[white]"
                   : "p-4 text-4xl"
               }
             >
@@ -191,7 +197,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/contact"
-                  ? "p-4 text-4xl text-[#0c0c0c]"
+                  ? "p-4 text-4xl text-[white]"
                   : "p-4 text-4xl"
               }
             >
@@ -200,12 +206,12 @@ const Navbar = () => {
             <select
               onChange={changeLanguage}
               defaultValue={locale}
-              className="text-black text-shadow-sm text-lg bg-transparent tracking-wide cursor-pointer items-center"
+              className="text-white text-shadow-sm text-lg bg-transparent tracking-wide cursor-pointer items-center"
             >
-              <option className="text-black rounded-xl" value="en">
+              <option className="text-white rounded-xl" value="en">
                 EN
               </option>
-              <option className="text-black" value="es">
+              <option className="text-white" value="es">
                 ES
               </option>
             </select>
@@ -215,7 +221,7 @@ const Navbar = () => {
                   href="https://www.instagram.com/thesurfhouse.ar/?hl=es"
                   rel="noreferrer"
                   target="_blank"
-                  className="text-black transition dark:text-black hover:text-black/75"
+                  className="text-white transition dark:text-white hover:text-white/75"
                 >
                   <span className="sr-only">Instagram</span>
                   <svg

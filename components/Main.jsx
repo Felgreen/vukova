@@ -1,15 +1,27 @@
 import React from "react";
 import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
-
+import { Superacion, LogoN} from "../components/svg";
 
 const Main = () => {
   return (
-    <div className="w-screen h-screen background flex text-center bg-black ">
+    <div id="main" className="flex justify-center w-screen h-screen flex  text-center bg-white">
+      <div className="container">
+        <div className="columns-2 md:my-20 mt-32 h-1/2 md:w-full md:h-full flex flex-col md:flex-row justify-center items-center">
+          <div className="flex items-center justify-center md:h-3/4 md:w-1/2 h-full">
+            <Superacion className="h-full w-full"/>
+          </div>
+          <div className="h-1/4 md:h-full flex flex-col items-center justify-center">
+            <LogoN className="w-1/2 h-36 md:w-full md:h-1/2" />
+            <span className="">TRAINING CLUB</span>
+            <span>
+              lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </span>
+          </div>
+        </div>
+      </div>
 
-      
-      <div class="container p-10    mx-auto flex flex-wrap flex-col md:flex-row items-center">
-
+      {/*<div class="container p-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div class="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
           <h1 class="my-4 text-3xl md:text-5xl text-black opacity-75 font-antonioBold leading-tight text-center md:text-left">
             BIENVENIDO A TU SUPERACIÓN
@@ -20,7 +32,10 @@ const Main = () => {
 
           <form class="bg-gray-900 opacity-75 w-full shadow-lg rounded-lg px-8 pt-6 pb-8 mb-4">
             <div class="mb-4">
-              <label class="block text-xl text-orange-600 py-2 font-bold mb-2" for="emailaddress">
+              <label
+                class="block text-xl text-orange-600 py-2 font-bold mb-2"
+                for="emailaddress"
+              >
                 RESERVA TU TURNO
               </label>
               <input
@@ -42,13 +57,14 @@ const Main = () => {
           </form>
         </div>
 
-
         <div class="w-full xl:w-3/5 p-12 overflow-hidden">
-          <img src="https://st.depositphotos.com/1168906/2732/v/380/depositphotos_27329175-stock-illustration-dumbbell-vector-illustration.jpg" class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 mix-blend-multiply" />
+          <img
+            src="https://st.depositphotos.com/1168906/2732/v/380/depositphotos_27329175-stock-illustration-dumbbell-vector-illustration.jpg"
+            class="mx-auto w-full md:w-4/5 transform -rotate-6 transition hover:scale-105 duration-700 ease-in-out hover:rotate-6 mix-blend-multiply"
+          />
         </div>
-      </div>
+  </div> */}
     </div>
- 
   );
 };
 
