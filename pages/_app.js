@@ -1,13 +1,23 @@
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { ParallaxProvider } from "react-scroll-parallax";
 import Script from "next/script";
+import { LogoB } from "../components/svg/index";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
+  const [showImage, setShowImage] = useState(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setShowImage(false);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
     <>
       <Script
@@ -34,10 +44,25 @@ function MyApp({ Component, pageProps }) {
             exit={{}}
             transition={{ duration: 0.75 }}
           >
-            <div className=" ">
-              <Navbar {...pageProps} />
-              <Component {...pageProps} />
-              {/*<Footer />*/}
+            <div
+              className={`${
+                showImage
+                  ? "bg-black w-screen h-screen opacity-100 "
+                  : "bg-transparent pointer-events-none"
+              } transition-all duration-400 ease-in-out`}
+            >
+              {showImage ? (
+                <LogoB
+                  className={`${
+                    showImage ? "opacity-100" : "opacity-0"
+                  } transition-all w-full h-full`}
+                />
+              ) : (
+                <>
+                  <Navbar {...pageProps} />
+                  <Component {...pageProps} />
+                </>
+              )}
             </div>
           </motion.div>
         </AnimatePresence>

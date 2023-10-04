@@ -1,22 +1,34 @@
 import React from "react";
 import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
-import { Superacion, LogoN} from "../components/svg";
+import { Superacion, LogoN } from "../components/svg";
 
 const Main = () => {
   return (
-    <div id="main" className="flex justify-center w-screen h-screen flex  text-center bg-white">
+    <div
+      id="main"
+      className="flex justify-center w-screen h-screen flex  text-center bg-white"
+    >
       <div className="container">
         <div className="columns-2 md:my-20 mt-32 h-1/2 md:w-full md:h-full flex flex-col md:flex-row justify-center items-center">
-          <div className="flex items-center justify-center md:h-3/4 md:w-1/2 h-full">
-            <Superacion className="h-full w-full"/>
+          <div className="flex items-center justify-center md:h-3/4 md:w-full h-full">
+            <Superacion className="h-full w-full" />
           </div>
-          <div className="h-1/4 md:h-full flex flex-col items-center justify-center">
-            <LogoN className="w-1/2 h-36 md:w-full md:h-1/2" />
-            <span className="">TRAINING CLUB</span>
-            <span>
-              lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+          <div className="h-1/2 md:h-full md:w-full flex flex-col items-center justify-center">
+            <LogoN className="w-1/2 h-36 md:w-full md:h-1/4" />
+            <span className="md:text-xl">TRAINING CLUB</span>
+            <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
+              <div className="mx-5">
+                <span>
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+              </div>
+              <div className="mx-5">
+                <span className="text-stone-500">
+                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

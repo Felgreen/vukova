@@ -10,7 +10,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
-  const [color, setColor] = useState("transparent");
+  const [color, setColor] = useState("black");
   const [textColor, setTextColor] = useState("white");
   const [scrolled, setScrolled] = useState(false);
   const [menu, setMenu] = useState(false);
@@ -64,56 +64,78 @@ const Navbar = () => {
           )}
         </div>
         <div>
-          <ul
-            style={{ color: `${textColor}` }}
-            className="hidden md:flex  hover:underline-offset-2 "
-          >
+          <ul style={{ color: `${textColor}` }} className="hidden md:flex">
             <li
               className={
                 path === "/"
-                  ? `p-4 text-[${textColor}] underline`
-                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
-              <Link href="/">{t.nav.inicio}</Link>
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href="/"
+              >
+                {t.nav.inicio}
+              </Link>
             </li>
             <li
               className={
                 path === "/surfskate"
-                  ? `p-4 text-[${textColor}] underline`
-                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
-              <Link href="/surfskate">{t.nav.servicios}</Link>
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href="/surfskate"
+              >
+                {t.nav.servicios}
+              </Link>
             </li>
             <li
               className={
                 path === "/nosotros"
-                  ? `p-4 text-[${textColor}] underline`
-                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
-              <Link href="/nosotros">{t.nav.nosotros}</Link>
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href="/nosotros"
+              >
+                {t.nav.nosotros}
+              </Link>
             </li>
             <li
               className={
                 path === "/entrenamiento"
-                  ? `p-4 text-[${textColor}] underline`
-                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
-              <Link href="/entrenamiento">{t.nav.horarios}</Link>
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href="/entrenamiento"
+              >
+                {t.nav.horarios}
+              </Link>
             </li>
             <li
               className={
                 path === "/contact"
-                  ? `p-4 text-[${textColor}] underline`
-                  : `p-4 hover:text-[#090909] text-[${textColor}]`
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
-              <Link href={"/contact"}>{t.nav.contacto}</Link>
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href={"/contact"}
+              >
+                {t.nav.contacto}
+              </Link>
             </li>
-            <button className="bg-[#f37032] p-3 rounded-xl text-black px-2">
+            <button className="bg-[#f37032] p-3 rounded-xl text-black px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
               PROBA UNA CLASE
             </button>
             <select
@@ -162,7 +184,9 @@ const Navbar = () => {
           <ul style={{ color: `${textColor}` }}>
             <li
               className={
-                path === "/" ? "p-4 text-4xl mt-4 text-[white]" : "p-4 text-4xl"
+                path === "/"
+                  ? "p-4 text-4xl mt-4 text-[#f37032] underline"
+                  : "p-4 text-4xl"
               }
             >
               <Link href="/">{t.nav.inicio}</Link>
@@ -170,7 +194,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/surfskate"
-                  ? "p-4 text-4xl text-[white]"
+                  ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
@@ -179,7 +203,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/nosotros"
-                  ? "p-4 text-4xl text-[white]"
+                  ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
@@ -188,7 +212,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/entrenamiento"
-                  ? "p-4 text-4xl text-[white]"
+                  ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
@@ -197,7 +221,7 @@ const Navbar = () => {
             <li
               className={
                 path === "/contact"
-                  ? "p-4 text-4xl text-[white]"
+                  ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
@@ -206,7 +230,7 @@ const Navbar = () => {
             <select
               onChange={changeLanguage}
               defaultValue={locale}
-              className="text-white text-shadow-sm text-lg bg-transparent tracking-wide cursor-pointer items-center"
+              className="text-white text-shadow-sm text-4xl bg-transparent tracking-wide cursor-pointer items-center"
             >
               <option className="text-white rounded-xl" value="en">
                 EN
