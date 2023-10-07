@@ -20,8 +20,7 @@ const Layout = () => (
       <Main />
       <GridLayoutMobile />
 
-      
-      <CardSection/>
+    
       <GridLayout />
       <Pricing />
       <Benefits />
