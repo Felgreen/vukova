@@ -1,14 +1,6 @@
 import React from "react";
-import { useRouter } from "next/router";
-import en from "../public/locales/en/english.json";
-import es from "../public/locales/es/espanol.json";
-
-import Typewriter from "typewriter-effect";
 
 const Manifesto = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
   const title1 = t.manifesto.title2;
   const set1 = t.manifesto.set1;
 

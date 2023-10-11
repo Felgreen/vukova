@@ -24,10 +24,6 @@ const Navbar = () => {
     router.push(router.pathname, router.asPath, { locale });
   };
 
-  const handleColor = () => {
-    setColor(!color);
-  };
-
   const handleNav = () => {
     setNav(!nav);
   };
@@ -141,12 +137,22 @@ const Navbar = () => {
             <select
               onChange={changeLanguage}
               defaultValue={locale}
-              className={`text-[${textColor}] p-3 text-shadow-sm text-lg bg-transparent tracking-wide`}
+              className={`p-3 text-shadow-sm text-lg bg-transparent tracking-wide`}
             >
-              <option className={`text-[${textColor}]`} value="en">
+              <option
+                className={`text-[${
+                  textColor === "white" ? "black" : "white"
+                }]`}
+                value="en"
+              >
                 EN
               </option>
-              <option className={`text-[${textColor}]`} value="es">
+              <option
+                className={`text-[${
+                  textColor === "white" ? "black" : "white"
+                }]`}
+                value="es"
+              >
                 ES
               </option>
             </select>

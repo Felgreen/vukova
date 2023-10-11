@@ -1,32 +1,30 @@
 import { useEffect } from "react";
-import Hero from "../components/Hero";
-import Banner from "../components/Banner";
+import { useRouter } from "next/router";
+import Activities from "../components/Activities";
 import Main from "../components/Main";
-import Reserva from "../components/Reserva";
-import Pricing from "../components/Pricing";
-import Map from "../components/Map";
-import Faq from "../components/ui/Faq";
 import GridLayout from "./ui/GridLayout";
 import GridLayoutMobile from "./ui/GridLayoutMobile";
-import Benefits from "./Benefits";
 import Image from "next/image";
-import Cards from './ui/Cards'
 import CardSection from "./CardSection";
 import AnimatedBackground from "./ui/AnimatedBackground";
-
+import Footer from "./Footer";
+import en from "../public/locales/en/english.json";
+import es from "../public/locales/es/espanol.json";
 
 const Layout = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "es" ? es : en;
   return (
     <>
       <div className="overflow-hidden" id="Layout">
         <Main />
-        <GridLayoutMobile />
-        <AnimatedBackground/>
+        <GridLayoutMobile t={t} />
+        <AnimatedBackground t={t} />
 
-        <GridLayout />
-        <CardSection/>
-        <Pricing />
-        <Benefits />
+        <GridLayout t={t} />
+        <CardSection t={t} />
+        <Activities t={t} />
 
         <a
           href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
@@ -44,6 +42,7 @@ const Layout = () => {
             />
           </button>
         </a>
+        <Footer />
       </div>
     </>
   );

@@ -1,19 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-import { useRouter } from "next/router";
 import { AnimatePresence, motion, useAnimation, Variants } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
-import en from "../../public/locales/en/english.json";
-import es from "../../public/locales/es/espanol.json";
 
-const GridLayout = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
-
+const GridLayout = ({ t }) => {
   const control = useAnimation();
   const [ref, inView] = useInView();
 
