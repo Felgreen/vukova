@@ -15,12 +15,15 @@ import CardSection from "./CardSection";
 import AnimatedBackground from "./ui/AnimatedBackground";
 
 
+
 const Layout = () => (
   <>
     <div className="overflow-hidden ">
+      
       <Main />
   
       <GridLayoutMobile />
+
 
     
       <GridLayout />
