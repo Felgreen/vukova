@@ -4,4 +4,7 @@ export {default as Yoga} from './yoga.svg';
 export {default as Kinio} from './Kinio.svg';
 export {default as Nutrition} from './Nutrition.svg';
 export {default as Ostio} from './Ostio.svg';
-export { default as LogoV } from './logoVukovaISO.svg'; 
+export {default as Superacion} from './LogoSuperacion.svg';
+export {default as LogoN} from './logoVukovaISO.svg'; 
+export {default as LogoB} from './VukovaLogoBlanco.svg'; 
+export {default as Vukova} from './VukovaLogo.svg';
