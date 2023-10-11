@@ -1,10 +1,5 @@
 import { useState } from "react";
 
-import { useRouter } from "next/router";
-
-import en from "../public/locales/en/english.json";
-import es from "../public/locales/es/espanol.json";
-
 const cards = [
   {
     id: 1,
@@ -33,9 +28,6 @@ const cards = [
 ];
 
 const Card = ({ card, toggle }) => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
 
   return (
     <div className="transform  rounded-lg hover:scale-105 overflow-hidden w-full max-w-sm  bg-white text-black font-montBold">

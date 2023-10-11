@@ -1,27 +1,18 @@
 import Image from "next/image";
 
-import { useRouter } from "next/router";
-import en from "./../public/locales/en/english.json";
-import es from "./../public/locales/es/espanol.json";
-
-
-export default function Options({ option }) {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
-
+export default function Options({ option, t }) {
   switch (option) {
     case "EDP":
       return (
-        <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full ">
+        <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
           <h2 className="text-3xl font-bold ">{t.wellness.Prev1}</h2>
 
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-black">
             {t.wellness["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
           </p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium"> {t.reserva.button} </span>
@@ -40,7 +31,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           {/* <Image
             className="rounded-lg"
             src={Eval}
@@ -55,12 +46,12 @@ export default function Options({ option }) {
         <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
           <h2 className="text-3xl font-bold ">{t.wellness.GKP1}</h2>
 
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-black">
             {t.wellness["GIMNASIA KINESICA PREVENTIVA (GKP)"]}
           </p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button} </span>
@@ -79,7 +70,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           <Image
             className="rounded-lg"
             src="/images/gpk.webp"
@@ -94,10 +85,10 @@ export default function Options({ option }) {
         <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
           <h2 className="text-3xl font-bold ">{t.wellness.KINESIOLOGIA1}</h2>
 
-          <p className="mt-4 text-gray-200">{t.wellness.KINESIOLOGIA}</p>
+          <p className="mt-4 text-black">{t.wellness.KINESIOLOGIA}</p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button}</span>
@@ -116,7 +107,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           <Image
             className="rounded-lg"
             src="/images/kine.webp"
@@ -132,10 +123,10 @@ export default function Options({ option }) {
         <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
           <h2 className="text-3xl font-bold">{t.wellness.NUTRICION1}</h2>
 
-          <p className="mt-4 text-gray-200">{t.wellness.NUTRICION}</p>
+          <p className="mt-4 text-black">{t.wellness.NUTRICION}</p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button} </span>
@@ -154,7 +145,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           <Image
             className="rounded-lg"
             src="/images/nutri.webp"
@@ -169,10 +160,10 @@ export default function Options({ option }) {
         <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
           <h2 className="text-3xl font-bold ">{t.wellness.OSTEOPATIA1}</h2>
 
-          <p className="mt-4 text-gray-200">{t.wellness.OSTEOPATIA}</p>
+          <p className="mt-4 text-black">{t.wellness.OSTEOPATIA}</p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium">{t.reserva.button}</span>
@@ -191,7 +182,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           <Image
             className="rounded-lg"
             src="/images/ostio.webp"
@@ -206,12 +197,12 @@ export default function Options({ option }) {
         <div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left">
           <h2 className="text-3xl font-bold">{t.wellness.Prev1}</h2>
 
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-black">
             {t.wellness["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
           </p>
 
-          <a
-            className="my-2 inline-flex items-center rounded border border-blue-900  bg-blue-900 px-8 py-3 text-black hover:bg-transparent hover:text-blue-900 focus:outline-none focus:ring active:text-indigo-500"
+          <button
+            className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
             href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
           >
             <span className="text-sm font-medium"> {t.reserva.button} </span>
@@ -230,7 +221,7 @@ export default function Options({ option }) {
                 d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
-          </a>
+          </button>
           {/* <Image
             className="rounded-lg"
             src={Eval}

@@ -1,21 +1,14 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import Ribbon from "./ui/Ribbon";
+import Ribbon from "./Ribbon";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
 
-import { useRouter } from "next/router";
-import en from "../public/locales/en/english.json";
-import es from "../public/locales/es/espanol.json";
-
 const Map = () => {
-  const router = useRouter();
-  const { locale } = router;
   const [width, setWidth] = useState("");
-  const t = locale === "es" ? es : en;
 
   const control = useAnimation();
   const [ref, inView] = useInView();
