@@ -48,7 +48,7 @@ function MyApp({ Component, pageProps }) {
               className={`${
                 showImage
                   ? "bg-black w-screen h-screen opacity-100 "
-                  : "bg-transparent pointer-events-none"
+                  : "  z-0"
               } transition-all duration-400 ease-in-out`}
             >
               {showImage ? (

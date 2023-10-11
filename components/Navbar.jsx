@@ -37,7 +37,7 @@ const Navbar = () => {
     const changeColor = () => {
       console.log(window.scrollY);
       if (window.scrollY >= 90) {
-        setColor("transparent");
+        setColor("white");
         setScrolled(true);
         setTextColor("black");
       } else {

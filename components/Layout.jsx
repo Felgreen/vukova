@@ -21,8 +21,10 @@ const Layout = () => {
       <div className="overflow-hidden" id="Layout">
         <Main />
         <GridLayoutMobile />
+        <AnimatedBackground/>
 
         <GridLayout />
+        <CardSection/>
         <Pricing />
         <Benefits />
 
