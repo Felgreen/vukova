@@ -9,7 +9,9 @@ const colors = ['#632bf3', '#f122c8', '#f16022', '#9ef344', '#44d3f3'];
 const TickerComponent = () => {
   return (
     <div className="ticker-container w-screen">
-           <Ticker duration={20}>
+           <Ticker 
+           direction={1}
+           duration={20}>
         {colors.map((item, index) => (
           <div
             key={index}
