@@ -20,7 +20,6 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        Peppers
                       </a>
                     </li>
                     <li>
@@ -29,7 +28,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        Volcom
+                        
                       </a>
                     </li>
                     <li>
@@ -38,7 +37,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        Citric
+                        
                       </a>
                     </li>
                     <li>
@@ -47,7 +46,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        Vulcano
+                       
                       </a>
                     </li>
                   </ul>
@@ -63,7 +62,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        AP Surf trips
+                       
                       </a>
                     </li>
                     <li>
@@ -72,7 +71,7 @@ const Footer = () => {
                         target="_blank"
                         className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
                       >
-                        Surf shop
+                        
                       </a>
                     </li>
                     <li></li>
@@ -87,7 +86,7 @@ const Footer = () => {
                   <ul className="space-y-4 text-sm">
                     <li>
                       <a className="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
-                        +54 9 11 5489-9448
+                        
                       </a>
                     </li>
                   </ul>
@@ -100,12 +99,11 @@ const Footer = () => {
                   <ul className="space-y-4 text-sm">
                     <li>
                       <a className="text-gray-200 transition hover:opacity-75 dark:text-gray-200 ">
-                        info@thesurfhouse.com.ar
+                       
                       </a>
                     </li>
                     <li>
                       <a className="text-gray-200 transition hover:opacity-75 dark:text-gray-200">
-                        surfshop@thesurfhouse.com.ar
                       </a>
                     </li>
                   </ul>

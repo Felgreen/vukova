@@ -8,6 +8,7 @@ import Image from "next/image";
 import CardSection from "./CardSection";
 import AnimatedBackground from "./ui/AnimatedBackground";
 import Footer from "./Footer";
+import TickerComponent from "./ui/TickerComponent"
 import en from "../public/locales/en/english.json";
 import es from "../public/locales/es/espanol.json";
 
@@ -21,6 +22,7 @@ const Layout = () => {
         <Main />
         <GridLayoutMobile t={t} />
         <AnimatedBackground t={t} />
+        <TickerComponent/>
 
         <GridLayout t={t} />
         <CardSection t={t} />
