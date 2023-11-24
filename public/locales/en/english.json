@@ -2,9 +2,10 @@
     "nav":{
         "inicio": "HOME",
         "servicios":"SERVICES",
-        "nosotros":"ABOUT US",
-        "horarios": "SCHEDULE",
-        "contacto":"CONTACT"
+        "nosotros":"THE TEAM",
+        "horarios": "LOCATIONS",
+        "contacto":"CONTACT",
+        "distancia":"TRAINING PROGRAMS"
     },
     "button":{
         "horarios":"Schedule"

@@ -2,9 +2,10 @@
     "nav":{
         "inicio": "INICIO",
         "servicios":"SERVICIOS",
-        "nosotros":"NOSOTROS",
-        "horarios": "HORARIOS",
-        "contacto":"CONTACTO"
+        "nosotros":"EQUIPO",
+        "horarios": "SEDES",
+        "contacto":"CONTACTO",
+        "distancia":"PLAN A DISTANCIA"
     },
     "about":{"header":"NO ES MAGIA, ES ATP",
             "desc":"Vukova nace a partir de la necesidad de estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa."

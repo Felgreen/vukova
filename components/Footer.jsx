@@ -111,8 +111,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <p className="text-xs text-gray-400 md:pl-20">
-            © 2023. The Surf House. All rights reserved.
+          <p className="text-xs text-black-400 md:pl-20">
+            © 2023. VUKOVA All rights reserved.
           </p>
         </div>
       </footer>
