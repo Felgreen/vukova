@@ -87,7 +87,7 @@ const Navbar = () => {
                 className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
                 href="/surfskate"
               >
-                {t.nav.servicios}
+                {t.nav.servicios} 
               </Link>
             </li>
             <li
