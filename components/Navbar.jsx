@@ -17,7 +17,7 @@ const Navbar = () => {
   const router = useRouter();
   const path = router.pathname;
   const { locale } = router;
-  const t = locale === "es" ? es : es;
+  const t = locale === "es" ? es : en;
 
   const changeLanguage = (e) => {
     const locale = e.target.value;
@@ -29,9 +29,7 @@ const Navbar = () => {
   };
   //TODO cambiar color de nav , probar glass effect con blur.
   useEffect(() => {
-    console.log(path);
     const changeColor = () => {
-      console.log(window.scrollY);
       if (window.scrollY >= 90) {
         setColor("white");
         setScrolled(true);
@@ -78,14 +76,14 @@ const Navbar = () => {
             
             <li
               className={
-                path === "/surfskate"
+                path === "/servicios"
                   ? `p-4 text-[#f37032] underline`
                   : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
               }
             >
               <Link
                 className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/surfskate"
+                href="/servicios"
               >
                 {t.nav.servicios}
               </Link>
@@ -146,7 +144,21 @@ const Navbar = () => {
                 {t.nav.contacto}
               </Link>
             </li>
-            <button className="bg-[#f37032] p-3 rounded-xl text-black px-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
+            <li
+              className={
+                path === "/sucursales"
+                  ? `p-4 text-[#f37032] underline`
+                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
+              }
+            >
+              <Link
+                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+                href="/sucursales"
+              >
+                {t.nav.sucursal}
+              </Link>
+            </li>
+            <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
               PROBA UNA CLASE
             </button>
             <select
@@ -214,12 +226,12 @@ const Navbar = () => {
             </li>
             <li
               className={
-                path === "/surfskate"
+                path === "/servicios"
                   ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
-              <Link href="/surfskate">{t.nav.servicios}</Link>
+              <Link href="/servicios">{t.nav.servicios}</Link>
             </li>
             <li
               className={
@@ -232,21 +244,21 @@ const Navbar = () => {
             </li>
             <li
               className={
-                path === "/entrenamiento"
+                path === "/contacto"
                   ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
-              <Link href="/entrenamiento">{t.nav.horarios}</Link>
+              <Link href="/entrenamiento">{t.nav.contacto}</Link>
             </li>
             <li
               className={
-                path === "/contact"
+                path === "/sucursales"
                   ? "p-4 text-4xl text-[#f37032] underline"
                   : "p-4 text-4xl"
               }
             >
-              <Link href={"/contact"}>{t.nav.contacto}</Link>
+              <Link href={"/contact"}>{t.nav.sucursales}</Link>
             </li>
             <select
               onChange={changeLanguage}
