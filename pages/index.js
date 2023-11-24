@@ -22,6 +22,7 @@ export default function Home() {
         <meta name="description" content="Vivir la cuidad de otra manera" />
         <meta property="og:title" content={t.seo.title} />
         <link rel="icon" href="/favicon.ico" />
+
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { ParallaxProvider } from "react-scroll-parallax";
-import Script from "next/script";
 import { LogoB } from "../components/svg/index";
 
 function MyApp({ Component, pageProps }) {
@@ -14,27 +13,12 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     const timeout = setTimeout(() => {
       setShowImage(false);
-    }, 2000);
+    }, 1500);
 
     return () => clearTimeout(timeout);
   }, []);
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-
-      <Script strategy="lazyOnload">
-        {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-              page_path: window.location.pathname,
-              });
-          `}
-      </Script>
       <ParallaxProvider>
         <AnimatePresence mode="wait">
           <motion.div
@@ -46,9 +30,7 @@ function MyApp({ Component, pageProps }) {
           >
             <div
               className={`${
-                showImage
-                  ? "bg-black w-screen h-screen opacity-100 "
-                  : "  z-0"
+                showImage ? "bg-black w-screen h-screen opacity-100 " : "  z-0"
               } transition-all duration-400 ease-in-out`}
             >
               {showImage ? (
