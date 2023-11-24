@@ -2,9 +2,10 @@
     "nav":{
         "inicio": "INICIO",
         "servicios":"SERVICIOS",
-        "nosotros":"NOSOTROS",
-        "horarios": "HORARIOS",
-        "contacto":"CONTACTO"
+        "nosotros":"EQUIPO",
+        "horarios": "SEDES",
+        "contacto":"CONTACTO",
+        "distancia":"PLAN A DISTANCIA"
     },
     "about":{"header":"NO ES MAGIA, ES ATP",
             "desc":"Vukova nace a partir de la necesidad de estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa."
@@ -112,7 +113,7 @@
         
     },
     "nosotros":{
-        "title":"The Surfhouse es un espacio que nace con la intención de acercar el mar a la ciudad.",
+        "title":" EQUIPO VUKOVA",
         "set1":"Somos amantes de los deportes de tablas, vivimos para surfear y creemos que HAY OTRA MANERA DE VIVIR LA CIUDAD.",
         "set2":"Desarrollamos una metodología integral de entrenamiento pensando en tu evolución física y técnica. Contamos con un grupo de especialistas en nutrición, kinesiología y osteopatía,disponibles para acompañarte en todo momento.",
         "set3":"Queremos ayudarte a lograr tu mejor versión."

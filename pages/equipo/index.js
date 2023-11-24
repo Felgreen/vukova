@@ -4,6 +4,7 @@ import en from "../../public/locales/en/english.json";
 import es from "../../public/locales/es/espanol.json";
 
 import Manifesto from '../../components/Manifesto';
+import Navbar from '../../components/Navbar';
 
 
 export default function Entrenamiento() {
@@ -20,6 +21,7 @@ export default function Entrenamiento() {
         <meta property="og:title" content={t.seo.aboutTitle}/>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
+      <Navbar/>
       <div className="mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:px-8 text-justify">
       <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
                 {t.nosotros.title}
@@ -61,7 +63,7 @@ export default function Entrenamiento() {
              </span>
           
             <div className="p-8">
-            <Manifesto/>
+            
               
 
             
