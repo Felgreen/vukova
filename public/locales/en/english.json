@@ -2,9 +2,10 @@
     "nav":{
         "inicio": "HOME",
         "servicios":"SERVICES",
-        "nosotros":"ABOUT US",
-        "horarios": "SCHEDULE",
-        "contacto":"CONTACT"
+        "nosotros":"THE TEAM",
+        "horarios": "LOCATIONS",
+        "contacto":"CONTACT",
+        "distancia":"TRAINING PROGRAMS"
     },
     "button":{
         "horarios":"Schedule"
@@ -113,8 +114,8 @@
         "lakesSen1":"Classes for all levels and ages.",
         "lakesSen2":"With teachers focused on correct learning and a methodology developed with more than 5 years of experience. A space where you will learn the basic techniques for proper flow and movement. Escape the routine, and come try the first free class!"
     },
-    "contact":{
-        "title":"JOIN TODAY!",
+    "sucursal":{
+        "title":"SEARCH YOUR NEAREST BRANCH!",
         "button":"Book a session now"
     },
     "footer":{

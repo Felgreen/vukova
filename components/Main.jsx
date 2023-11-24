@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
-import { Superacion, LogoN } from "../components/svg";
+import { Superacion, Vukova } from "../components/svg";
 
 const Main = () => {
   return (
@@ -15,17 +15,17 @@ const Main = () => {
             <Superacion className="h-full w-full" />
           </div>
           <div className="h-1/2 md:h-full md:w-full flex flex-col items-center justify-center">
-            <LogoN className="w-1/2 h-36 md:w-full md:h-1/4" />
-            <span className="md:text-xl">TRAINING CLUB</span>
+            <Vukova className="w-1/2 h-36 md:w-full md:h-2/4" />
+            {/* <span className="md:text-xl">TRAINING CLUB</span> */}
             <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
               <div className="mx-5">
                 <span>
-                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+               
                 </span>
               </div>
               <div className="mx-5">
                 <span className="text-stone-500">
-                  lorem ipsum dolor sit amet consectetur adipisicing elit.
+                
                 </span>
               </div>
             </div>

@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
 
-import { AnimatePresence, motion, useAnimation, Variants } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 import { useEffect } from "react";
 
-const GridLayout = ({t}) => {
+const GridLayout = ({ t }) => {
   const control = useAnimation();
   const [ref, inView] = useInView();
 
@@ -37,8 +37,7 @@ const GridLayout = ({t}) => {
     <>
       <div className="mt-40 hidden md:grid place-items-center min-h-screen text-black">
         {/* Responsive Grid Layout */}
-
-        <div className="p-4 max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6 ">
+        <div className="p-4 max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6">
           <motion.h1
             initial={"offscreen"}
             whileInView={"onscreen"}
