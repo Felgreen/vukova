@@ -20,7 +20,7 @@ const Sucursales = () => {
       id="sucursales"
       className="flex-col flexCenter overflow-hidden py-24 w-screen"
     >
-      <div className="flex flex-1 overflow-hidden">
+      <div className="hidden sm:flex flex-1 sm:flex-row foverflow-hidden p-4 px-5 z-0">
         <Map
           google={window.google}
           zoom={zoom}
