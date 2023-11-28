@@ -1,73 +1,131 @@
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Contact() {
+  const boxVariant = {
+    offscreen: { opacity: 0, scale: 0 },
+    onscreen: {
+      opacity: 1,
+      scale: 1,
+      transition: { type: "spring", duration: 1, bounce: 0.3 },
+    },
+  };
+
   return (
     <section id="contacto" className="flex lg:flex-col py-40 h-auto w-full">
       <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
-        <div className="text-center lg:text-left m-5 lg:mb-0">
-          <div className="flex items-center justify-center lg:justify-start gap-2 mb-10">
-          </div>
-
-          <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
+        <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
+          <motion.h1
+            className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Vicente Lopez
-          </h1>
+          </motion.h1>
 
-          <p className="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10">
+          <motion.p
+            className="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer
             to build your brands and grow your business Let’s shake hands with
             me.
-          </p>
-
+          </motion.p>
         </div>
 
-        <div className="mx-auto lg:mx-0">
-          <Image src="/images/afuera_bajo.jpg" alt="Image" width={1000}
-          height={1000} className="rounded"/>
-        </div>
+        <motion.div
+          className="mx-auto lg:mx-0"
+          initial={"offscreen"}
+          whileInView={"onscreen"}
+          variants={boxVariant}
+        >
+          <Image
+            src="/images/afuera_bajo.jpg"
+            alt="Image"
+            width={600}
+            height={600}
+            className="rounded"
+          />
+        </motion.div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center bg-black w-full">
-        <div className="text-center lg:text-left m-5 lg:mb-0">
-          <div className="flex items-center justify-center lg:justify-start gap-2 mb-10">
-          </div>
-
-          <h1 className="font-bold text-white text-4xl md:text-6xl xl:text-7xl mb-10">
+      <div className="flex flex-col lg:flex-row-reverse justify-between lg:mb-20 lg:p-10 items-center bg-black">
+        <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
+          <motion.h1
+            className="font-bold text-white text-4xl md:text-6xl xl:text-7xl mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Vicente Lopez
-          </h1>
+          </motion.h1>
 
-          <p className="font-normal text-white text-sm md:text-md xl:text-lg mb-10">
+          <motion.p
+            className="font-normal text-white text-sm md:text-md xl:text-lg mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer
             to build your brands and grow your business Let’s shake hands with
             me.
-          </p>
-
+          </motion.p>
         </div>
 
-        <div className="mx-auto lg:mx-0">
-          <Image src="/images/afuera_bajo.jpg" alt="Image" width={1000}
-          height={1000} className="rounded"/>
-        </div>
+        <motion.div
+          className="mx-auto lg:mx-0"
+          initial={"offscreen"}
+          whileInView={"onscreen"}
+          variants={boxVariant}
+        >
+          <Image
+            src="/images/afuera_bajo.jpg"
+            alt="Image"
+            width={600}
+            height={600}
+            className="rounded"
+          />
+        </motion.div>
       </div>
-      <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center w-full">
-        <div className="text-center lg:text-left m-5 lg:mb-0">
-          <div className="flex items-center justify-center lg:justify-start gap-2 mb-10">
-          </div>
-
-          <h1 className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10">
+      <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
+        <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
+          <motion.h1
+            className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Vicente Lopez
-          </h1>
+          </motion.h1>
 
-          <p className="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10">
+          <motion.p
+            className="font-normal text-gray-500 text-sm md:text-md xl:text-lg mb-10"
+            initial={"offscreen"}
+            whileInView={"onscreen"}
+            variants={boxVariant}
+          >
             Hi, I’m Jessica. I’m UI/UX Designer. If you are looking for Designer
             to build your brands and grow your business Let’s shake hands with
             me.
-          </p>
-
+          </motion.p>
         </div>
 
-        <div className="mx-auto lg:mx-0">
-          <Image src="/images/afuera_bajo.jpg" alt="Image" width={1000}
-          height={1000} className="rounded"/>
-        </div>
+        <motion.div
+          className="mx-auto lg:mx-0"
+          initial={"offscreen"}
+          whileInView={"onscreen"}
+          variants={boxVariant}
+        >
+          <Image
+            src="/images/afuera_bajo.jpg"
+            alt="Image"
+            width={600}
+            height={600}
+            className="rounded"
+          />
+        </motion.div>
       </div>
       <a
         href="https://api.whatsapp.com/send/?phone=5491154899448&text&type=phone_number&app_absent=0"
