@@ -7,6 +7,10 @@
         "contacto":"CONTACT",
         "distancia":"TRAINING PROGRAMS"
     },
+    "marquee":{
+        "0":"WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN ADULTOS - BEBES AL AGUA - AQUA GYM - PILETA LIBRE "
+     
+    },
     "button":{
         "horarios":"Schedule"
     },
