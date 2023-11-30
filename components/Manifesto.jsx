@@ -12,15 +12,17 @@ const Manifesto = () => {
 
   return (
     <section className="h-60">
-      <div className="pt-14 items-center lg:p-8 text-center  text-black font-montBold">
-        <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-3xl font-bold sm:text-5xl text-gray-900 font-montBold m-2 ">
-            {t.manifesto.title}
+      <div className="pt-14 items-center lg:p-8 text-center  text-black   ">
+        <div className="mx-auto max-w-4xl text-center  ">
+          <h2 className="text-3xl font-bold sm:text-5xl text-gray-900  font-antonioBold m-2 ">
+            {t.nosotros.title}
           </h2>
-          <h2 className="text-3xl font-bold sm:text-5xl text-black font-montBold md:text-3xl"></h2>
+          <h2 className="text-3xl font-bold sm:text-5xl text-black  md:text-3xl"></h2>
 
-          <div className=" text-gray-700 font-montBold sm:mt-2 sm:block">
-            {t.manifesto.set1}
+          <div className=" text-black font-antonBold  font-bold sm:mt-2 sm:block">
+            {t.nosotros.set1}
+            {t.nosotros.set2}
+            {t.nosotros.set3}
           </div>
         </div>
         <div className="mx-auto mt-8 max-w-xl"></div>
