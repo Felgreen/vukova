@@ -26,14 +26,14 @@ export default function Entrenamiento() {
           {t.nosotros.title}
         </h2>
 
-        <p className="mt-4 font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28">
-          {t.nosotros.set1}
+        <p className="mt-4 font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
+          {t.about.desc}
         </p>
 
-        <p className="mt-4  font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28">
+        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
           {t.nosotros.set2}
         </p>
-        <p className="mt-4  font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28 mb-10">
+        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28 mb-10">
           {t.nosotros.set3}
         </p>
         <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">

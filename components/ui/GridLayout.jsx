@@ -35,7 +35,7 @@ const GridLayout = ({ t }) => {
 
   return (
     <>
-      <div className="mt-40 hidden md:grid place-items-center min-h-screen text-black">
+      <div className="p-2 hidden md:grid place-items-center min-h-screen text-black">
         {/* Responsive Grid Layout */}
         <div className="p-4 max-w-5xl grid gap-4 xs:grid-cols-2 xs:p-8 md:grid-cols-4 lg:gap-6">
           <motion.h1
@@ -45,7 +45,7 @@ const GridLayout = ({ t }) => {
             viewport={{ once: true, amount: 1 }}
             className="text-3xl font-extrabold xs:col-span-2 xs:grid xs:gap-4 xs:grid-cols-2 md:col-span-3 md:text-5xl md:grid-cols-3 lg:text-6xl font-montBold"
           >
-            <span className="md:col-span-2">{t.about.header}</span>
+            <span className="md:col-span-2">{t.about.cta2}</span>
           </motion.h1>
 
           <motion.div
@@ -61,8 +61,7 @@ const GridLayout = ({ t }) => {
                 alt="personal training"
                 layout="fill"
                 objectFit="cover"
-                className="absolute inset-0 h-full w-full object-cover
-         opacity-75 transition-opacity group-hover:opacity-50"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div className="relative p-6">
@@ -95,8 +94,7 @@ const GridLayout = ({ t }) => {
                 alt="cross training"
                 layout="fill"
                 objectFit="cover"
-                className="absolute inset-0 h-full w-full object-cover
-        opacity-75 transition-opacity group-hover:opacity-50"
+                className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
               <div className="relative p-6">
