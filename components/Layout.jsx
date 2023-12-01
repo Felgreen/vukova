@@ -5,7 +5,6 @@ import en from "../public/locales/en/english.json";
 import es from "../public/locales/es/espanol.json";
 import GridLayout from "./ui/GridLayout";
 import { useRouter } from "next/router";
-import CardSection from "./CardSection";
 import Main from "../components/Main";
 import Footer from "./Footer";
 

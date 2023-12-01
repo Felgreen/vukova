@@ -1,10 +1,10 @@
 import React from 'react'
-import Dropdown from '../../components/ui/Dropdown'
+import Dropdown from '../../components/Dropdown'
 
 const Sedes = () => {
   return (
     <>
-    <section id='Sedes' className=' lg:p-40'>
+    <section id='Sedes' className='py-24 px-5 lg:p-40'>
       <Dropdown/>
     </section>
     </>

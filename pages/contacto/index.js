@@ -12,7 +12,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contacto" className="flex lg:flex-col py-40 h-auto w-full">
+    <section id="contacto" className="py-40 h-auto w-full">
       <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
         <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
           <motion.h1

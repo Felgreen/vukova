@@ -52,13 +52,13 @@ export default function Services() {
 
   return (
     <section
-      className="w-screen h-screen sm:h-screen md:h-[120vh] text-black flex items-center justify-center"
+      className="w-screen h-screen mt-32 sm:h-screen md:h-[120vh] text-black flex items-center justify-center"
       id="activities"
     >
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="px-4 mx-auto max-w-7xl h-full sm:px-6 lg:px-8">
         <div className="grid items-center grid-cols-1 gap-y-10 lg:grid-cols-5 gap-x-4 font-montBold">
           <div className="space-y-8 lg:pr-16 xl:pr-24 lg:col-span-2 lg:space-y-12">
-            <div className="flex items-start">
+            <div className="flex items-start lg:p-4">
               <a
                 className="cursor-pointer flex"
                 onClick={() => setOption("EDP")}
@@ -74,12 +74,12 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.wellness.Prev1}
+                    {t.servicios.Prev1}
                   </motion.h3>
                 </div>
               </a>
             </div>
-            <div className="flex items-start">
+            <div className="flex items-start lg:p-4">
               <a
                 className="cursor-pointer flex"
                 onClick={() => setOption("GKP")}
@@ -95,12 +95,12 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.wellness.GKP1}
+                    {t.servicios.GKP1}
                   </motion.h3>
                 </div>
               </a>
             </div>
-            <div className="flex items-start">
+            <div className="flex items-start lg:p-4">
               <a
                 className="cursor-pointer flex"
                 onClick={() => setOption("Kinio")}
@@ -116,12 +116,12 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.wellness.KINESIOLOGIA1}
+                    {t.servicios.KINESIOLOGIA1}
                   </motion.h3>
                 </div>
               </a>
             </div>
-            <div className="flex items-start">
+            <div className="flex items-start lg:p-4">
               <a
                 className="cursor-pointer flex"
                 onClick={() => setOption("Nutri")}
@@ -137,12 +137,12 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.wellness.NUTRICION1}
+                    {t.servicios.NUTRICION1}
                   </motion.h3>
                 </div>
               </a>
             </div>
-            <div className="flex items-start">
+            <div className="flex items-start lg:p-4">
               <a
                 className="cursor-pointer flex"
                 onClick={() => setOption("Osteo")}
@@ -158,7 +158,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.wellness.OSTEOPATIA1}
+                    {t.servicios.OSTEOPATIA1}
                   </motion.h3>
                 </div>
               </a>

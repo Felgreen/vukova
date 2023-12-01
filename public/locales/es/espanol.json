@@ -6,12 +6,13 @@
     "nav":{
         "inicio": "INICIO",
         "servicios":"SERVICIOS",
-        "nosotros":"EQUIPO",
-        "horarios": "SEDES",
+        "equipo":"EQUIPO",
+        "sedes": "SEDES",
         "contacto":"CONTACTO",
-        "distancia":"PLAN A DISTANCIA"
+        "distancia":"PLAN A DISTANCIA",
+        "boton": "PROBA UNA CLASE"
     },
-    "about":{"header":"VUVOKA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
+    "about":{"header":"VUKOVA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
             "desc":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
             "cta":"La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!",
             "cta2":"Potencia tu entrenamiento"
@@ -33,7 +34,7 @@
         "functionaltitle":"ENTRENAMIENTO FUNCIONAL",
         "functional":"Entrenamiento orientado en mejorar los patrones básicos de movimiento, transferibles a todos los deportes."
     },
-    "wellness":{
+    "servicios":{
         "OSTEOPATIA1":"OSTEOPATIA",
         "KINESIOLOGIA1":"KINESIOLOGIA",
         "NUTRICION1":"NUTRICION",

@@ -1,10 +1,10 @@
 import React from "react";
-import { LogoB, LogoN } from "./../svg/index";
+import { LogoB, LogoN } from "./svg/index";
 
 const Dropdown = () => {
   return (
     <>
-      <div className="space-y-4">
+      <div id="dropdown" className="space-y-4">
         <details
           className=" group [&_summary::-webkit-details-marker]:hidden"
           open
@@ -69,7 +69,7 @@ const Dropdown = () => {
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.828011572484!2d-58.503760324278375!3d-34.48188705107427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1b1deff8bd9%3A0x382bf8890d3b1293!2sATP%20Training%20Acassuso!5e0!3m2!1ses-419!2sar!4v1701351828563!5m2!1ses-419!2sar"
-                  width="400"
+                  width={window.innerWidth > 500 ? "600" : "300"}
                   height="300"
                   style={{ border: 0 }}
                   allowFullScreen=""
@@ -147,7 +147,7 @@ const Dropdown = () => {
               <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52612.70292064786!2d-58.53564080482908!3d-34.49543183599423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7234934e42f%3A0xe841d3d092ed6168!2sVukova%20Vilo%20Training%20Club!5e0!3m2!1ses-419!2sar!4v1701347853072!5m2!1ses-419!2sar"
-                  width="400"
+                  width={window.innerWidth > 500 ? "600" : "300"}
                   height="300"
                   style={{ border: 0 }}
                   allowFullScreen=""
@@ -225,7 +225,7 @@ const Dropdown = () => {
               <div class="aspect-w-16 aspect-h-9">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.778913028669!2d-58.515193616776116!3d-34.45775968018829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcafdc12a07ba5%3A0x562534122faa1578!2sVUKOVA%20DEL%20BAJO!5e0!3m2!1ses-419!2sar!4v1701352221364!5m2!1ses-419!2sar"
-                  width="400"
+                  width={window.innerWidth > 500 ? "600" : "300"}
                   height="300"
                   style={{ border: 0 }}
                   allowFullScreen=""

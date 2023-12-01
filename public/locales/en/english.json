@@ -2,10 +2,11 @@
     "nav":{
         "inicio": "HOME",
         "servicios":"SERVICES",
-        "nosotros":"THE TEAM",
-        "horarios": "LOCATIONS",
+        "equipo":"THE TEAM",
+        "sedes": "LOCATIONS",
         "contacto":"CONTACT",
-        "distancia":"TRAINING PROGRAMS"
+        "distancia":"TRAINING PROGRAMS",
+        "boton": "TRY WITH US"
     },
     "marquee":{
         "0":"WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN ADULTOS - BEBES AL AGUA - AQUA GYM - PILETA LIBRE "
@@ -34,7 +35,7 @@
         "functionaltitle":"FUNCTIONAL TRAINING",
         "functional":"Training aimed at improving basic movement patterns, transferable to all sports."
     },
-    "wellness":{
+    "servicios":{
         "OSTEOPATIA1":"OSTEOPATHY",
         "OSTEOPATIA":"Osteopathy  is a discipline  whose maxim resides in the holistic vision of the human body, understanding it as a unit, and not as an independent set of organs and structures. This specialty is aimed at restoring and maintaining the balance of the body to achieve its recovery and preserve its self-regulation capacity.",
         "KINESIOLOGIA1":"KINESIOLOGY",

@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from "react";
-import Link from "next/link";
-import Image from "next/image";
-import { useRouter } from "next/router";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
+import React, { useState, useEffect } from "react";
+import LiNavbarMobile from "./ui/LiNavbarMobile";
 import { LogoB, LogoN } from "./svg/index";
-
-import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import LiNavbar from "./ui/LiNavbar";
+import { useRouter } from "next/router";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("black");
   const [textColor, setTextColor] = useState("white");
   const [scrolled, setScrolled] = useState(false);
-  const [menu, setMenu] = useState(false);
   const router = useRouter();
-  const path = router.pathname;
   const { locale } = router;
   const t = locale === "es" ? es : en;
 
@@ -27,6 +24,7 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+
   //TODO cambiar color de nav , probar glass effect con blur.
   useEffect(() => {
     const changeColor = () => {
@@ -59,107 +57,38 @@ const Navbar = () => {
         </div>
         <div>
           <ul style={{ color: `${textColor}` }} className="hidden md:flex">
-            <li
-              className={
-                path === "/"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/"
-              >
-                {t.nav.inicio}
-              </Link>
-            </li>
-            
-            <li
-              className={
-                path === "/servicios"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/servicios"
-              >
-                {t.nav.servicios} 
-              </Link>
-            </li>
-            <li
-              className={
-                path === "/equipo"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/equipo"
-              >
-                {t.nav.nosotros}
-              </Link>
-            </li>
-            <li
-              className={
-                path === "/sedes"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/sedes"
-              >
-                {t.nav.horarios}
-              </Link>
-            </li>
-            <li
-              className={
-                path === "/distancia"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href={"/distancia"}
-              >
-                {t.nav.distancia}
-              </Link>
-            </li>
-           <li
-              className={
-                path === "/contacto"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href={"/contacto"}
-              >
-                {t.nav.contacto}
-              </Link>
-            </li>
-            <li
-              className={
-                path === "/sucursales"
-                  ? `p-4 text-[#f37032] underline`
-                  : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
-              }
-            >
-              <Link
-                className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
-                href="/sucursales"
-              >
-                {t.nav.sucursal}
-              </Link>
-            </li>
+            <LiNavbar
+              customPath="/"
+              tNav={t.nav.inicio}
+              textColor={textColor}
+            />
+            <LiNavbar
+              customPath="/servicios"
+              tNav={t.nav.servicios}
+              textColor={textColor}
+            />
+            <LiNavbar
+              customPath="/equipo"
+              tNav={t.nav.equipo}
+              textColor={textColor}
+            />
+            <LiNavbar
+              customPath="/sedes"
+              tNav={t.nav.sedes}
+              textColor={textColor}
+            />
+            <LiNavbar
+              customPath="/distancia"
+              tNav={t.nav.distancia}
+              textColor={textColor}
+            />
+            <LiNavbar
+              customPath="/contacto"
+              tNav={t.nav.contacto}
+              textColor={textColor}
+            />
             <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
-              PROBA UNA CLASE
+              {t.nav.boton}
             </button>
             <select
               onChange={changeLanguage}
@@ -215,63 +144,31 @@ const Navbar = () => {
             />
           </div>
           <ul style={{ color: `${textColor}` }}>
-            <li
-              className={
-                path === "/"
-                  ? "p-4 text-4xl mt-4 text-[#f37032] underline"
-                  : "p-4 text-4xl"
-              }
-            >
-              <Link href="/">{t.nav.inicio}</Link>
+            <LiNavbarMobile customPath="/" tNav={t.nav.inicio} />
+            <LiNavbarMobile customPath="/servicios" tNav={t.nav.servicios} />
+            <LiNavbarMobile customPath="/equipo" tNav={t.nav.equipo} />
+            <LiNavbarMobile customPath="/sedes" tNav={t.nav.sedes} />
+            <LiNavbarMobile customPath="/distancia" tNav={t.nav.distancia} />
+            <LiNavbarMobile customPath="/contacto" tNav={t.nav.contacto} />
+            <li className="p-4">
+              <button className="bg-[#f37032] p-4 rounded text-black text-4xl">
+                {t.nav.boton}
+              </button>
             </li>
-            <li
-              className={
-                path === "/servicios"
-                  ? "p-4 text-4xl text-[#f37032] underline"
-                  : "p-4 text-4xl"
-              }
-            >
-              <Link href="/servicios">{t.nav.servicios}</Link>
+            <li className="p-4">
+              <select
+                onChange={changeLanguage}
+                defaultValue={locale}
+                className="text-white text-shadow-sm text-4xl bg-transparent tracking-wide cursor-pointer items-center"
+              >
+                <option className="text-white rounded-xl" value="en">
+                  EN
+                </option>
+                <option className="text-white" value="es">
+                  ES
+                </option>
+              </select>
             </li>
-            <li
-              className={
-                path === "/nosotros"
-                  ? "p-4 text-4xl text-[#f37032] underline"
-                  : "p-4 text-4xl"
-              }
-            >
-              <Link href="/nosotros">{t.nav.nosotros}</Link>
-            </li>
-            <li
-              className={
-                path === "/contacto"
-                  ? "p-4 text-4xl text-[#f37032] underline"
-                  : "p-4 text-4xl"
-              }
-            >
-              <Link href="/entrenamiento">{t.nav.contacto}</Link>
-            </li>
-            <li
-              className={
-                path === "/sucursales"
-                  ? "p-4 text-4xl text-[#f37032] underline"
-                  : "p-4 text-4xl"
-              }
-            >
-              <Link href={"/contact"}>{t.nav.sucursales}</Link>
-            </li>
-            <select
-              onChange={changeLanguage}
-              defaultValue={locale}
-              className="text-white text-shadow-sm text-4xl bg-transparent tracking-wide cursor-pointer items-center"
-            >
-              <option className="text-white rounded-xl" value="en">
-                EN
-              </option>
-              <option className="text-white" value="es">
-                ES
-              </option>
-            </select>
             <div className="flex justify-center gap-20 my-6 p-4">
               <li>
                 <a

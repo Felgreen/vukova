@@ -14,16 +14,16 @@ export default function Options({ option, t }) {
     case "EDP":
       return (
         <motion.div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
-          <h2 className="text-3xl font-bold ">{t.wellness.Prev1}</h2>
+          <h2 className="text-3xl font-bold ">{t.servicios.Prev1}</h2>
 
           <p className="mt-4 text-black">
-            {t.wellness["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
+            {t.servicios["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
           </p>
           <Image
             className="rounded-lg"
             src="/images/gpk.webp"
-            width="590"
-            height="500"
+            width="490"
+            height="410"
             alt=""
           />
           <button
@@ -52,16 +52,16 @@ export default function Options({ option, t }) {
     case "GKP":
       return (
         <motion.div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
-          <h2 className="text-3xl font-bold ">{t.wellness.GKP1}</h2>
+          <h2 className="text-3xl font-bold ">{t.servicios.GKP1}</h2>
 
           <p className="mt-4 text-black">
-            {t.wellness["GIMNASIA KINESICA PREVENTIVA (GKP)"]}
+            {t.servicios["GIMNASIA KINESICA PREVENTIVA (GKP)"]}
           </p>
           <Image
             className="rounded-lg"
             src="/images/gpk.webp"
-            width="500"
-            height="500"
+            width="410"
+            height="410"
             alt=""
           />
           <button
@@ -90,13 +90,13 @@ export default function Options({ option, t }) {
     case "Kinio":
       return (
         <motion.div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
-          <h2 className="text-3xl font-bold ">{t.wellness.KINESIOLOGIA1}</h2>
-          <p className="mt-4 text-black">{t.wellness.KINESIOLOGIA}</p>
+          <h2 className="text-3xl font-bold ">{t.servicios.KINESIOLOGIA1}</h2>
+          <p className="mt-4 text-black">{t.servicios.KINESIOLOGIA}</p>
           <Image
             className="rounded-lg"
             src="/images/kine.webp"
-            width="590"
-            height="500"
+            width="490"
+            height="410"
             alt=""
           />
           <button
@@ -126,13 +126,13 @@ export default function Options({ option, t }) {
     case "Nutri":
       return (
         <motion.div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
-          <h2 className="text-3xl font-bold">{t.wellness.NUTRICION1}</h2>
-          <p className="mt-4 text-black">{t.wellness.NUTRICION}</p>
+          <h2 className="text-3xl font-bold">{t.servicios.NUTRICION1}</h2>
+          <p className="mt-4 text-black">{t.servicios.NUTRICION}</p>
           <Image
             className="rounded-lg"
             src="/images/nutri.webp"
             width="580"
-            height="500"
+            height="410"
             alt=""
           />
           <button
@@ -161,13 +161,13 @@ export default function Options({ option, t }) {
     case "Osteo":
       return (
         <motion.div className="mx-auto max-w-lg text-center lg:mx-0 lg:text-left h-full">
-          <h2 className="text-3xl font-bold ">{t.wellness.OSTEOPATIA1}</h2>
-          <p className="mt-4 text-black">{t.wellness.OSTEOPATIA}</p>
+          <h2 className="text-3xl font-bold ">{t.servicios.OSTEOPATIA1}</h2>
+          <p className="mt-4 text-black">{t.servicios.OSTEOPATIA}</p>
           <Image
             className="rounded-lg"
             src="/images/ostio.webp"
-            width="590"
-            height="500"
+            width="490"
+            height="410"
             alt=""
           />
           <button
@@ -202,17 +202,17 @@ export default function Options({ option, t }) {
           variants={boxVariant}
           viewport={{ once: true, amount: 1 }}
         >
-          <h2 className="text-3xl font-bold">{t.wellness.Prev1}</h2>
+          <h2 className="text-3xl font-bold">{t.servicios.Prev1}</h2>
 
           <p className="mt-4 text-black">
-            {t.wellness["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
+            {t.servicios["EVALUACIONES DEPORTIVAS PREVENTIVAS"]}
           </p>
 
           <Image
           className="rounded-lg"
           src="/images/gpk.webp"
-          width="590"
-          height="500"
+          width="490"
+          height="410"
           alt=""
           />
           <button

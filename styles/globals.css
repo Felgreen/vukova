@@ -166,3 +166,21 @@ a {
 .popupWebUrl:focus {
   outline: 0;
 }
+
+@media screen and (max-width: 1200px) {
+  iframe {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  iframe {
+    width: 300px;
+  }
+}
