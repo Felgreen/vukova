@@ -16,13 +16,13 @@ const Layout = () => {
   return (
     <>
       <div className="overflow-hidden" id="Layout">
-        <Main />
+        <Main t={t} />
         <GridLayoutMobile t={t} />
         <AnimatedBackground t={t} />
         <TickerComponent/>
 
         <GridLayout t={t} />
-        <CardSection t={t} />
+        {/* <CardSection t={t} /> */}
         <Footer />
       </div>
     </>

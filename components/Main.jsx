@@ -3,11 +3,11 @@ import Image from "next/image";
 import Ribbon from "../components/ui/Ribbon";
 import { Superacion, Vukova } from "../components/svg";
 
-const Main = () => {
+const Main = ({ t }) => {
   return (
     <div
       id="main"
-      className="flex justify-center w-screen h-screen flex  text-center bg-white"
+      className="flex justify-center w-screen h-screen   text-center bg-white"
     >
       <div className="container">
         <div className="columns-2 md:my-20 mt-32 h-1/2 md:w-full md:h-full flex flex-col md:flex-row justify-center items-center">
@@ -18,16 +18,16 @@ const Main = () => {
             <Vukova className="w-1/2 h-36 md:w-full md:h-2/4" />
             {/* <span className="md:text-xl">TRAINING CLUB</span> */}
             <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
-              <div className="mx-5">
-                <span>
-               
-                </span>
+              <div className="mx-auto flex">
+               <p className=" font-antonRegular text-lg">
+                {t.about.cta}
+                </p>
               </div>
-              <div className="mx-5">
+              {/* <div className="mx-5">
                 <span className="text-stone-500">
-                
+                  {t.about.desc}
                 </span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

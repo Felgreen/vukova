@@ -22,20 +22,20 @@ export default function Entrenamiento() {
       </Head>
       <Navbar/>
       <div className="mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:px-8 text-justify">
-        <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
+        {/* <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
           {t.nosotros.title}
         </h2>
 
-        <p className="mt-4 font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28">
-          {t.nosotros.set1}
+        <p className="mt-4 font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
+          {t.about.desc}
         </p>
 
-        <p className="mt-4  font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28">
+        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
           {t.nosotros.set2}
         </p>
-        <p className="mt-4  font-montBold text-gray-100 mx-4 hidden lg:flex lg:mx-28 mb-10">
+        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28 mb-10">
           {t.nosotros.set3}
-        </p>
+        </p> */}
         <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
             <div className="relative h-64 sm:h-80 lg:h-full">
@@ -49,14 +49,14 @@ export default function Entrenamiento() {
               opacity-75 transition-opacity group-hover:opacity-50"
     /> */}
               <img
-                alt="Surfhouse Team"
-                src="/images/surfing.webp"
-                className="absolute inset-0 h-full w-full object-cover rounded-md"
+                alt="Team Vukova"
+                src="/images/equipo.webp"
+                className="absolute inset-0 h-full w-full object-cover rounded"
               />
             </div>
           </div>
 
-          <div className="relative flex lg:items-center bg-gray-100 rounded-r-md h-[80vh]">
+          <div className="relative flex lg:items-center bg-gray-100 rounded h-[80vh]">
             
             <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100 rounded-l-md ">  
              </span>

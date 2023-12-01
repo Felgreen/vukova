@@ -11,8 +11,10 @@
         "contacto":"CONTACTO",
         "distancia":"PLAN A DISTANCIA"
     },
-    "about":{"header":"NO ES MAGIA, ES ATP",
-            "desc":"Vukova nace a partir de la necesidad de estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa."
+    "about":{"header":"VUVOKA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
+            "desc":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
+            "cta":"La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!",
+            "cta2":"Potencia tu entrenamiento"
             },
     
     "reserva":{
@@ -74,28 +76,7 @@
     "button":{
         "horarios":"Horarios"
     },
-    "surfskate":{
-        "sen1":"Vivir lejos de la ciudad muchas veces es un limitante para poder crecer y avanzar en este deporte y nosotros buscamos romper esa barrera. ",
-        "sen2":"Junto al N°1 en la construcción de skateparks, Martin Pibotto  y al conocimiento teórico-practico de surf del equipo de APSURF creamos un espacio donde vas a sentir que fluis y dibujas líneas como si estuvieses en una ola. El objetivo es que puedas trabajar las técnicas básicas del surf para después trasladarlas al mar.",
-        "sen3":"Un parque 100% de madera, ubicado en el corazón de la ciudad, que no lo vas a poder creer.",
-        "sen4":"Entrenamiento personalizado de surf skate: en estas sesiones contaras con la atención de un profesor de forma exclusiva. Así podrás abordar una planificación especifica y adaptada a tus condiciones, rendimientos y objetivos personales.",
-        "sen6":"Desarrollado por el N°1 de la Argentina en la construccion de Skateparks, Martin Pibotto, en conjunto con Surfista profesionales. Un park que no lo vas a poder creer.",
-        "block1title":"Park a medida",
-        "block1sen":"Creamos un espacio donde vas a sentir que fluis y dibujas líneas como si estuvieses en una ola.",
-        "block2title":"Ubicación",
-        "block2sen":"Un parque 100% de madera, ubicado en el corazón de la ciudad.",
-        "block3title":"Coaching",
-        "block3sen":"Video análisis,  con la finalidad de analizar, evaluar y planificar en base a los aspectos técnicos.",
-        "block4title":"Clases para niños",
-        "block4sen":"Clases de surf skate para niños a cargo de profesores de educación física.",
-        "block5title":"Clases progresivas",
-        "block5sen":"Aprende los movimientos fundamentales en los bosques de palermo.",
-        "sen5":"Clases grupales en los Lagos de Palermo.",
-        "surfpark1":"Primer surfpark de la Argentina.",
-        "lakesTitle":"LAGOS",
-        "lakesSen1":"Clases para todos los niveles y edades.",
-        "lakesSen2":"Con profesores enfocados en un aprendizaje correcto y con una metodología desarrollada con más de 5 años de experiencia. Un espacio donde vas a aprender las técnicas básicas para trasladarte y moverte sin problema. Salí de la rutina, y veni a probar la primer clase gratis!"
-    },
+ 
     "sucursal":{
         "title":"BUSCA TU SUCURSAL MAS CERCANA!",
         "button":"Reserva hoy"
@@ -118,9 +99,9 @@
     },
     "nosotros":{
         "title":" EQUIPO VUKOVA",
-        "set1":"Somos amantes de los deportes de tablas, vivimos para surfear y creemos que HAY OTRA MANERA DE VIVIR LA CIUDAD.",
-        "set2":"Desarrollamos una metodología integral de entrenamiento pensando en tu evolución física y técnica. Contamos con un grupo de especialistas en nutrición, kinesiología y osteopatía,disponibles para acompañarte en todo momento.",
-        "set3":"Queremos ayudarte a lograr tu mejor versión."
+        "set1":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad.",
+        "set2": " Un Equipo interdisciplinario formado por ex deportistas profesionales en búsqueda de potenciar el entrenamiento de las personas. Con La unificación de criterios, capacitación constante y experiencia logramos generar un ámbito seguro con seguimiento detallado para que superes tus objetivos.",
+        "set3":" Forma parte de la comunidad Vukova y superate."
     },
     "manifesto":{
         "title":"NUESTRO MANIFIESTO",
