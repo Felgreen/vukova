@@ -46,8 +46,8 @@ const Main = ({ t }) => {
               <div className="h-1/2 md:h-full md:w-full flex flex-col items-center justify-center">
                 <Vukova className="w-full h-full md:w-full md:h-2/4" />
                 <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
-                  <div className="mx-auto flex">
-                    <p className=" font-antonRegular text-lg">{t.about.cta}</p>
+                  <div className="mx-4 flex  ">
+                    <p className=" font-antonRegular text-lg animate-pulse">{t.about.cta}</p>
                   </div>
                 </div>
               </div>

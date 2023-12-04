@@ -35,6 +35,11 @@
         "functional":"Entrenamiento orientado en mejorar los patrones básicos de movimiento, transferibles a todos los deportes."
     },
     "servicios":{
+        "wl":"Weightlifting",
+        "yoga":"Yoga",
+        "nat":"Natación adultos y niños", 
+        "baby":"Bebes al agua",
+        "piletalibre":"Pileta Libre",
         "OSTEOPATIA1":"OSTEOPATIA",
         "KINESIOLOGIA1":"KINESIOLOGIA",
         "NUTRICION1":"NUTRICION",

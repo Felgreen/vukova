@@ -5,9 +5,32 @@ import es from "../../public/locales/es/espanol.json";
 
 import Manifesto from '../../components/Manifesto';
 import Navbar from '../../components/Navbar';
+import { useEffect, useState } from "react";
+import { AnimatePresence, motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 
 export default function Entrenamiento() {
+
+  const control = useAnimation();
+  const [ref, inView] = useInView();
+  const [width, setWidth] = useState(window.innerWidth);
+
+  const reservaVariant = {
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: { type: "spring", duration: 1, bounce: 0.3 },
+    },
+    hidden: { opacity: 0, scale: 0 },
+  };
+  useEffect(() => {
+    setWidth(window.innerWidth);
+    if (inView) {
+      control.start("visible");
+    }
+  }, [control, inView]);
+
   const router = useRouter();
   const { locale } = router;
   const t = locale === "es" ? es : en;
@@ -21,71 +44,77 @@ export default function Entrenamiento() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
-      <div className="mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:px-8 text-justify">
-        {/* <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
-          {t.nosotros.title}
-        </h2>
+      <AnimatePresence mode="wait">
+        <motion.div className="mx-auto max-w-screen-2xl px-4 py-32 sm:px-6 lg:px-8 text-justify"
+        ref={ref}
+        initial="hidden"
+        animate={control}
+        variants={reservaVariant}>
+          {/* <h2 className="text-2xl text-black font-montBold sm:text-3xl lg:text-4xl tracking-tight mx-4 hidden lg:flex lg:mx-28 my-6">
+            {t.nosotros.title}
+          </h2>
 
-        <p className="mt-4 font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
-          {t.about.desc}
-        </p>
+          <p className="mt-4 font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
+            {t.about.desc}
+          </p>
 
-        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
-          {t.nosotros.set2}
-        </p>
-        <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28 mb-10">
-          {t.nosotros.set3}
-        </p> */}
-        <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">
-          <div className="relative z-10 lg:py-16">
-            <div className="relative h-64 sm:h-80 lg:h-full">
-              {/* <Image
-              src="/images/logoReal.webp"
-              alt="surfbowl"
-              layout="fill"
-              objectFit="cover"
-            
-              className="absolute inset-0 h-full w-full object-cover
-              opacity-75 transition-opacity group-hover:opacity-50"
-    /> */}
-              <img
-                alt="Team Vukova"
-                src="/images/equipo.webp"
-                className="absolute inset-0 h-full w-full object-cover rounded"
-              />
-            </div>
-          </div>
-
-          <div className="relative flex lg:items-center bg-gray-100 rounded h-[80vh]">
-            
-            <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100 rounded-l-md ">  
-             </span>
-          
-            <div className="p-8">
-            
+          <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28">
+            {t.nosotros.set2}
+          </p>
+          <p className="mt-4  font-montBold text-black mx-4 hidden lg:flex lg:mx-28 mb-10">
+            {t.nosotros.set3}
+          </p> */}
+          <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">
+            <div className="relative z-10 lg:py-16">
+              <div className="relative h-64 sm:h-80 lg:h-full">
+                {/* <Image
+                src="/images/logoReal.webp"
+                alt="surfbowl"
+                layout="fill"
+                objectFit="cover"
               
+                className="absolute inset-0 h-full w-full object-cover
+                opacity-75 transition-opacity group-hover:opacity-50"
+      /> */}
+                <img
+                  alt="Team Vukova"
+                  src="/images/equipo.webp"
+                  className="absolute inset-0 h-full w-full object-cover rounded"
+                />
+              </div>
+            </div>
 
-            <div className="p-8">
-              <Manifesto />
+            <div className="relative flex lg:items-center bg-gray-100 rounded h-[80vh]">
+              
+              <span className="hidden lg:absolute lg:inset-y-0 lg:-left-16 lg:block lg:w-16 lg:bg-gray-100 rounded-l-md ">  
+              </span>
+            
+              <div className="p-8">
+              
+                
+
+              <div className="p-8">
+                <Manifesto />
+              </div>
             </div>
           </div>
+          <h2 className="text-2xl text-black font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
+            {t.nosotros.title}
+          </h2>
+
+          <p className="mt-4 font-montBold text-gray-100 mx-6 text-center  lg:hidden lg:mx-20">
+            {t.nosotros.set1}
+          </p>
+
+          <p className="mt-4  font-montBold text-gray-100 mx-6 text-center   lg:hidden lg:mx-20">
+            {t.nosotros.set2}
+          </p>
+          <p className="mt-4  font-montBold text-gray-100 mx-6 text-center  lg:hidden lg:mx-20 mb-10">
+            {t.nosotros.set3}
+          </p>
         </div>
-        <h2 className="text-2xl text-black font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
-          {t.nosotros.title}
-        </h2>
-
-        <p className="mt-4 font-montBold text-gray-100 mx-6 text-center  lg:hidden lg:mx-20">
-          {t.nosotros.set1}
-        </p>
-
-        <p className="mt-4  font-montBold text-gray-100 mx-6 text-center   lg:hidden lg:mx-20">
-          {t.nosotros.set2}
-        </p>
-        <p className="mt-4  font-montBold text-gray-100 mx-6 text-center  lg:hidden lg:mx-20 mb-10">
-          {t.nosotros.set3}
-        </p>
-      </div>
-      </div>
+        </motion.div>
+      </AnimatePresence>
     </section>
   );
 }

@@ -1,13 +1,28 @@
-import React from "react";
-import { LogoB, LogoN } from "./svg/index";
 
-const Dropdown = () => {
+import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
+
+import {
+  Aqua,
+  Baby,
+  LogoB,
+  LogoN,
+  Personal,
+  Pool,
+  Swim,
+  WL,
+  WOD,
+  Yoga,
+} from "./svg/index";
+
+const Dropdown = ({ t }) => {
+ 
   return (
     <>
       <div id="dropdown" className="space-y-4">
         <details
           className=" group [&_summary::-webkit-details-marker]:hidden"
-          open
+          closed
         >
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
             <h2 className=" font-antonRegular lg:text-3xl">VUKOVA ACASSUSO</h2>
@@ -18,48 +33,108 @@ const Dropdown = () => {
             />
           </summary>
 
-          <div class="container mx-auto p-8 flex flex-col md:flex-row">
-            <div class="md:w-1/2 pr-4">
-              <div class="mb-4">
+          <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2">
+            <li>
+              <div className="group relative block">
+                <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/acc2.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso barbell squat"
+                  alt="barbell squat"
+                />
+
+                <div classname="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li>
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/acc3.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso kettblebells"
+                  alt="deep kb squat VUKOVA training"
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/acc1.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso Personal Training"
+                  alt="Vukova Personal training"
+
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                  {/* por las dudas si queremos escribir algo
+                   <h3 class="text-xl font-medium text-white">
+                    Skinny Jeans Blue
+                  </h3>
+
+                  <span class="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                    Shop Now
+                  </span> */}
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div className="container mx-auto p-8 flex flex-col md:flex-row">
+            <div className="md:w-1/2 pr-4">
+              <div className="mb-4">
                 <h3 className="text-2xl  font-antonioBold mb-2">
                   Servicios disponibles
                 </h3>
               </div>
-              <div class="container mx-auto p-8">
-                <ul class="list-none p-0 m-0 flex flex-wrap items-center">
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word1
+              <div className="container mx-auto p-8">
+                <ul className="list-none p-0 m-0 flex flex-wrap items-center">
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WL className="h-8 w-8" />
+                    {t.servicios.wl}
                   </li>
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word2
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Yoga className="h-8 w-8 mr-1" />
+                    {t.servicios.yoga}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WOD className="h-8 w-8 mr-1" />
+                    WOD
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Swim className="h-8 w-8 mr-1" />
+                    {t.servicios.nat}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Baby className="h-7 w-7 mr-1" />
+                    {t.servicios.baby}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Aqua className="h-7 w-7 mr-1" />
+                    Aqua-Gym
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Pool className="h-7 w-7 mr-1" />
+                    {t.servicios.piletalibre}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Personal className="h-7 w-7 mr-1" />
+                    Personal
                   </li>
                 </ul>
               </div>
@@ -82,7 +157,7 @@ const Dropdown = () => {
         </details>
         <details
           className=" group [&_summary::-webkit-details-marker]:hidden"
-          open
+          closed
         >
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
             <h2 className=" font-antonRegular lg:text-3xl">VUKOVA VILO</h2>
@@ -93,7 +168,68 @@ const Dropdown = () => {
               fill="none"
             />
           </summary>
+          <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2">
+            <li>
+              <div className="group relative block">
+                <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/vilo1.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Vicente Lopez"
+                  alt="gym vicente lopez"
+                />
 
+                <div classname="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li>
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/vilo2.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Vicente lopez box"
+                  alt="Vicente Lopez gimnasio"
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/vilo3.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova racks"
+                  alt="Equipamiento gym vicente lopez"
+
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                  {/* por las dudas si queremos escribir algo
+                   <h3 class="text-xl font-medium text-white">
+                    Skinny Jeans Blue
+                  </h3>
+
+                  <span class="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                    Shop Now
+                  </span> */}
+                </div>
+              </div>
+            </li>
+          </ul>
           <div className="container mx-auto p-8 flex flex-col md:flex-row">
             <div className="md:w-1/2 pr-4">
               <div className="mb-4">
@@ -103,41 +239,19 @@ const Dropdown = () => {
                 {/* <p className="text-gray-600">  <span className="">+54 9 33961371</span></p>
                 <p className="text-gray-600">Ubicación: <span className="">Av. Maipú 545, Vicente López, Provincia de Buenos Aires</span></p> */}
               </div>
-              <div class="container mx-auto p-8">
-                <ul class="list-none p-0 m-0 flex flex-wrap items-center">
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word1
+              <div className="container mx-auto p-8">
+                <ul className="list-none p-0 m-0 flex flex-wrap items-center">
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Personal className="h-7 w-7 mr-1" />
+                    Personal
                   </li>
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word2
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WL className="h-8 w-8" />
+                    {t.servicios.wl}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WOD className="h-8 w-8 mr-1" />
+                    WOD
                   </li>
                 </ul>
               </div>
@@ -160,7 +274,7 @@ const Dropdown = () => {
         </details>
         <details
           className=" group [&_summary::-webkit-details-marker]:hidden"
-          open
+          closed
         >
           <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
             <h2 className=" font-antonRegular lg:text-3xl">VUKOVA DEL BAJO</h2>
@@ -171,58 +285,97 @@ const Dropdown = () => {
               fill="none"
             />
           </summary>
+          <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2">
+            <li>
+              <div className="group relative block">
+                <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/bajo2.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso barbell squat"
+                  alt="barbell squat"
+                />
 
-          <div class="container mx-auto p-8 flex flex-col md:flex-row">
-            <div class="md:w-1/2 pr-4">
-              <div class="mb-4">
-                <h3 class="text-2xl font-antonioBold mb-2">
+                <div classname="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li>
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/bajo3.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso kettblebells"
+                  alt="deep kb squat VUKOVA training"
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+              </div>
+            </li>
+
+            <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+              <div className="group relative block">
+              <Image
+                  className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                  src="/images/bajo1.webp"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  title="Vukova Acassuso Personal Training"
+                  alt="Vukova Personal training"
+
+                />
+
+                <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
+                  {/* por las dudas si queremos escribir algo
+                   <h3 class="text-xl font-medium text-white">
+                    Skinny Jeans Blue
+                  </h3>
+
+                  <span class="mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
+                    Shop Now
+                  </span> */}
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div className="container mx-auto p-8 flex flex-col md:flex-row">
+            <div className="md:w-1/2 pr-4">
+              <div className="mb-4">
+                <h3 className="text-2xl font-antonioBold mb-2">
                   Servicios disponibles
                 </h3>
                 {/* <p class="text-gray-600">  <span class="">+54 9 11 5765-0309</span></p>
                 <p class="text-gray-600">Ubicación: <span class="">Av. Bartolomé Mitre 1650, B1643 Béccar, Provincia de Buenos Aires</span></p> */}
               </div>
-              <div class="container mx-auto p-8">
-                <ul class="list-none p-0 m-0 flex flex-wrap items-center">
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word1
+              <div className="container mx-auto p-8">
+                <ul className="list-none p-0 m-0 flex flex-wrap items-center">
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <Personal className="h-7 w-7 mr-1" />
+                    Personal
                   </li>
-                  <li class="flex items-center space-x-2 mb-2 pr-4">
-                    <svg
-                      class="h-5 w-5"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        d="M12 6v6m0 6V6m0 6h18M5 18H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h2m3 16a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3h6a3 3 0 0 1 3 3v6a3 3 0 0 1-3 3H8a1 1 0 0 0 0 2h8a1 1 0 0 0 0-2m-1 4a5 5 0 0 1-5-5V5a5 5 0 0 1 10 0v9a5 5 0 0 1-5 5z"
-                      />
-                    </svg>
-                    Word2
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WL className="h-8 w-8" />
+                    {t.servicios.wl}
+                  </li>
+                  <li className="flex items-center space-x-2 mb-2 pr-4">
+                    <WOD className="h-8 w-8 mr-1" />
+                    WOD
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div class="md:w-1/2">
-              <div class="aspect-w-16 aspect-h-9">
+            <div className="md:w-1/2">
+              <div className="aspect-w-16 aspect-h-9">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.778913028669!2d-58.515193616776116!3d-34.45775968018829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcafdc12a07ba5%3A0x562534122faa1578!2sVUKOVA%20DEL%20BAJO!5e0!3m2!1ses-419!2sar!4v1701352221364!5m2!1ses-419!2sar"
                   width={window.innerWidth > 500 ? "600" : "300"}

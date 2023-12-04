@@ -67,11 +67,7 @@ const Navbar = () => {
               tNav={t.nav.servicios}
               textColor={textColor}
             />
-            <LiNavbar
-              customPath="/equipo"
-              tNav={t.nav.equipo}
-              textColor={textColor}
-            />
+           
             <LiNavbar
               customPath="/sedes"
               tNav={t.nav.sedes}
@@ -80,6 +76,11 @@ const Navbar = () => {
             <LiNavbar
               customPath="/distancia"
               tNav={t.nav.distancia}
+              textColor={textColor}
+            />
+             <LiNavbar
+              customPath="/equipo"
+              tNav={t.nav.equipo}
               textColor={textColor}
             />
             <LiNavbar
