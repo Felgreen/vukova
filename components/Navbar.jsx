@@ -47,7 +47,7 @@ const Navbar = () => {
       id="navbar"
       style={{ backgroundColor: `${color}` }}
     >
-      <div className="w-full px-10 flex justify-between items-center md:justify-end lg:justify-between first-letter:items-center p-1 md:text-sm xl:text-base font-archivoBlack">
+      <div className="w-full px-10 flex justify-between items-center md:justify-end lg:justify-between first-letter:items-center p-1 md:text-sm xl:text-2xl font-antonioBold">
         <div className="w-20">
           {scrolled ? (
             <LogoN className={`h-full w-full`} />
