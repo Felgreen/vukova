@@ -26,10 +26,10 @@ export default function Services() {
       transition: { type: "spring", duration: 1, bounce: 0.3 },
     },
   };
-
+//cambiar orden , foto primero despues titulo y texto. 
   return (
     <section
-      className="w-screen h-screen mt-32 sm:h-screen md:h-[120vh] text-black flex items-center justify-center"
+      className="w-screen h-screen mt-24 text-black flex items-center justify-center"
       id="activities"
     >
       <div className="px-4 mx-auto max-w-7xl h-full sm:px-6 lg:px-8">

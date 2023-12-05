@@ -31,7 +31,7 @@ export default function Options({ option, t }) {
         height="410"
         alt=""
       />
-      <button
+      {/* <button
         className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
         href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"
       >
@@ -51,7 +51,7 @@ export default function Options({ option, t }) {
             d="M17 8l4 4m0 0l-4 4m4-4H3"
           />
         </svg>
-      </button>
+      </button> */}
     </motion.div>
   );
 }
