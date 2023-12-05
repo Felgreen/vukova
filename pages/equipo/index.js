@@ -98,7 +98,7 @@ export default function Entrenamiento() {
               </div>
             </div>
           </div>
-          <h2 className="text-2xl text-black font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
+          {/* <h2 className="text-2xl text-black font-montBold sm:text-3xl mx-6 lg:hidden text-center  lg:mx-20 my-6">
             {t.nosotros.title}
           </h2>
 
@@ -111,7 +111,7 @@ export default function Entrenamiento() {
           </p>
           <p className="mt-4  font-montBold text-gray-100 mx-6 text-center  lg:hidden lg:mx-20 mb-10">
             {t.nosotros.set3}
-          </p>
+          </p> */}
         </div>
         </motion.div>
       </AnimatePresence>
