@@ -1,136 +1,121 @@
 {
-    "marquee":{
-        "0":"WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN - WEIGHTLIFTING "
-     
-    },
-    "nav":{
-        "inicio": "INICIO",
-        "servicios":"SERVICIOS",
-        "equipo":"EQUIPO",
-        "sedes": "SEDES",
-        "contacto":"CONTACTO",
-        "distancia":"PLAN A DISTANCIA",
-        "boton": "PROBA UNA CLASE"
-    },
-    "about":{"header":"VUKOVA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
-            "desc":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
-            "cta":"La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!",
-            "cta2":"Potencia tu entrenamiento"
-            },
-    
-    "reserva":{
-        "head":"NO ES MAGIA, ES ATP",
-        "button":"RESERVA HOY",
-        "class":"Reserva tu primera clase gratuita hoy!",
-        "desc":"Veni a conocer el primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado."
-    },
-    "entrenamiento":{
-        "hiit":"El Entrenamiento de intervalos de alta intensidad, es un entrenamiento de fuerza-resistencia que exigirá al límite tu rendimiento, a través de ejercicios exigentes con y sin presencia de oxígeno.",
-        "surf":"Entrenamiento físico técnico de SURF, ideal para incorporar conceptos y movimientos específicos del deporte, que te van a ayudar a evolucionar en este deporte donde vas a aprender técnicas básicas de surf.",
-        "metatitle":"METABÓLICOS",
-        "metabolico":"Entrenamiento basado en mejorar la capacidad de poder sostener el esfuerzo el mayor tiempo posible. Ideal para potenciar el metabolismo oxidativo y aeróbico.",
-        "strengthtitle":"DESARROLLO DE FUERZA",
-        "strength":"Entrenamiento basado en estimular la producción y desarrollo de altos niveles de fuerza. Claves para el accionar diario de las personas.",
-        "functionaltitle":"ENTRENAMIENTO FUNCIONAL",
-        "functional":"Entrenamiento orientado en mejorar los patrones básicos de movimiento, transferibles a todos los deportes."
-    },
-    "servicios":{
-        "wl":"Weightlifting",
-        "yoga":"Yoga",
-        "nat":"Natación adultos y niños", 
-        "baby":"Bebes al agua",
-        "piletalibre":"Pileta Libre",
-        "OSTEOPATIA1":"OSTEOPATIA",
-        "KINESIOLOGIA1":"KINESIOLOGIA",
-        "NUTRICION1":"NUTRICION",
-        "GKP1":"GIMNASIA KINESICA PREVENTIVA (GKP)",
-        "Prev1":"EVALUACIONES DEPORTIVAS PREVENTIVAS",
-        "OSTEOPATIA":"La osteopatía es una disciplina cuya máxima reside en la visión holística del cuerpo humano, entendiendo este como una unidad, y no como un conjunto independiente de órganos y estructuras. Esta especialidad está orientada a restaurar y mantener el equilibrio del cuerpo para conseguir su recuperación y conservar su capacidad de autorregulación.",
-        "KINESIOLOGIA":"Nuestros kinesiólogos te ayudaran en los procesos de recuperación de lesiones elaborando rutinas de ejercicios específicos, acompañadas de terapias complementarias, para favorecer la rápida reincorporación del paciente a su rutina diaria y disciplina deportiva.",
-        "NUTRICION":"Sabemos que la nutrición de nuestros deportistas es un pilar fundamental para mejorar la performance y rendimiento. Nuestros nutricionistas te evaluaran, diagnosticaran y planificaran un plan nutricional que sea adecuado para tu día a día y tus objetivos deportivos.",
-        "GIMNASIA KINESICA PREVENTIVA (GKP)":"Consiste en el cuidado y mejoramiento del ser por medio del movimiento voluntario. Clases basadas en diferentes ejercicios de flexibilidad, movilidad y fuerza para prevenir las lesiones mas frecuentes en los deportistas.",
-        "EVALUACIONES DEPORTIVAS PREVENTIVAS":"Moverse bien y  seguro es indispensable para la práctica deportiva. Por medio de estas evaluaciones logramos detectar factores de riesgos, asimetrías y desbalances con la intención de abordar un programa de prevención específico para cada deportista."
-    },
-    "faq":{
-        "preg1":"¿Alquilan tabla?",
-        "preg2":"¿Puedo ir sin experiencia?",
-        "preg3":"¿Que valor tiene ir a patinar?",
-        "preg4":"¿Me recomiendan empezar en los lagos de palermo antes del bowl?",
-        "resp1":"Para nosotros es fundamental que puedas probar las tablas y analizar cual se adapta mejor a vos para que tu compra sea inteligente, por ese motivo conta con tu primer mes de membresia con tabla bonificada!",
-        "resp2":"Sin dudas, la experiencia solo se logra dando el primer paso, y en ese también estamos para acompañarte! Podes empezar de cero sin problemas.",
-        "resp3":"Contamos con diferentes opciones de planes y membresias, podes venirte a patinar una hora libre o sacar clases sueltas también, contactanos y te contamos todo con detalle.",
-        "resp4":"Si, nuestra recomendación es empezar con las clases de los lagos que son en plano, ya que el surfpak tiene un nivel mayor de dificultad, sin embargo podes empezar con las clases de principiantes en el bowl sin problema."
-    },
-    "grid":{
-        "title1":"PERSONAL TRAINING",
-        "desc1":"Creamos planificaciones adaptadas al objtivo y necesidad de cada persona, dosificamos las cargas y te acompañamos en cada entrenamiento para que lo hagas de manera correcta eficinte y efectiva.",
-        "title2":"CROSS TRAINING",
-        "desc2":"Entrenamos la fuerza y la resistencia a traves de circuitos en una clase grupal. Acompañado siempre por los mejores profes capacitados para corregirte y adaptar cada ejercicio a tus posibilidades.", 
-        "title3":"FUNCTIONAL TRAINING",
-        "desc3":"La resistencia es una capacidad que puede ser entrenada de muchas formas. Nosotros lo hacemos mediante una clase grupal circuitada que consta de ejercicios dinámicos, funcionales y generales con fin de entrenar todo tu cuerpo en una clase.",
-        "title4":"LEVANTAMIENTO DE PESAS",
-        "desc4":"Aprendizaje del del deporte olímpico a través de planificaciones creadas por profesionales especializados y capacitados en el área.",
-        "title5":"VINYASA YOGA",
-        "desc5":"Puede definirse como movimiento sincronizado, que incorpora la duración y el ritmo de las inhalaciones y exahalaciones a través de la práctica enlazada y fluidas de asanas."
-    },
-    "pricing":{
-        "title":"MEMBRESIAS",
-        "button":"COMPRAR",
-        "main":"Elegí el plan que mejor se adapte a vos y a tu estilo de vida."
+  "marquee": {
+    "0": "WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN - WEIGHTLIFTING"
+  },
+  "nav": {
+    "inicio": "INICIO",
+    "servicios": "SERVICIOS",
+    "equipo": "EQUIPO",
+    "sedes": "SEDES",
+    "contacto": "CONTACTO",
+    "distancia": "PLAN A DISTANCIA",
+    "boton": "PROBA UNA CLASE"
+  },
+  "about": {
+    "header": "VUKOVA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
+    "desc": "Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
+    "cta": "La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!",
+    "cta2": "Potencia tu entrenamiento"
+  },
 
-    },
-    "button":{
-        "horarios":"Horarios"
-    },
- 
-    "sucursal":{
-        "title":"BUSCA TU SUCURSAL MAS CERCANA!",
-        "button":"Reserva hoy"
-    },
-    "footer":{
-        "title":"HAY OTRA MANERA DE VIVIR LA CIUDAD"  
-    },
-    "seo":{
-        "title":"Vukova",
-        "desc":"Vivir la cuidad de otra manera. Veni a estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa. ",
-        "trainingTitle":"Entrenamiento - Surf House Box ",
-        "trainingogTitle":"Entrenamiento - Surf House Box ",
-        "trainingdesc":"Gimnasio de entrenamiento personalizado y focalizado a deportes de tabla",
-        "surfskatetitle":"Surfbowl - Skatepark - Vukova",
-        "surfskateDesc":"El primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado.",
-        "wellnessTitle":"Consultorio médico - Especialistas en medicina del deporte -  Osteopatia - Kinesiologia - Nutricion - Gimnasia Kinesica Preventiva - Evaluaciones Deportivas Preventivas",
-        "wellnessDesc":"Profesionales en Osteopatía, kinesiología y nutrición van a conformar el equipo médico que vas a poder consultar.",
-        "aboutTitle":" Nosotros - Vukova"
-        
-    },
-    "nosotros":{
-        "title":" EQUIPO VUKOVA",
-        "set1":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad.",
-        "set2": " Un Equipo interdisciplinario formado por ex deportistas profesionales en búsqueda de potenciar el entrenamiento de las personas. Con La unificación de criterios, capacitación constante y experiencia logramos generar un ámbito seguro con seguimiento detallado para que superes tus objetivos.",
-        "set3":" Forma parte de la comunidad Vukova y superate."
-    },
-    "manifesto":{
-        "title":"NUESTRO MANIFIESTO",
-        "title2":"Surfeá",
-        "set1":"Surfea la rutina, la ciudad, las reglas. Surfeá aunque no estés arriba de una tabla. Surfeá hasta que no des más. Hasta que las cosas salgan como vos quieras. Surfeá hasta ser tu mejor versión. Y cuando lo alcances, seguí surfeando. Surfeá tus límites. SURFEA HASTA LA ULTIMA OLA."
-    },
-    "beneficios":{
-        "title":"BENEFICIOS",
-        "surfhouse":"10%",
-        "descuento":"Descuento en:",
-        "surfhouse1":"WELLNESS, SURFSHOP*, KANDUI BAR**",
-        "surftrips":"15%",
-        "surftrips1":"SURFCAMPS, SURFTRIPS, TRIPS INT.",
-        "hostel":"10%",
-        "hostel1":"HOSPEDAJE",
-        "escuela":"ESCUELA SURF",
-        "escuela1":"15%",
-        "escuela2":"CLASES DE SURF",
-        "disclaimer":"*Unicamente en productos tecnicos **Solo en efectivo."
+  "reserva": {
+    "head": "NO ES MAGIA, ES ATP",
+    "button": "RESERVA HOY",
+    "class": "Reserva tu primera clase gratuita hoy!",
+    "desc": "Veni a conocer el primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado."
+  },
+  "servicios": {
+    "WL": "Weightlifting",
+    "YOGA": "Yoga",
+    "NATACION": "Natación",
+    "BABY": "Bebes al agua",
+    "PILETA": "Pileta Libre",
+    "PERSONAL": "Personal",
+    "WOD": "WOD",
+    "AQUAGYM": "Aqua-Gym",
+    "detalle": {
+      "WL": "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos.",
+      "YOGA": "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general.",
+      "NATACION": "La natación es un deporte acuático que implica nadar en piscinas, lagos u océanos. Mejora la salud cardiovascular, fortalece los músculos y es una habilidad vital.",
+      "BABY": "Bebes al agua",
+      "PILETA": "Pileta Libre",
+      "PERSONAL": "El entrenamiento personal implica trabajar con un profesional del fitness para desarrollar un programa de ejercicios personalizado. Se adapta a las metas individuales, brinda orientación sobre ejercicios y motiva para alcanzar un mejor estado físico.",
+      "WOD": "WOD significa 'Workout of the Day' (Entrenamiento del Día). Es un término común en el entrenamiento funcional y el CrossFit. Un WOD es una rutina de ejercicios intensa y variada diseñada para mejorar la resistencia, la fuerza y la condición física en general.",
+      "AQUAGYM": "Aqua-Gym"
     }
-
-          
-
+  },
+  "faq": {
+    "preg1": "¿Alquilan tabla?",
+    "preg2": "¿Puedo ir sin experiencia?",
+    "preg3": "¿Que valor tiene ir a patinar?",
+    "preg4": "¿Me recomiendan empezar en los lagos de palermo antes del bowl?",
+    "resp1": "Para nosotros es fundamental que puedas probar las tablas y analizar cual se adapta mejor a vos para que tu compra sea inteligente, por ese motivo conta con tu primer mes de membresia con tabla bonificada!",
+    "resp2": "Sin dudas, la experiencia solo se logra dando el primer paso, y en ese también estamos para acompañarte! Podes empezar de cero sin problemas.",
+    "resp3": "Contamos con diferentes opciones de planes y membresias, podes venirte a patinar una hora libre o sacar clases sueltas también, contactanos y te contamos todo con detalle.",
+    "resp4": "Si, nuestra recomendación es empezar con las clases de los lagos que son en plano, ya que el surfpak tiene un nivel mayor de dificultad, sin embargo podes empezar con las clases de principiantes en el bowl sin problema."
+  },
+  "grid": {
+    "title1": "PERSONAL TRAINING",
+    "desc1": "Creamos planificaciones adaptadas al objtivo y necesidad de cada persona, dosificamos las cargas y te acompañamos en cada entrenamiento para que lo hagas de manera correcta eficinte y efectiva.",
+    "title2": "CROSS TRAINING",
+    "desc2": "Entrenamos la fuerza y la resistencia a traves de circuitos en una clase grupal. Acompañado siempre por los mejores profes capacitados para corregirte y adaptar cada ejercicio a tus posibilidades.",
+    "title3": "FUNCTIONAL TRAINING",
+    "desc3": "La resistencia es una capacidad que puede ser entrenada de muchas formas. Nosotros lo hacemos mediante una clase grupal circuitada que consta de ejercicios dinámicos, funcionales y generales con fin de entrenar todo tu cuerpo en una clase.",
+    "title4": "LEVANTAMIENTO DE PESAS",
+    "desc4": "Aprendizaje del del deporte olímpico a través de planificaciones creadas por profesionales especializados y capacitados en el área.",
+    "title5": "VINYASA YOGA",
+    "desc5": "Puede definirse como movimiento sincronizado, que incorpora la duración y el ritmo de las inhalaciones y exahalaciones a través de la práctica enlazada y fluidas de asanas."
+  },
+  "pricing": {
+    "title": "MEMBRESIAS",
+    "button": "COMPRAR",
+    "main": "Elegí el plan que mejor se adapte a vos y a tu estilo de vida."
+  },
+  "button": {
+    "horarios": "Horarios"
+  },
+  "sucursal": {
+    "title": "BUSCA TU SUCURSAL MAS CERCANA!",
+    "button": "Reserva hoy"
+  },
+  "footer": {
+    "title": "HAY OTRA MANERA DE VIVIR LA CIUDAD"
+  },
+  "seo": {
+    "title": "Vukova",
+    "desc": "Vivir la cuidad de otra manera. Veni a estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa. ",
+    "trainingTitle": "Entrenamiento - Surf House Box ",
+    "trainingogTitle": "Entrenamiento - Surf House Box ",
+    "trainingdesc": "Gimnasio de entrenamiento personalizado y focalizado a deportes de tabla",
+    "surfskatetitle": "Surfbowl - Skatepark - Vukova",
+    "surfskateDesc": "El primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado.",
+    "wellnessTitle": "Consultorio médico - Especialistas en medicina del deporte -  Osteopatia - Kinesiologia - Nutricion - Gimnasia Kinesica Preventiva - Evaluaciones Deportivas Preventivas",
+    "wellnessDesc": "Profesionales en Osteopatía, kinesiología y nutrición van a conformar el equipo médico que vas a poder consultar.",
+    "aboutTitle": " Nosotros - Vukova"
+  },
+  "nosotros": {
+    "title": " EQUIPO VUKOVA",
+    "set1": "Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad.",
+    "set2": " Un Equipo interdisciplinario formado por ex deportistas profesionales en búsqueda de potenciar el entrenamiento de las personas. Con La unificación de criterios, capacitación constante y experiencia logramos generar un ámbito seguro con seguimiento detallado para que superes tus objetivos.",
+    "set3": " Forma parte de la comunidad Vukova y superate."
+  },
+  "manifesto": {
+    "title": "NUESTRO MANIFIESTO",
+    "title2": "Surfeá",
+    "set1": "Surfea la rutina, la ciudad, las reglas. Surfeá aunque no estés arriba de una tabla. Surfeá hasta que no des más. Hasta que las cosas salgan como vos quieras. Surfeá hasta ser tu mejor versión. Y cuando lo alcances, seguí surfeando. Surfeá tus límites. SURFEA HASTA LA ULTIMA OLA."
+  },
+  "beneficios": {
+    "title": "BENEFICIOS",
+    "surfhouse": "10%",
+    "descuento": "Descuento en:",
+    "surfhouse1": "WELLNESS, SURFSHOP*, KANDUI BAR**",
+    "surftrips": "15%",
+    "surftrips1": "SURFCAMPS, SURFTRIPS, TRIPS INT.",
+    "hostel": "10%",
+    "hostel1": "HOSPEDAJE",
+    "escuela": "ESCUELA SURF",
+    "escuela1": "15%",
+    "escuela2": "CLASES DE SURF",
+    "disclaimer": "*Unicamente en productos tecnicos **Solo en efectivo."
+  }
 }
-
-

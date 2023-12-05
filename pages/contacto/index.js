@@ -21,7 +21,7 @@ export default function Contact() {
             whileInView={"onscreen"}
             variants={boxVariant}
           >
-            Vicente Lopez
+            Acassuso
           </motion.h1>
 
           <motion.p
@@ -97,7 +97,7 @@ export default function Contact() {
             whileInView={"onscreen"}
             variants={boxVariant}
           >
-            Vicente Lopez
+            Beccar
           </motion.h1>
 
           <motion.p
