@@ -15,7 +15,7 @@ const LiNavbarMobile = ({customPath, tNav}) => {
     >
       <Link
         href={customPath}
-      >
+      > 
         {tNav}
       </Link>
     </li>
