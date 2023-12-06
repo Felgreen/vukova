@@ -14,23 +14,24 @@ export default function Options({ option, t }) {
 
   return (
     <motion.div
-      className="mx-auto p-4 max-w-lg text-center lg:mx-0 lg:text-left h-full"
+      className="mx-auto p-4 max-w-lg text-center lg:mx-0 lg:text-left h-[50%]"
       initial={"offscreen"}
       whileInView={"onscreen"}
       variants={boxVariant}
       viewport={{ once: true, amount: 1 }}
     >
+      <Image
+        className="rounded-lg"
+        src={`/images/${option}.webp`}
+        width="490"
+        height="400"
+        alt=""
+      />
       <h2 className="text-3xl font-bold">{t.servicios[option]}</h2>
 
       <p className="mt-4 text-black">{t.servicios.detalle[option]}</p>
 
-      <Image
-        className="rounded-lg"
-        src="/images/gpk.webp"
-        width="490"
-        height="410"
-        alt=""
-      />
+      
       {/* <button
         className="bg-[#f37032] p-2 mt-2 h-12 items-center rounded-xl text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
         href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"

@@ -17,10 +17,10 @@ const Footer = () => {
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      href="https://peppersarg.com"
+                      href="https://www.vulcanowod.com.ar/"
                       target="_blank"
                       className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
-                    ></a>
+                    >Vulcano</a>
                   </li>
                   <li>
                     <a
@@ -52,17 +52,19 @@ const Footer = () => {
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a
-                      href="https://apsurf.com/"
+                      href="https://www.youtube.com/@VukovaTC"
                       target="_blank"
                       className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
-                    ></a>
+                    >
+                      YouTube
+                    </a>
                   </li>
                   <li>
                     <a
-                      href="https://thesurfhouse.com.ar/surfshop/"
+                      href="https://www.instagram.com/vukova.tc/"
                       target="_blank"
                       className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"
-                    ></a>
+                    >Instagram</a>
                   </li>
                   <li></li>
                 </ul>
@@ -73,14 +75,14 @@ const Footer = () => {
               <nav aria-label="Footer Navigation - Company" className="mt-6">
                 <ul className="space-y-4 text-sm">
                   <li>
-                    <a className="text-gray-200 transition hover:opacity-75 dark:text-gray-200"></a>
+                    <a className="text-gray-200 transition hover:opacity-75 dark:text-gray-200">+54 9 11 5765-0309</a>
                   </li>
                 </ul>
               </nav>
             </div>
 
             <div>
-                <p className="font-medium text-black dark:text-black">Mails</p>
+                <p className="font-medium text-black dark:text-black">Mail</p>
                 <nav aria-label="Footer Navigation - Legal" className="mt-6">
                   <ul className="space-y-4 text-sm">
                     <li>

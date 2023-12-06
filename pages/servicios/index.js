@@ -141,7 +141,7 @@ export default function Services() {
               </a>
             </div>
           </div>
-          <div className="lg:col-span-3 flex justify-center m-auto">
+          <div className="lg:col-span-3 flex m-auto">
             <Options option={option} t={t} />
           </div>
         </div>
