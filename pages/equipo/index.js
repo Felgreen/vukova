@@ -8,6 +8,7 @@ import Navbar from '../../components/Navbar';
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Footer from '../../components/Footer';
 
 
 export default function Entrenamiento() {
