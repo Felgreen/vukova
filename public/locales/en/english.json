@@ -35,18 +35,26 @@
         "functionaltitle":"FUNCTIONAL TRAINING",
         "functional":"Training aimed at improving basic movement patterns, transferable to all sports."
     },
-    "servicios":{
-        "OSTEOPATIA1":"OSTEOPATHY",
-        "OSTEOPATIA":"Osteopathy  is a discipline  whose maxim resides in the holistic vision of the human body, understanding it as a unit, and not as an independent set of organs and structures. This specialty is aimed at restoring and maintaining the balance of the body to achieve its recovery and preserve its self-regulation capacity.",
-        "KINESIOLOGIA1":"KINESIOLOGY",
-        "KINESIOLOGIA":"Our kinesiologists will help you in the injury recovery process by developing specific exercise routines, accompanied by complementary therapies, to favor the rapid reincorporation of the patient to their daily routine and sports discipline.",
-        "NUTRICION1":"NUTRITION",
-        "NUTRICION":"We know that the nutrition of our athletes is a fundamental pillar to improve performance and performance. Our nutritionists will evaluate, diagnose and plan a nutritional plan that is suitable for your day to day and your sports goals.",
-        "GKP1":"PREVENTIVE KINESTIC GYMNASTICS (GKP)",
-        "GIMNASIA KINESICA PREVENTIVA (GKP)":"It consists of the care and improvement of the being through voluntary movement. Classes based on different flexibility, mobility and strength exercises to prevent the most frequent injuries in athletes.",
-        "Prev1":"PREVENTIVE SPORTS ASSESSMENTS",
-        "EVALUACIONES DEPORTIVAS PREVENTIVAS":"Moving well and safely is essential for sports practice. Through these evaluations we were able to detect risk factors, asymmetries and imbalances with the intention of addressing a specific prevention program for each athlete."
-    },
+    "servicios": {
+        "WL": "Weightlifting",
+        "YOGA": "Yoga",
+        "NATACION": "Natación",
+        "BABY": "Bebes al agua",
+        "PILETA": "Pileta Libre",
+        "PERSONAL": "Personal",
+        "WOD": "WOD",
+        "AQUAGYM": "Aqua-Gym",
+        "detalle": {
+          "WL": "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos.",
+          "YOGA": "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general.",
+          "NATACION": "La natación es un deporte acuático que implica nadar en piscinas, lagos u océanos. Mejora la salud cardiovascular, fortalece los músculos y es una habilidad vital.",
+          "BABY": "Bebes al agua",
+          "PILETA": "Pileta Libre",
+          "PERSONAL": "El entrenamiento personal implica trabajar con un profesional del fitness para desarrollar un programa de ejercicios personalizado. Se adapta a las metas individuales, brinda orientación sobre ejercicios y motiva para alcanzar un mejor estado físico.",
+          "WOD": "WOD significa 'Workout of the Day' (Entrenamiento del Día). Es un término común en el entrenamiento funcional y el CrossFit. Un WOD es una rutina de ejercicios intensa y variada diseñada para mejorar la resistencia, la fuerza y la condición física en general.",
+          "AQUAGYM": "Aqua-Gym"
+        }
+      },
     "faq":{
         "preg1":"Are skateboards available for rent at the park?",
         "preg2":"Can beginners join in on the fun, even without experience?",

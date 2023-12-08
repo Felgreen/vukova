@@ -1,11 +1,14 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import en from "./../public/locales/en/english.json";
 import es from "./../public/locales/es/espanol.json";
+import { useRouter } from "next/router";
 import React, { useState, useEffect } from "react";
 import LiNavbarMobile from "./ui/LiNavbarMobile";
 import { LogoB, LogoN } from "./svg/index";
 import LiNavbar from "./ui/LiNavbar";
-import { useRouter } from "next/router";
+import {USA} from '../components/svg';
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -91,23 +94,23 @@ const Navbar = () => {
             <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
               {t.nav.boton}
             </button>
+       
             <select
               onChange={changeLanguage}
               defaultValue={locale}
               className={`p-3 text-shadow-sm text-lg bg-transparent tracking-wide`}
             >
               <option
-                className={` p-2 text-[${
-                  textColor === "white" ? "black" : "white"
-                }]`}
+                className="text-black"
+
                 value="en"
               >
                 EN
               </option>
-              <option
-                className={`text-[${
-                  textColor === "white" ? "black" : "white"
-                }]`}
+              <option className="text-black"
+                // className={`text-[${
+                //   textColor === "white" ? "black" : "white"
+                // }]`}
                 value="es"
               >
                 ES
@@ -162,10 +165,10 @@ const Navbar = () => {
                 defaultValue={locale}
                 className="text-white text-shadow-sm text-4xl bg-transparent tracking-wide cursor-pointer items-center"
               >
-                <option className="text-white rounded-xl" value="en">
-                  EN
+                <option className="text-black rounded-xl" value="en">
+                  EN 
                 </option>
-                <option className="text-white" value="es">
+                <option className="text-black" value="es">
                   ES
                 </option>
               </select>

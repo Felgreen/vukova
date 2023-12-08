@@ -36,6 +36,7 @@ export default function Entrenamiento() {
   const t = locale === "es" ? es : en;
 
   return (
+    <>
     <section>
       <Head>
         <title>{t.seo.aboutTitle}</title>
@@ -116,5 +117,7 @@ export default function Entrenamiento() {
         </motion.div>
       </AnimatePresence>
     </section>
+    <Footer/>
+    </>
   );
 }

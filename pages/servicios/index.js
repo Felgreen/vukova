@@ -11,6 +11,7 @@ import { useState } from "react";
 import Options from "../../components/ui/Options";
 import { useRouter } from "next/router";
 import { motion } from "framer-motion";
+import Footer from "../../components/Footer";
 
 export default function Services() {
   const [option, setOption] = useState("WL");
@@ -28,6 +29,7 @@ export default function Services() {
   };
 //cambiar orden , foto primero despues titulo y texto. 
   return (
+    <>
     <section
       className="w-screen h-screen mt-24 text-black flex items-center justify-center"
       id="activities"
@@ -147,5 +149,7 @@ export default function Services() {
         </div>
       </div>
     </section>
+    <Footer/>
+    </>
   );
 }

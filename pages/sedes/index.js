@@ -2,6 +2,7 @@ import Dropdown from '../../components/Dropdown'
 import en from "../../public/locales/en/english.json"
 import es from "../../public/locales/es/espanol.json";
 import { useRouter } from "next/router";
+import Footer from '../../components/Footer';
 
 const Sedes = () => {
   const router = useRouter();
@@ -13,6 +14,7 @@ const Sedes = () => {
     <section id='Sedes' className='py-24 px-5 lg:p-40'>
       <Dropdown t={t}/>
     </section>
+    <Footer/>
     </>
   )
 }

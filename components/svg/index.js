@@ -15,3 +15,6 @@ export {default as Baby} from './baby.svg';
 export {default as Aqua} from './aqua-gym.svg';
 export {default as Pool} from './swimming-pool.svg';
 export {default as Personal} from './personal.svg';
+export {default as USA} from './usaFlag.svg';
+export {default as ARG} from './argentineFlag.svg';
+

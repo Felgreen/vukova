@@ -1,4 +1,5 @@
 import React from "react";
+import { Superacion } from "../components/svg";
 
 const Footer = () => {
   return (
@@ -9,9 +10,11 @@ const Footer = () => {
     >
       <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div className="mx-auto"></div>
+          <div className="mx-auto">  <Superacion className="h-full w-full " /></div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+            
             <div>
+              
               <p className="font-medium text-black dark:text-black">Partners</p>
               <nav aria-label="Footer Navigation - Services" className="mt-6">
                 <ul className="space-y-4 text-sm">
@@ -99,6 +102,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
+          <div className="">
+          
+            </div>
           <p className="text-xs text-black-400 md:pl-20">
             © 2023. VUKOVA All rights reserved.
           </p>
