@@ -7,8 +7,7 @@ const Manifesto = () => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "es" ? es : en;
-  const title1 = t.manifesto.title2;
-  const set1 = t.manifesto.set1;
+
 
   return (
     <section className="h-60">

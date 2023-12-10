@@ -19,8 +19,8 @@ export default function Home() {
     <>
       <Head>
         <title>Vukova</title>
-        <meta name="description" content="Vivir la cuidad de otra manera" />
-        <meta property="og:title" content={t.seo.title} />
+        <meta name="description" content="Alcanza tus objetivos de forma personalizada y en comunidad en Vukova. Deja de pensarlo y ¡arranca tu transformación ahora!" />
+        <meta property="og:title" content="Vukova Training Center" />
         <link rel="icon" href="/favicon.ico" />
 
         <link

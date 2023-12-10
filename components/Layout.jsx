@@ -7,6 +7,7 @@ import GridLayout from "./ui/GridLayout";
 import { useRouter } from "next/router";
 import Main from "../components/Main";
 import Footer from "./Footer";
+import Features from "./Features";
 
 const Layout = () => {
   const router = useRouter();
@@ -22,6 +23,7 @@ const Layout = () => {
 
         {/* <GridLayout t={t} /> */}
         {/* <CardSection t={t} /> */}
+        <Features t={t}/>
         <Footer />
       </div>
     </>

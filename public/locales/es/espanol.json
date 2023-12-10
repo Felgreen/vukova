@@ -12,7 +12,7 @@
     "boton": "PROBA UNA CLASE"
   },
   "about": {
-    "header": "VUKOVA, COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
+    "header": "COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
     "desc": "Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
     "cta": "La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!",
     "cta2": "Potencia tu entrenamiento"
@@ -43,6 +43,16 @@
       "WOD": "WOD significa 'Workout of the Day' (Entrenamiento del Día). Es un término común en el entrenamiento funcional y el CrossFit. Un WOD es una rutina de ejercicios intensa y variada diseñada para mejorar la resistencia, la fuerza y la condición física en general.",
       "AQUAGYM": "Aqua-Gym"
     }
+  },
+  "features":{
+    "title":"COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD",
+    "subtitle":"Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
+    "feature1":"Staff Capacitado",
+    "det1":"Seguimiento por un equipo profesional que se centra en la unificación de criterios y constante capacitación. ",
+    "feature2":"Enfoque Personal",
+    "det2":"Generamos un espacio comodo de entrenamiento para fomentar la escucha.",
+    "feature3":"Entrenamiento Customizado",
+    "det3":"Los objetivos personales particulares necesitan de rutinas adaptadas a dichos objetivos."
   },
   "faq": {
     "preg1": "¿Alquilan tabla?",
@@ -98,24 +108,5 @@
     "set1": "Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad.",
     "set2": " Un Equipo interdisciplinario formado por ex deportistas profesionales en búsqueda de potenciar el entrenamiento de las personas. Con La unificación de criterios, capacitación constante y experiencia logramos generar un ámbito seguro con seguimiento detallado para que superes tus objetivos.",
     "set3": " Forma parte de la comunidad Vukova y superate."
-  },
-  "manifesto": {
-    "title": "NUESTRO MANIFIESTO",
-    "title2": "Surfeá",
-    "set1": "Surfea la rutina, la ciudad, las reglas. Surfeá aunque no estés arriba de una tabla. Surfeá hasta que no des más. Hasta que las cosas salgan como vos quieras. Surfeá hasta ser tu mejor versión. Y cuando lo alcances, seguí surfeando. Surfeá tus límites. SURFEA HASTA LA ULTIMA OLA."
-  },
-  "beneficios": {
-    "title": "BENEFICIOS",
-    "surfhouse": "10%",
-    "descuento": "Descuento en:",
-    "surfhouse1": "WELLNESS, SURFSHOP*, KANDUI BAR**",
-    "surftrips": "15%",
-    "surftrips1": "SURFCAMPS, SURFTRIPS, TRIPS INT.",
-    "hostel": "10%",
-    "hostel1": "HOSPEDAJE",
-    "escuela": "ESCUELA SURF",
-    "escuela1": "15%",
-    "escuela2": "CLASES DE SURF",
-    "disclaimer": "*Unicamente en productos tecnicos **Solo en efectivo."
   }
 }

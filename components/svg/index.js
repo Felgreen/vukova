@@ -17,4 +17,6 @@ export {default as Pool} from './swimming-pool.svg';
 export {default as Personal} from './personal.svg';
 export {default as USA} from './usaFlag.svg';
 export {default as ARG} from './argentineFlag.svg';
+export {default as Team} from './team.svg';
+export {default as Comm} from './communication.svg';
 

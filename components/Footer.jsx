@@ -10,7 +10,7 @@ const Footer = () => {
     >
       <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-          <div className="mx-auto">  <Superacion className="h-full w-full " /></div>
+          <div className="mx-auto w-[70%]">  <Superacion className="h-full w-full " /></div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
             
             <div>
