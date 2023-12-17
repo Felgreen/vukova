@@ -1,3 +1,4 @@
+import Head from "next/head";
 import {
   Personal,
   Swim,
@@ -30,6 +31,12 @@ export default function Services() {
 //cambiar orden , foto primero despues titulo y texto. 
   return (
     <>
+    <Head>
+        <title>{t.seo.servTitle}</title>
+
+        <meta property="og:title" content={t.seo.servDesc} />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
     <section
       className="w-screen h-screen mt-24 text-black flex items-center justify-center"
       id="activities"

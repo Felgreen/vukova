@@ -1,8 +1,15 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Footer from '../../components/Footer';
+import en from "../../public/locales/en/english.json";
+import es from "../../public/locales/es/espanol.json";
 
 export default function Contact() {
+
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "es" ? es : en;
+   
   const boxVariant = {
     offscreen: { opacity: 0, scale: 0 },
     onscreen: {

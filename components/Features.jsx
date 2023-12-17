@@ -37,7 +37,7 @@ export default function Features({t}) {
     initial="hidden"
     animate={control}
     variants={reservaVariant}>
-    <section className="w-full py-12 md:py-24 lg:py-24 xl:py-28 bg-white">
+    <section className="w-full py-12 md:py-24 lg:py-24 xl:py-28 bg-white" >
     
       <div className="container mx-auto px-4 md:px-6  justify-center items-center">
         <div className="grid gap-6 items-center">

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
+import Image from 'next/Image'; 
 import en from "../../public/locales/en/english.json";
 import es from "../../public/locales/es/espanol.json";
 
@@ -40,9 +41,9 @@ export default function Entrenamiento() {
     <>
     <section>
       <Head>
-        <title>{t.seo.aboutTitle}</title>
+        <title>{t.seo.equipoTitle}</title>
 
-        <meta property="og:title" content={t.seo.aboutTitle} />
+        <meta property="og:title" content={t.seo.equipoDesc} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
@@ -78,11 +79,19 @@ export default function Entrenamiento() {
                 className="absolute inset-0 h-full w-full object-cover
                 opacity-75 transition-opacity group-hover:opacity-50"
       /> */}
-                <img
+              <Image
+              alt="Team Vukova"
+              src="/images/equipo.webp"
+              className="absolute inset-0 h-full w-full object-cover rounded" 
+              style={{objectFit:"cover"}}
+              fill
+              quality={100}
+              />
+                {/* <img
                   alt="Team Vukova"
                   src="/images/equipo.webp"
                   className="absolute inset-0 h-full w-full object-cover rounded"
-                />
+                /> */}
               </div>
             </div>
 

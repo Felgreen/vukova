@@ -36,7 +36,7 @@
     "detalle": {
       "WL": "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos.",
       "YOGA": "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general.",
-      "NATACION": "La natación es un deporte acuático que implica nadar en piscinas, lagos u océanos. Mejora la salud cardiovascular, fortalece los músculos y es una habilidad vital.",
+      "NATACION": "La natación es un deporte acuático que implica nadar en piscinas, lagos u océanos. Mejora la salud cardiovascular, fortalece los músculos y es una habilidad vital. ",
       "BABY": "Bebes al agua",
       "PILETA": "Pileta Libre",
       "PERSONAL": "El entrenamiento personal implica trabajar con un profesional del fitness para desarrollar un programa de ejercicios personalizado. Se adapta a las metas individuales, brinda orientación sobre ejercicios y motiva para alcanzar un mejor estado físico.",
@@ -54,16 +54,7 @@
     "feature3":"Entrenamiento Customizado",
     "det3":"Los objetivos personales particulares necesitan de rutinas adaptadas a dichos objetivos."
   },
-  "faq": {
-    "preg1": "¿Alquilan tabla?",
-    "preg2": "¿Puedo ir sin experiencia?",
-    "preg3": "¿Que valor tiene ir a patinar?",
-    "preg4": "¿Me recomiendan empezar en los lagos de palermo antes del bowl?",
-    "resp1": "Para nosotros es fundamental que puedas probar las tablas y analizar cual se adapta mejor a vos para que tu compra sea inteligente, por ese motivo conta con tu primer mes de membresia con tabla bonificada!",
-    "resp2": "Sin dudas, la experiencia solo se logra dando el primer paso, y en ese también estamos para acompañarte! Podes empezar de cero sin problemas.",
-    "resp3": "Contamos con diferentes opciones de planes y membresias, podes venirte a patinar una hora libre o sacar clases sueltas también, contactanos y te contamos todo con detalle.",
-    "resp4": "Si, nuestra recomendación es empezar con las clases de los lagos que son en plano, ya que el surfpak tiene un nivel mayor de dificultad, sin embargo podes empezar con las clases de principiantes en el bowl sin problema."
-  },
+
   "grid": {
     "title1": "PERSONAL TRAINING",
     "desc1": "Creamos planificaciones adaptadas al objtivo y necesidad de cada persona, dosificamos las cargas y te acompañamos en cada entrenamiento para que lo hagas de manera correcta eficinte y efectiva.",
@@ -93,15 +84,17 @@
   },
   "seo": {
     "title": "Vukova",
-    "desc": "Vivir la cuidad de otra manera. Veni a estar conectados con el mar, el surf y los deportes de tabla todo el año y cerca de casa. ",
-    "trainingTitle": "Entrenamiento - Surf House Box ",
-    "trainingogTitle": "Entrenamiento - Surf House Box ",
-    "trainingdesc": "Gimnasio de entrenamiento personalizado y focalizado a deportes de tabla",
-    "surfskatetitle": "Surfbowl - Skatepark - Vukova",
-    "surfskateDesc": "El primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado.",
-    "wellnessTitle": "Consultorio médico - Especialistas en medicina del deporte -  Osteopatia - Kinesiologia - Nutricion - Gimnasia Kinesica Preventiva - Evaluaciones Deportivas Preventivas",
-    "wellnessDesc": "Profesionales en Osteopatía, kinesiología y nutrición van a conformar el equipo médico que vas a poder consultar.",
-    "aboutTitle": " Nosotros - Vukova"
+    "desc": "omos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
+    "servTitle": "Servicios Vukova ",
+    "servDesc": "Weightlifting, yoga, natacion, natacion para bebes , natacion para chicos, personal training, WOD ",
+    "sedeTitulo": "Sedes Vukova - Vicente Lopez - Acassuso - Beccar",
+    "sedeDesc": "Encuentra tu lugar de entrenamiento ideal en nuestras sedes en Vicente López, Acassuso y Beccar. Descubre horarios, direcciones y servicios específicos para cada ubicación.",
+    "equipoTitle": "Equipo Vukova",
+    "equipoDesc": "Conoce al equipo apasionado detrás de Vukova. Unificados en criterios, constantemente capacitados y liderados por ex deportistas profesionales.",
+    "distanciaTitle": "Entrenamiento a distancia.",
+    "distanciaDesc": " No importa dónde estés, el equipo Vukova está contigo. Descubre nuestro servicio de entrenamiento a distancia con rutinas personalizadas y seguimiento constante.",
+    "contactoTitle":"Contacto",
+    "contactoDesc":"Conoce más sobre nuestras actividades, entrenamiento y filosofía de vida en Vukova. Descubre nuestro manifiesto y superate."
   },
   "nosotros": {
     "title": " EQUIPO VUKOVA",
