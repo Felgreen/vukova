@@ -44,10 +44,10 @@ export default function Features({t}) {
           <div className="flex flex-col justify-center space-y-8 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-black to-[#ee2967]  font-antonioBold">
-               {t.features.title}
+               {t("features.title")}
               </h1>
               <p className="max-w-[600px] text-black md:text-xl dark:text-black mx-auto font-antonRegular">
-              {t.features.subtitle}
+              {t("features.subtitle")}
               </p>
             </div>
             <div className="w-full max-w-full space-y-4 mx-auto">
@@ -56,27 +56,27 @@ export default function Features({t}) {
                   <div className="p-2 bg-white bg-opacity-50 rounded-full">
                     <Team className="text-black h-7 w-7 mb-2 opacity-75" />
                   </div>
-                  <h2 className="text-xl  text-black font-antonRegular">{t.features.feature1}</h2>
+                  <h2 className="text-xl  text-black font-antonRegular">{t("features.feature1")}</h2>
                   <p className="text-black dark:text-black font-antonioBold">
-                   {t.features.det1}
+                   {t("features.det1")}
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-black p-4 rounded-lg">
                   <div className="p-2 bg-white bg-opacity-50 rounded-full">
                     <Comm className="text-black h-7 w-7 mb-2 opacity-75" />
                   </div>
-                  <h2 className="text-xl  font-antonRegular text-black ">{t.features.feature2}</h2>
+                  <h2 className="text-xl  font-antonRegular text-black ">{t("features.feature2")}</h2>
                   <p className="text-black font-antonioBold dark:text-black">
-                  {t.features.det2}
+                  {t("features.det2")}
                   </p>
                 </div>
                 <div className="flex flex-col items-center space-y-2 border-black p-4 rounded-lg">
                   <div className="p-2 bg-white bg-opacity-50 rounded-full">
                     <SettingsIcon className="text-black h-7 w-7 mb-2 opacity-75" />
                   </div>
-                  <h2 className="text-xl font-antonRegular text-black">{t.features.feature3}</h2>
+                  <h2 className="text-xl font-antonRegular text-black">{t("features.feature3")}</h2>
                   <p className="text-black dark:text-black font-antonioBold">
-                  {t.features.det3}
+                  {t("features.det3")}
                   </p>
                 </div>
               </div>

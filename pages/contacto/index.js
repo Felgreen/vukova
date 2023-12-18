@@ -1,16 +1,15 @@
 import Image from "next/image";
+import { useTranslation } from 'next-export-i18n';
 import { motion } from "framer-motion";
-import Footer from "../../components/Footer";
+
 import WhatsappInstagram from "../../components/ui/WhatsappInstagram";
 import Footer from '../../components/Footer';
-import en from "../../public/locales/en/english.json";
-import es from "../../public/locales/es/espanol.json";
+
 
 export default function Contact() {
+  const {t} = useTranslation(); 
 
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
+
    
   const boxVariant = {
     offscreen: { opacity: 0, scale: 0 },

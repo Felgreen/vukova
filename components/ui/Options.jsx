@@ -1,7 +1,11 @@
 import Image from "next/image";
+
 import { motion } from "framer-motion";
 
+
 export default function Options({ option, t }) {
+
+
   const boxVariant = {
     offscreen: { opacity: 0, scale: 0 },
     onscreen: {
@@ -27,9 +31,9 @@ export default function Options({ option, t }) {
         height="400"
         alt=""
       />
-      <h2 className="text-3xl font-bold">{t.servicios[option]}</h2>
+      <h2 className="text-3xl font-bold ">{t(`servicios.${option}`)}</h2>
 
-      <p className="mt-4 text-black">{t.servicios.detalle[option]}</p>
+      <p className="mt-4 text-black">{t(`servicios.detalle.${option}`)}</p>
 
       
       {/* <button

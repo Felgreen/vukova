@@ -35,7 +35,7 @@ const ModalSchedule = ({sede, t}) => {
         className="bg-[#f37032] mb-2 p-2 md:mt-2 w-36 justify-center h-8 items-center rounded text-black flex transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300"
         onClick={handleHorarios}
       >
-        <span>{t.button.horarios}</span>
+        <span>{t("button.horarios")}</span>
       </button>
       <div
         id={sede}

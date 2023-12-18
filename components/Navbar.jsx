@@ -1,28 +1,31 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import en from "./../public/locales/en/english.json";
-import es from "./../public/locales/es/espanol.json";
-import { useRouter } from "next/router";
+import { useTranslation, LanguageSwitcher, LinkWithLocale } from 'next-export-i18n';
+
+
 import React, { useState, useEffect } from "react";
 import LiNavbarMobile from "./ui/LiNavbarMobile";
 import { LogoB, LogoN } from "./svg/index";
 import LiNavbar from "./ui/LiNavbar";
 import {USA} from '../components/svg';
+import {ARG} from '../components/svg'
 
 
 
 const Navbar = () => {
+
+  const { t } = useTranslation();
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("black");
   const [textColor, setTextColor] = useState("white");
   const [scrolled, setScrolled] = useState(false);
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "es" ? es : en;
 
-  const changeLanguage = (e) => {
-    const locale = e.target.value;
-    router.push(router.pathname, router.asPath, { locale });
-  };
+  // const changeLanguage = (e) => {
+  //   const locale = e.target.value;
+  //   router.push(router.pathname, router.asPath, { locale });
+  // };
 
   const handleNav = () => {
     setNav(!nav);
@@ -50,7 +53,7 @@ const Navbar = () => {
       id="navbar"
       style={{ backgroundColor: `${color}` }}
     >
-      <div className="w-full px-10 flex justify-between items-center md:justify-end lg:justify-between first-letter:items-center p-1 md:text-sm xl:text-2xl font-antonioBold">
+      <div className="w-full px-5 flex justify-between items-center md:justify-end lg:justify-between first-letter:items-center p-1 md:text-sm xl:text-2xl font-antonioBold">
         <div className="w-20">
           {scrolled ? (
             <LogoN className={`h-full w-full`} />
@@ -62,42 +65,49 @@ const Navbar = () => {
           <ul style={{ color: `${textColor}` }} className="hidden md:flex">
             <LiNavbar
               customPath="/"
-              tNav={t.nav.inicio}
+              tNav={t("nav.inicio")}
               textColor={textColor}
             />
             <LiNavbar
               customPath="/servicios"
-              tNav={t.nav.servicios}
+              tNav={t("nav.servicios")}
               textColor={textColor}
             />
            
             <LiNavbar
               customPath="/sedes"
-              tNav={t.nav.sedes}
+              tNav={t("nav.sedes")}
               textColor={textColor}
             />
             <LiNavbar
               customPath="/distancia"
-              tNav={t.nav.distancia}
+              tNav={t("nav.distancia")}
               textColor={textColor}
             />
              <LiNavbar
               customPath="/equipo"
-              tNav={t.nav.equipo}
+              tNav={t("nav.equipo")}
               textColor={textColor}
             />
             <LiNavbar
               customPath="/contacto"
-              tNav={t.nav.contacto}
+              tNav={t("nav.contacto")}
               textColor={textColor}
             />
             <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
-              {t.nav.boton}
+              {t("nav.boton")}
             </button>
-       
-            <select
-              onChange={changeLanguage}
-              defaultValue={locale}
+            <div className="flex flex-col  justify-around ">
+            <div className="">
+            <LanguageSwitcher lang="en"><USA/></LanguageSwitcher>
+            </div>
+          <div className=""> <LanguageSwitcher lang="es"><ARG/></LanguageSwitcher></div>
+           
+            </div>
+            
+            {/* <select
+              // onChange={changeLanguage}
+              // defaultValue={locale}
               className={`p-3 text-shadow-sm text-lg bg-transparent tracking-wide`}
             >
               <option
@@ -105,7 +115,8 @@ const Navbar = () => {
 
                 value="en"
               >
-                EN
+                
+                
               </option>
               <option className="text-black"
                 // className={`text-[${
@@ -113,9 +124,9 @@ const Navbar = () => {
                 // }]`}
                 value="es"
               >
-                ES
+               
               </option>
-            </select>
+            </select> */}
           </ul>
         </div>
         <div className="black md:hidden">
@@ -148,28 +159,28 @@ const Navbar = () => {
             />
           </div>
           <ul style={{ color: `${textColor}` }}>
-            <LiNavbarMobile customPath="/" tNav={t.nav.inicio} />
-            <LiNavbarMobile customPath="/servicios" tNav={t.nav.servicios} />
-            <LiNavbarMobile customPath="/equipo" tNav={t.nav.equipo} />
-            <LiNavbarMobile customPath="/sedes" tNav={t.nav.sedes} />
-            <LiNavbarMobile customPath="/distancia" tNav={t.nav.distancia} />
-            <LiNavbarMobile customPath="/contacto" tNav={t.nav.contacto} />
+            <LiNavbarMobile customPath="/" tNav={t("nav.inicio")} />
+            <LiNavbarMobile customPath="/servicios" tNav={t("nav.servicios")} />
+            <LiNavbarMobile customPath="/equipo" tNav={t("nav.equipo")} />
+            <LiNavbarMobile customPath="/sedes" tNav={t("nav.sedes")} />
+            <LiNavbarMobile customPath="/distancia" tNav={t("nav.distancia")} />
+            <LiNavbarMobile customPath="/contacto" tNav={t("nav.contacto")} />
             <li className="p-4">
               <button className="bg-[#f37032] p-4 rounded text-black text-4xl">
-                {t.nav.boton}
+                {t("nav.boton")}
               </button>
             </li>
             <li className="p-4">
               <select
-                onChange={changeLanguage}
-                defaultValue={locale}
+                // onChange={changeLanguage}
+                // defaultValue={locale}
                 className="text-white text-shadow-sm text-4xl bg-transparent tracking-wide cursor-pointer items-center"
               >
                 <option className="text-black rounded-xl" value="en">
-                  EN 
+                <LanguageSwitcher lang="en">EN</LanguageSwitcher>
                 </option>
                 <option className="text-black" value="es">
-                  ES
+                <LanguageSwitcher lang="es">E</LanguageSwitcher>
                 </option>
               </select>
             </li>

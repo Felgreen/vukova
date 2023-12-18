@@ -25,7 +25,7 @@
     "desc": "Veni a conocer el primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado."
   },
   "servicios": {
-    "h3":"Servicios disponibles",
+    "header":"Servicios disponibles",
     "WL": "Weightlifting",
     "YOGA": "Yoga",
     "NATACION": "Natación",
@@ -72,6 +72,9 @@
     "title": "MEMBRESIAS",
     "button": "COMPRAR",
     "main": "Elegí el plan que mejor se adapte a vos y a tu estilo de vida."
+  },
+  "distancia":{
+    "title":"Próximamente"
   },
   "button": {
     "horarios": "Horarios"

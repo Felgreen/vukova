@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { useRouter } from "next/router"; 
+import { useRouter } from "next/router";
+
 
 const LiNavbar = ({customPath, textColor, tNav}) => {
     const router = useRouter();

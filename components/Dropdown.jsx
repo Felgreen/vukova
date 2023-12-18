@@ -29,7 +29,7 @@ const Dropdown = ({ t }) => {
           />
         </summary>
 
-        <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2">
+        <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2 ">
           <li>
             <div className="group relative block">
               <Image
@@ -94,42 +94,42 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl  font-antonioBold mb-2">
-                Servicios disponibles
+              {t("servicios.header")}
               </h3>
             </div>
             <div className="container mx-auto px-4 py-8">
-              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  {t("servicios.WL")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Yoga className="h-8 w-8 mr-1" />
-                  {t.servicios.YOGA}
+                  {t("servicios.YOGA")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  {t("servicios.WOD")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Swim className="h-8 w-8 mr-1" />
-                  {t.servicios.NATACION}
+                  {t("servicios.NATACION")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Baby className="h-7 w-7 mr-1" />
-                  {t.servicios.BABY}
+                  {t("servicios.BABY")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Aqua className="h-7 w-7 mr-1" />
-                  {t.servicios.AQUAGYM}
+                  {t("servicios.AQUAGYM")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Pool className="h-7 w-7 mr-1" />
-                  {t.servicios.PILETA}
+                  {t("servicios.PILETA")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  {t("servicios.PERSONAL")}
                 </li>
               </ul>
             </div>
@@ -229,24 +229,24 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl font-antonioBold mb-2">
-                Servicios disponibles
+                   {t("servicios.header")}
               </h3>
               {/* <p className="text-gray-600">  <span className="">+54 9 33961371</span></p>
                 <p className="text-gray-600">Ubicación: <span className="">Av. Maipú 545, Vicente López, Provincia de Buenos Aires</span></p> */}
             </div>
             <div className="container mx-auto px-4 py-8">
-              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  {t("servicios.PERSONAL")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  {t("servicios.WL")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  {t("servicios.WOD")}
                 </li>
               </ul>
             </div>
@@ -346,7 +346,7 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl font-antonioBold mb-2">
-                Servicios disponibles
+              {t("servicios.header")}
               </h3>
               {/* <p class="text-gray-600">  <span class="">+54 9 11 5765-0309</span></p>
                 <p class="text-gray-600">Ubicación: <span class="">Av. Bartolomé Mitre 1650, B1643 Béccar, Provincia de Buenos Aires</span></p> */}
@@ -355,15 +355,15 @@ const Dropdown = ({ t }) => {
               <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  {t("servicios.PERSONAL")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  {t("servicios.WL")}
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  {t("servicios.WOD")}
                 </li>
               </ul>
             </div>

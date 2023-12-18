@@ -1,8 +1,11 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Image from 'next/Image'; 
-import en from "../../public/locales/en/english.json";
-import es from "../../public/locales/es/espanol.json";
+import Image from 'next/image'; 
+
+import { useTranslation } from 'next-export-i18n';
+
+// import en from "../../public/locales/en/english.json";
+// import es from "../../public/locales/es/espanol.json";
 
 import Manifesto from '../../components/Manifesto';
 import Navbar from '../../components/Navbar';
@@ -13,6 +16,8 @@ import Footer from '../../components/Footer';
 
 
 export default function Entrenamiento() {
+
+  const { t } = useTranslation();
 
   const control = useAnimation();
   const [ref, inView] = useInView();
@@ -33,17 +38,17 @@ export default function Entrenamiento() {
     }
   }, [control, inView]);
 
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "es" ? es : en;
 
   return (
     <>
     <section>
       <Head>
-        <title>{t.seo.equipoTitle}</title>
+        <title>{t("seo.equipoTitle")}</title>
 
-        <meta property="og:title" content={t.seo.equipoDesc} />
+        <meta property="og:title" content={t("seo.equipoDesc")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar/>
@@ -105,7 +110,7 @@ export default function Entrenamiento() {
                 
 
               <div className="p-8">
-                <Manifesto />
+                <Manifesto t={t}/>
               </div>
             </div>
           </div>

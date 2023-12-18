@@ -6,8 +6,9 @@ import {
   WOD,
   Yoga,
 } from "../../components/svg/index";
-import en from "../../public/locales/en/english.json";
-import es from "../../public/locales/es/espanol.json";
+// import en from "../../public/locales/en/english.json";
+// import es from "../../public/locales/es/espanol.json";
+import { useTranslation } from 'next-export-i18n';
 import { useState } from "react";
 import Options from "../../components/ui/Options";
 import { useRouter } from "next/router";
@@ -15,10 +16,12 @@ import { motion } from "framer-motion";
 import Footer from "../../components/Footer";
 
 export default function Services() {
+  const { t } = useTranslation();
   const [option, setOption] = useState("WL");
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
+  // const router = useRouter();
+  // const { locale } = router;
+  // const t = locale === "es" ? es : en;
+
 
   const boxVariant = {
     offscreen: { opacity: 0, scale: 0 },
@@ -32,9 +35,9 @@ export default function Services() {
   return (
     <>
     <Head>
-        <title>{t.seo.servTitle}</title>
+        <title>{t("seo.servTitle")}</title>
 
-        <meta property="og:title" content={t.seo.servDesc} />
+        <meta property="og:title" content={t("seo.servDesc")} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <section
@@ -52,15 +55,15 @@ export default function Services() {
                 <span className="flex items-center rounded-lg bg-gray-50 p-1">
                   <WL className="text-3xl" />
                 </span>
-                <div className="ml-5 flex items-center">
+                <div className="ml-5 flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                   <motion.h3
-                    className="text-xl font-semibold text-black"
+                    className="text-xl font-semibold text-black  "
                     initial={"offscreen"}
                     whileInView={"onscreen"}
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.servicios.WL.toUpperCase()}
+                    {t("servicios.WL").toUpperCase()}
                   </motion.h3>
                 </div>
               </a>
@@ -73,7 +76,7 @@ export default function Services() {
                 <span className="flex items-center rounded-lg bg-gray-50 p-1">
                   <Yoga className="text-3xl" />
                 </span>
-                <div className="ml-5 flex items-center">
+                <div className="ml-5 flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
                   <motion.h3
                     className="text-xl font-semibold text-black"
                     initial={"offscreen"}
@@ -81,7 +84,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.servicios.YOGA.toUpperCase()}
+                    {t("servicios.YOGA").toUpperCase()}
                   </motion.h3>
                 </div>
               </a>
@@ -94,7 +97,7 @@ export default function Services() {
                 <span className="flex items-center rounded-lg bg-gray-50 p-1">
                   <Swim className="text-3xl" />
                 </span>
-                <div className="ml-5 flex items-center">
+                <div className="ml-5 flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 ">
                   <motion.h3
                     className="text-xl font-semibold text-black"
                     initial={"offscreen"}
@@ -102,7 +105,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.servicios.NATACION.toUpperCase()}
+                    {t("servicios.NATACION").toUpperCase()}
                   </motion.h3>
                 </div>
               </a>
@@ -115,7 +118,7 @@ export default function Services() {
                 <span className="flex items-center rounded-lg bg-gray-50 p-1">
                   <Personal className="text-3xl" />
                 </span>
-                <div className="ml-5 flex items-center">
+                <div className="ml-5 flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                   <motion.h3
                     className="text-xl font-semibold text-black"
                     initial={"offscreen"}
@@ -123,7 +126,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.servicios.PERSONAL.toUpperCase()}
+                    {t("servicios.PERSONAL").toUpperCase()}
                   </motion.h3>
                 </div>
               </a>
@@ -136,7 +139,7 @@ export default function Services() {
                 <span className="flex items-center rounded-lg bg-gray-50 p-1">
                   <WOD className="text-3xl" />
                 </span>
-                <div className="ml-5 flex items-center">
+                <div className="ml-5 flex items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110">
                   <motion.h3
                     className="text-xl font-semibold text-black"
                     initial={"offscreen"}
@@ -144,7 +147,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t.servicios.WOD.toUpperCase()}
+                    {t("servicios.WOD").toUpperCase()}
                   </motion.h3>
                 </div>
               </a>
