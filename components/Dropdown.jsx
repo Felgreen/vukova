@@ -94,42 +94,42 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl  font-antonioBold mb-2">
-              {t("servicios.header")}
+              Servicios disponibles
               </h3>
             </div>
             <div className="container mx-auto px-4 py-8">
               <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center mb-2">
                   <WL className="h-8 w-8" />
-                  {t("servicios.WL")}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Yoga className="h-8 w-8 mr-1" />
-                  {t("servicios.YOGA")}
+                 Yoga
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t("servicios.WOD")}
+                  WOD
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Swim className="h-8 w-8 mr-1" />
-                  {t("servicios.NATACION")}
+                  Natación
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Baby className="h-7 w-7 mr-1" />
-                  {t("servicios.BABY")}
+                  Bebes al agua
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Aqua className="h-7 w-7 mr-1" />
-                  {t("servicios.AQUAGYM")}
+                  Aqua-Gym
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Pool className="h-7 w-7 mr-1" />
-                  {t("servicios.PILETA")}
+                  Pileta Libre
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t("servicios.PERSONAL")}
+                 Personal
                 </li>
               </ul>
             </div>
@@ -229,7 +229,7 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl font-antonioBold mb-2">
-                   {t("servicios.header")}
+                  Servicios disponibles
               </h3>
               {/* <p className="text-gray-600">  <span className="">+54 9 33961371</span></p>
                 <p className="text-gray-600">Ubicación: <span className="">Av. Maipú 545, Vicente López, Provincia de Buenos Aires</span></p> */}
@@ -238,19 +238,19 @@ const Dropdown = ({ t }) => {
               <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t("servicios.PERSONAL")}
+                  Personal
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t("servicios.WL")}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t("servicios.WOD")}
+                  WOD
                 </li>
               </ul>
             </div>
-            <ModalSchedule sede="Vilo" t={t} />
+            <ModalSchedule sede="Vilo" />
           </div>
 
           <div className="md:w-1/2">
@@ -346,7 +346,7 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2 pr-4">
             <div className="mb-4">
               <h3 className="text-2xl font-antonioBold mb-2">
-              {t("servicios.header")}
+              Servicios disponibles
               </h3>
               {/* <p class="text-gray-600">  <span class="">+54 9 11 5765-0309</span></p>
                 <p class="text-gray-600">Ubicación: <span class="">Av. Bartolomé Mitre 1650, B1643 Béccar, Provincia de Buenos Aires</span></p> */}
@@ -355,19 +355,19 @@ const Dropdown = ({ t }) => {
               <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t("servicios.PERSONAL")}
+                  Personal
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t("servicios.WL")}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t("servicios.WOD")}
+                  WOD
                 </li>
               </ul>
             </div>
-            <ModalSchedule sede="Bajo" t={t} />
+            <ModalSchedule sede="Bajo"/>
           </div>
 
           <div className="md:w-1/2">

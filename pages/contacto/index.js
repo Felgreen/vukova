@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useTranslation } from 'next-export-i18n';
+import Head from "next/head";
 import { motion } from "framer-motion";
 
 import WhatsappInstagram from "../../components/ui/WhatsappInstagram";
@@ -7,7 +7,7 @@ import Footer from '../../components/Footer';
 
 
 export default function Contact() {
-  const {t} = useTranslation(); 
+
 
 
    
@@ -22,6 +22,12 @@ export default function Contact() {
 
   return (
     <>
+    <Head>
+        <title>Contacto Vukova</title>
+
+        <meta property="og:title" content="Información de contacto centro de entrenamiento Vukova."/>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <section id="contacto" className="py-40 h-auto w-full  font-antonioBold">
         <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
           <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">

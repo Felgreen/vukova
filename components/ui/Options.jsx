@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 
-export default function Options({ option, t }) {
+export default function Options({ t, option}) {
 
 
   const boxVariant = {

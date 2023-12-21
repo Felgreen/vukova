@@ -65,7 +65,7 @@ const t = locale === "es" ? es : en;
           animate="animate"
         >
           <h1>
-           {t.marquee[0]}
+            WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN - WEIGHTLIFTING
           </h1>
           
         </motion.div>

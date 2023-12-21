@@ -35,9 +35,9 @@ export default function Services() {
   return (
     <>
     <Head>
-        <title>{t("seo.servTitle")}</title>
+        <title>Servicios Vukova</title>
 
-        <meta property="og:title" content={t("seo.servDesc")} />
+        <meta property="og:title" content="Weightlifting, yoga, natacion, natacion para bebes , natacion para chicos, personal training, WOD." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <section
@@ -63,7 +63,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t("servicios.WL").toUpperCase()}
+                    WEIGHTLIFTING
                   </motion.h3>
                 </div>
               </a>
@@ -84,7 +84,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t("servicios.YOGA").toUpperCase()}
+                   YOGA
                   </motion.h3>
                 </div>
               </a>
@@ -105,7 +105,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t("servicios.NATACION").toUpperCase()}
+                   NATACIÓN
                   </motion.h3>
                 </div>
               </a>
@@ -126,7 +126,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t("servicios.PERSONAL").toUpperCase()}
+                  PERSONAL
                   </motion.h3>
                 </div>
               </a>
@@ -147,7 +147,7 @@ export default function Services() {
                     variants={boxVariant}
                     viewport={{ once: true, amount: 1 }}
                   >
-                    {t("servicios.WOD").toUpperCase()}
+                   WOD
                   </motion.h3>
                 </div>
               </a>

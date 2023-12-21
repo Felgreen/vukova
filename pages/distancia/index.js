@@ -18,12 +18,12 @@ const distancia = () => {
   return (
     <>
       <Head>
-        <title>{t("seo.distanciaTitle")}</title>
+        <title>Entrenamiento a distancia.</title>
 
-        <meta property="og:title" content={t("seo.distanciaDesc")} />
+        <meta property="og:title" content="No importa dónde estés, el equipo Vukova está contigo. Descubre nuestro servicio de entrenamiento a distancia con rutinas personalizadas y seguimiento constante."/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    <UnderConstruction t={t}/>
+    <UnderConstruction/>
     <Footer/>
     </>
   )

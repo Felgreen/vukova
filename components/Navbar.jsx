@@ -65,45 +65,45 @@ const Navbar = () => {
           <ul style={{ color: `${textColor}` }} className="hidden md:flex">
             <LiNavbar
               customPath="/"
-              tNav={t("nav.inicio")}
+              tNav="INICIO"
               textColor={textColor}
             />
             <LiNavbar
               customPath="/servicios"
-              tNav={t("nav.servicios")}
+              tNav="SERVICIOS"
               textColor={textColor}
             />
            
             <LiNavbar
               customPath="/sedes"
-              tNav={t("nav.sedes")}
+              tNav="SEDES"
               textColor={textColor}
             />
             <LiNavbar
               customPath="/distancia"
-              tNav={t("nav.distancia")}
+              tNav="PLAN A DISTANCIA"
               textColor={textColor}
             />
              <LiNavbar
               customPath="/equipo"
-              tNav={t("nav.equipo")}
+              tNav="EQUIPO"
               textColor={textColor}
             />
             <LiNavbar
               customPath="/contacto"
-              tNav={t("nav.contacto")}
+              tNav="CONTACTO"
               textColor={textColor}
             />
             <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
-              {t("nav.boton")}
+              PROBA UNA CLASE
             </button>
-            <div className="flex flex-col  justify-around ">
+            {/* <div className="flex flex-col  justify-around ">
             <div className="">
             <LanguageSwitcher lang="en"><USA/></LanguageSwitcher>
             </div>
           <div className=""> <LanguageSwitcher lang="es"><ARG/></LanguageSwitcher></div>
            
-            </div>
+            </div> */}
             
             {/* <select
               // onChange={changeLanguage}
@@ -159,18 +159,18 @@ const Navbar = () => {
             />
           </div>
           <ul style={{ color: `${textColor}` }}>
-            <LiNavbarMobile customPath="/" tNav={t("nav.inicio")} />
-            <LiNavbarMobile customPath="/servicios" tNav={t("nav.servicios")} />
-            <LiNavbarMobile customPath="/equipo" tNav={t("nav.equipo")} />
-            <LiNavbarMobile customPath="/sedes" tNav={t("nav.sedes")} />
-            <LiNavbarMobile customPath="/distancia" tNav={t("nav.distancia")} />
-            <LiNavbarMobile customPath="/contacto" tNav={t("nav.contacto")} />
+            <LiNavbarMobile customPath="/" tNav="INICIO" />
+            <LiNavbarMobile customPath="/servicios" tNav="SERVICIOS" />
+            <LiNavbarMobile customPath="/equipo" tNav="EQUIPO" />
+            <LiNavbarMobile customPath="/sedes" tNav="SEDES" />
+            <LiNavbarMobile customPath="/distancia" tNav="CONTACTO" />
+            <LiNavbarMobile customPath="/contacto" tNav="PLAN A DISTANCIA" />
             <li className="p-4">
               <button className="bg-[#f37032] p-4 rounded text-black text-4xl">
-                {t("nav.boton")}
+                PROBA UNA CLASE
               </button>
             </li>
-            <li className="p-4">
+            {/* <li className="p-4">
               <select
                 // onChange={changeLanguage}
                 // defaultValue={locale}
@@ -183,11 +183,11 @@ const Navbar = () => {
                 <LanguageSwitcher lang="es">E</LanguageSwitcher>
                 </option>
               </select>
-            </li>
+            </li> */}
             <div className="flex justify-center gap-20 my-6 p-4">
               <li>
                 <a
-                  href="https://www.instagram.com/thesurfhouse.ar/?hl=es"
+                  href="https://www.instagram.com/vukova.tc/?hl=es"
                   rel="noreferrer"
                   target="_blank"
                   className="text-white transition dark:text-white hover:text-white/75"
