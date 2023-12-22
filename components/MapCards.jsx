@@ -6,26 +6,37 @@ import es from "../public/locales/es/espanol.json";
 const locations = {
   acassuso: { name: "Acassuso", latitud: -34.4818844, longitud: -58.503765 },
   beccar: { name: "Beccar", latitud: -34.4581757, longitud: -58.5139465 },
-  vicenteLopez: { name: "Vicente Lopez", latitud: -34.5331572, longitud: -58.481126 },
+  vicenteLopez: {
+    name: "Vicente Lopez",
+    latitud: -34.5331572,
+    longitud: -58.481126,
+  },
 };
 
-const MapCards = ({map}) => {
+const MapCards = ({ map }) => {
   const router = useRouter();
   const { locale } = router;
   const t = locale === "es" ? es : en;
 
   const handleMapChange = (barrio) => {
     setZoom(15.5);
-    console.log('entre')
-    let location = {"name": locations[barrio].name, "lat": locations[barrio].latitud, "lon": locations[barrio].longitud}
-    map.setCenter(location)
+    console.log("entre");
+    let location = {
+      name: locations[barrio].name,
+      lat: locations[barrio].latitud,
+      lon: locations[barrio].longitud,
+    };
+    map.setCenter(location);
   };
 
   return (
     <div className="absoulte max-container padding-container w-full justify-end grid gap-4 sm:mt-[-25px] sm:grid-cols-2 z-10">
       <div className="hidden sm:block"></div>
       <div className="flex flex-1 gap-3 flex-wrap justify-around">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg my-2 cursor-pointer" onClick={() => handleMapChange("acassuso")}>
+        <div
+          className="max-w-sm rounded overflow-hidden shadow-lg my-2 cursor-pointer"
+          onClick={() => handleMapChange("acassuso")}
+        >
           <img
             className="w-full rounded cursor-pointer"
             src="https://www.clarin.com/img/2020/07/26/CwbkoO97D_1256x620__1.jpg"
@@ -40,7 +51,10 @@ const MapCards = ({map}) => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg my-2" onClick={() => handleMapChange("acassuso")}>
+        <div
+          className="max-w-sm rounded overflow-hidden shadow-lg my-2"
+          onClick={() => handleMapChange("acassuso")}
+        >
           <img
             className="w-full rounded"
             src="https://www.clarin.com/img/2020/07/26/CwbkoO97D_1256x620__1.jpg"
@@ -55,7 +69,10 @@ const MapCards = ({map}) => {
             </p>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg my-2" onClick={() => handleMapChange("acassuso")}>
+        <div
+          className="max-w-sm rounded overflow-hidden shadow-lg my-2"
+          onClick={() => handleMapChange("acassuso")}
+        >
           <img
             className="w-full rounded"
             src="https://www.clarin.com/img/2020/07/26/CwbkoO97D_1256x620__1.jpg"

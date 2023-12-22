@@ -28,7 +28,6 @@ const cards = [
 ];
 
 const Card = ({ card, toggle }) => {
-
   return (
     <div className="transform  rounded-lg hover:scale-105 overflow-hidden w-full max-w-sm  bg-white text-black font-montBold">
       <div className="p-2 md:p-3 flex items-center justify-center ">

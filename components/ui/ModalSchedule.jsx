@@ -1,7 +1,7 @@
 import { useRef, useEffect } from "react";
-import Image from 'next/image'
+import Image from "next/image";
 
-const ModalSchedule = ({sede}) => {
+const ModalSchedule = ({ sede }) => {
   const popupRef = useRef(null);
 
   const handleHorarios = () => {
@@ -52,15 +52,15 @@ const ModalSchedule = ({sede}) => {
           </div>
           <div className="items-center justify-center flex">
             <Image
-               className="inset-0 rounded-md object-cover h-full w-full"
-                src={`/images/Horarios${sede}.jpg`}
-                width={0}
-                height={0}
-                sizes="100vw"
-                style={{ width: "100%", height: "auto" }}
-                title="Horarios actividades vukova"
-                alt="horarios"
-              />
+              className="inset-0 rounded-md object-cover h-full w-full"
+              src={`/images/Horarios${sede}.jpg`}
+              width={0}
+              height={0}
+              sizes="100vw"
+              style={{ width: "100%", height: "auto" }}
+              title="Horarios actividades vukova"
+              alt="horarios"
+            />
             {/* <img
               alt="Horarios"
              

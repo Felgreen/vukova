@@ -6,9 +6,7 @@ function ExpandableCards() {
   return (
     <div className="flex flex-wrap lg:flex-nowrap">
       <div
-        className={`w-full lg:w-1/4 px-4 mb-8 ${
-          cardExpanded ? "lg:mb-0" : ""
-        }`}
+        className={`w-full lg:w-1/4 px-4 mb-8 ${cardExpanded ? "lg:mb-0" : ""}`}
       >
         <div
           className={`bg-white rounded-lg shadow-md overflow-hidden ${
@@ -25,8 +23,8 @@ function ExpandableCards() {
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Card Title</div>
             <p className="text-gray-700 text-base">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              ac quam nec felis feugiat congue.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac
+              quam nec felis feugiat congue.
             </p>
           </div>
           <div className="px-6 py-4">

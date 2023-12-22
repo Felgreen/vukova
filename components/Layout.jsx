@@ -1,7 +1,7 @@
 import AnimatedBackground from "./ui/AnimatedBackground";
 import GridLayoutMobile from "./ui/GridLayoutMobile";
 import TickerComponent from "./ui/TickerComponent";
-import { useTranslation } from 'next-export-i18n';
+import { useTranslation } from "next-export-i18n";
 import en from "../public/locales/en/english.json";
 import es from "../public/locales/es/espanol.json";
 import GridLayout from "./ui/GridLayout";
@@ -21,11 +21,11 @@ const Layout = () => {
         <Main t={t} />
         {/* <GridLayoutMobile t={t} /> */}
         <AnimatedBackground t={t} />
-        <TickerComponent/>
+        <TickerComponent />
 
         {/* <GridLayout t={t} /> */}
         {/* <CardSection t={t} /> */}
-        <Features t={t}/>
+        <Features t={t} />
         <Footer />
       </div>
     </>

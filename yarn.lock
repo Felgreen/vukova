@@ -1100,10 +1100,10 @@
   resolved "https://registry.npmjs.org/@next/env/-/env-13.0.3.tgz"
   integrity sha512-/4WzeG61Ot/PxsghXkSqQJ6UohFfwXoZ3dtsypmR9EBP+OIax9JRq0trq8Z/LCT9Aq4JbihVkaazRWguORjTAw==
 
-"@next/swc-win32-x64-msvc@13.0.3":
+"@next/swc-darwin-arm64@13.0.3":
   version "13.0.3"
-  resolved "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-13.0.3.tgz"
-  integrity sha512-IAptmSqA7k4tQzaw2NAkoEjj3+Dz9ceuvlEHwYh770MMDL4V0ku2m+UHrmn5HUCEDHhgwwjg2nyf6728q2jr1w==
+  resolved "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-13.0.3.tgz"
+  integrity sha512-wV6j6SZ1bc/YHOLCLk9JVqaZTCCey6HBV7inl2DriHsHqIcO6F3+QiYf0KXwRP9BE0GSZZrYd5mZQm2JPTHdJA==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -1992,6 +1992,11 @@ fs-constants@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz"
   integrity sha512-y6OAwoSIf7FyjMIv94u+b5rdheZEjzR63GTyZJm5qh4Bi+2YgwLCcI/fPFZkL5PSixOt6ZNKm+w+Hfp/Bciwow==
+
+fsevents@~2.3.2:
+  version "2.3.3"
+  resolved "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 function-bind@^1.1.1:
   version "1.1.1"

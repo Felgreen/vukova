@@ -25,7 +25,12 @@ const WhatsappInstagram = ({ celular, black }) => {
           rel="noreferrer"
           target="_blank"
         >
-         <Image src={`/images/icono-instagram${black ? '-bl' : ''}.png`} width={40} height={40} className=""/>
+          <Image
+            src={`/images/icono-instagram${black ? "-bl" : ""}.png`}
+            width={40}
+            height={40}
+            className=""
+          />
         </a>
       </a>
     </div>

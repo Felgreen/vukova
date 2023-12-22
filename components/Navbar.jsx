@@ -1,18 +1,18 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import { useTranslation, LanguageSwitcher, LinkWithLocale } from 'next-export-i18n';
-
+import {
+  useTranslation,
+  LanguageSwitcher,
+  LinkWithLocale,
+} from "next-export-i18n";
 
 import React, { useState, useEffect } from "react";
 import LiNavbarMobile from "./ui/LiNavbarMobile";
 import { LogoB, LogoN } from "./svg/index";
 import LiNavbar from "./ui/LiNavbar";
-import {USA} from '../components/svg';
-import {ARG} from '../components/svg'
-
-
+import { USA } from "../components/svg";
+import { ARG } from "../components/svg";
 
 const Navbar = () => {
-
   const { t } = useTranslation();
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("black");
@@ -63,28 +63,20 @@ const Navbar = () => {
         </div>
         <div>
           <ul style={{ color: `${textColor}` }} className="hidden md:flex">
-            <LiNavbar
-              customPath="/"
-              tNav="INICIO"
-              textColor={textColor}
-            />
+            <LiNavbar customPath="/" tNav="INICIO" textColor={textColor} />
             <LiNavbar
               customPath="/servicios"
               tNav="SERVICIOS"
               textColor={textColor}
             />
-           
-            <LiNavbar
-              customPath="/sedes"
-              tNav="SEDES"
-              textColor={textColor}
-            />
+
+            <LiNavbar customPath="/sedes" tNav="SEDES" textColor={textColor} />
             <LiNavbar
               customPath="/distancia"
               tNav="PLAN A DISTANCIA"
               textColor={textColor}
             />
-             <LiNavbar
+            <LiNavbar
               customPath="/equipo"
               tNav="EQUIPO"
               textColor={textColor}
@@ -104,7 +96,7 @@ const Navbar = () => {
           <div className=""> <LanguageSwitcher lang="es"><ARG/></LanguageSwitcher></div>
            
             </div> */}
-            
+
             {/* <select
               // onChange={changeLanguage}
               // defaultValue={locale}
