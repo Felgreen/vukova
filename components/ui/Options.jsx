@@ -5,7 +5,48 @@ import { motion } from "framer-motion";
 
 export default function Options({ t, option}) {
 
-
+const servicios = [
+    {
+        h3: "Servicios disponibles"
+    },
+    {
+        code: "WL",
+        name: "Weightlifting",
+        detalle: "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos."
+    },
+    {
+        code: "YOGA",
+        name: "Yoga",
+        detalle: "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general."
+    },
+    {
+        code: "NATACION",
+        name: "Natación",
+        detalle: "La natación es un deporte acuático que implica nadar en piscinas, lagos u océanos. Mejora la salud cardiovascular, fortalece los músculos y es una habilidad vital."
+    },
+    {
+        code: "BABY",
+        name: "Bebes al agua"
+    },
+    {
+        code: "PILETA",
+        name: "Pileta Libre"
+    },
+    {
+        code: "PERSONAL",
+        name: "Personal",
+        detalle: "El entrenamiento personal implica trabajar con un profesional del fitness para desarrollar un programa de ejercicios personalizado. Se adapta a las metas individuales, brinda orientación sobre ejercicios y motiva para alcanzar un mejor estado físico."
+    },
+    {
+        code: "WOD",
+        name: "WOD",
+        detalle: "WOD significa 'Workout of the Day' (Entrenamiento del Día). Es un término común en el entrenamiento funcional y el CrossFit. Un WOD es una rutina de ejercicios intensa y variada diseñada para mejorar la resistencia, la fuerza y la condición física en general."
+    },
+    {
+        code: "AQUAGYM",
+        name: "Aqua-Gym"
+    }
+];
   const boxVariant = {
     offscreen: { opacity: 0, scale: 0 },
     onscreen: {
@@ -14,6 +55,7 @@ export default function Options({ t, option}) {
       transition: { type: "spring", duration: 1, bounce: 0.3 },
     },
   };
+   
   console.log(option);
 
   return (
