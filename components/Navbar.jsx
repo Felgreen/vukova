@@ -1,19 +1,14 @@
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import {
-  useTranslation,
-  LanguageSwitcher,
-  LinkWithLocale,
-} from "next-export-i18n";
+
 
 import React, { useState, useEffect } from "react";
 import LiNavbarMobile from "./ui/LiNavbarMobile";
 import { LogoB, LogoN } from "./svg/index";
 import LiNavbar from "./ui/LiNavbar";
-import { USA } from "../components/svg";
-import { ARG } from "../components/svg";
+
 
 const Navbar = () => {
-  const { t } = useTranslation();
+
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("black");
   const [textColor, setTextColor] = useState("white");
@@ -86,9 +81,11 @@ const Navbar = () => {
               tNav="CONTACTO"
               textColor={textColor}
             />
-            <button className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">
-              PROBA UNA CLASE
-            </button>
+            
+            <a href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"
+              target="_blank" className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">PROBA UNA CLASE 
+            </a>
+           
             {/* <div className="flex flex-col  justify-around ">
             <div className="">
             <LanguageSwitcher lang="en"><USA/></LanguageSwitcher>
@@ -158,9 +155,16 @@ const Navbar = () => {
             <LiNavbarMobile customPath="/distancia" tNav="CONTACTO" />
             <LiNavbarMobile customPath="/contacto" tNav="PLAN A DISTANCIA" />
             <li className="p-4">
+        
               <button className="bg-[#f37032] p-4 rounded text-black text-4xl">
+              <a
+                href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
                 PROBA UNA CLASE
+                </a>
               </button>
+             
             </li>
             {/* <li className="p-4">
               <select

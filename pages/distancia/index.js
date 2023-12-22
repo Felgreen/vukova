@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head';
-import { useTranslation } from 'next-export-i18n';
+
 
 
 import UnderConstruction from '../../components/ui/UnderConstruction'
@@ -9,11 +9,9 @@ import Footer from '../../components/Footer';
 // import es from "../../public/locales/es/espanol.json";
 
 const distancia = () => {
-  const {t} = useTranslation(); 
 
-  // const router = useRouter();
-  // const { locale } = router;
-  // const t = locale === "es" ? es : en;
+
+
   
   return (
     <>

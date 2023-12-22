@@ -1,16 +1,11 @@
 import Head from "next/head";
-import { useTranslation } from 'next-export-i18n';
+
 import Dropdown from '../../components/Dropdown'
-// import en from "../../public/locales/en/english.json"
-// import es from "../../public/locales/es/espanol.json";
-// import { useRouter } from "next/router";
+
 import Footer from '../../components/Footer';
 
 const Sedes = () => {
-  const { t } = useTranslation();
-  // const router = useRouter();
-  // const { locale } = router;
-  // const t = locale === "es" ? es : en;
+
 
   return (
     <>

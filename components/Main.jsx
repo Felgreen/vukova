@@ -4,7 +4,7 @@ import { Superacion, Vukova } from "../components/svg";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const Main = ({ t }) => {
+const Main = () => {
   const control = useAnimation();
   const [ref, inView] = useInView();
   const [width, setWidth] = useState(window.innerWidth);
@@ -47,7 +47,7 @@ const Main = ({ t }) => {
                 <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
                   <div className="mx-4 flex  ">
                     <p className=" font-antonRegular text-lg animate-pulse">
-                      {t("about.cta")}
+                      La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!
                     </p>
                   </div>
                 </div>

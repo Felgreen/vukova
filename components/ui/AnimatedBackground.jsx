@@ -1,17 +1,9 @@
 import Image from "next/image";
-import { useRouter } from "next/router";
-import AnimatedTextWord from "./AnimatedTextCharacter";
-import AnimatedTextCharacter from "./AnimatedTextCharacter";
 
-import en from "../../public/locales/en/english.json";
-import es from "../../public/locales/es/espanol.json";
 
 import Marquee from "./Marquee";
 
 const AnimatedBackground = () => {
-  const router = useRouter();
-  const { locale } = router;
-  const t = locale === "es" ? es : en;
 
   return (
     <div

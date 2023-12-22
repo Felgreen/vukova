@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Ribbon from "./ui/Ribbon";
+
 import { Comm, Team } from "./svg/index";
 
 export default function Features({ t }) {
@@ -40,10 +40,10 @@ export default function Features({ t }) {
                 <div className="flex flex-col justify-center space-y-8 text-center">
                   <div className="space-y-2">
                     <h1 className="text-3xl tracking-tighter sm:text-5xl xl:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-black to-[#ee2967]  font-antonioBold">
-                      {t("features.title")}
+                     COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD
                     </h1>
                     <p className="max-w-[600px] text-black md:text-xl dark:text-black mx-auto font-antonRegular">
-                      {t("features.subtitle")}
+                      Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.
                     </p>
                   </div>
                   <div className="w-full max-w-full space-y-4 mx-auto">
@@ -53,10 +53,10 @@ export default function Features({ t }) {
                           <Team className="text-black h-7 w-7 mb-2 opacity-75" />
                         </div>
                         <h2 className="text-xl  text-black font-antonRegular">
-                          {t("features.feature1")}
+                        Staff Capacitado
                         </h2>
                         <p className="text-black dark:text-black font-antonioBold">
-                          {t("features.det1")}
+                        Seguimiento por un equipo profesional que se centra en la unificación de criterios y constante capacitación.
                         </p>
                       </div>
                       <div className="flex flex-col items-center space-y-2 border-black p-4 rounded-lg">
@@ -64,10 +64,10 @@ export default function Features({ t }) {
                           <Comm className="text-black h-7 w-7 mb-2 opacity-75" />
                         </div>
                         <h2 className="text-xl  font-antonRegular text-black ">
-                          {t("features.feature2")}
+                        Enfoque Personal
                         </h2>
                         <p className="text-black font-antonioBold dark:text-black">
-                          {t("features.det2")}
+                        Generamos un espacio comodo de entrenamiento para fomentar la escucha.
                         </p>
                       </div>
                       <div className="flex flex-col items-center space-y-2 border-black p-4 rounded-lg">
@@ -75,10 +75,10 @@ export default function Features({ t }) {
                           <SettingsIcon className="text-black h-7 w-7 mb-2 opacity-75" />
                         </div>
                         <h2 className="text-xl font-antonRegular text-black">
-                          {t("features.feature3")}
+                        Entrenamiento Customizado
                         </h2>
                         <p className="text-black dark:text-black font-antonioBold">
-                          {t("features.det3")}
+                        Los objetivos personales particulares necesitan de rutinas adaptadas a dichos objetivos.
                         </p>
                       </div>
                     </div>

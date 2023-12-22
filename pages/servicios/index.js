@@ -2,15 +2,15 @@ import Head from "next/head";
 import { Personal, Swim, WL, WOD, Yoga } from "../../components/svg/index";
 // import en from "../../public/locales/en/english.json";
 // import es from "../../public/locales/es/espanol.json";
-import { useTranslation } from "next-export-i18n";
+
 import { useState } from "react";
 import Options from "../../components/ui/Options";
-import { useRouter } from "next/router";
+
 import Footer from "../../components/Footer";
 import ServicesOptions from "../../components/ui/ServicesOptions";
 
 export default function Services() {
-  const { t } = useTranslation();
+
   const [option, setOption] = useState("WL");
   // const router = useRouter();
   // const { locale } = router;
