@@ -273,7 +273,7 @@ const Dropdown = ({ t }) => {
         closed
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
-          <h2 className=" font-antonRegular lg:text-3xl">VUKOVA DEL BAJO</h2>
+          <h2 className=" font-antonRegular lg:text-3xl">VUKOVA VICTORIA</h2>
 
           <LogoN
             className="h-7 w-7 animate-pulse shrink-0 transition duration-300 group-open:-rotate-180 "

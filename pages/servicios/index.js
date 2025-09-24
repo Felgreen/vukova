@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Personal, Swim, WL, WOD, Yoga } from "../../components/svg/index";
+import { Personal, Swim, WL, WOD, Yoga, Kinio } from "../../components/svg/index";
 // import en from "../../public/locales/en/english.json";
 // import es from "../../public/locales/es/espanol.json";
 
@@ -23,7 +23,7 @@ export default function Services() {
 
         <meta
           property="og:title"
-          content="Weightlifting, yoga, natacion, natacion para bebes , natacion para chicos, personal training, WOD."
+          content="Weightlifting, yoga, natacion, natacion para bebes , natacion para chicos, personal training, WOD, Kinesiología."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -64,7 +64,14 @@ export default function Services() {
                 icon={<WOD className="text-3xl" />}
                 label="WOD"
               />
+               <ServicesOptions
+                setOption={setOption}
+                option="KINIO"
+                icon={<Kinio className="text-3xl" />}
+                label="KINESIOLOGÍA"
+              />
             </div>
+            
             <div className="lg:col-span-3 flex m-auto">
               <Options option={option} />
             </div>

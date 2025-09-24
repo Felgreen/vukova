@@ -13,6 +13,7 @@ export default function Options({ option }) {
     "PERSONAL": "Personal",
     "WOD": "WOD",
     "AQUAGYM": "Aqua-Gym",
+    "KINIO":"Kinesiología",
     "detalle": {
       "WL": "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos.",
       "YOGA": "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general.",
@@ -21,7 +22,8 @@ export default function Options({ option }) {
       "PILETA": "Pileta Libre",
       "PERSONAL": "El entrenamiento personal implica trabajar con un profesional del fitness para desarrollar un programa de ejercicios personalizado. Se adapta a las metas individuales, brinda orientación sobre ejercicios y motiva para alcanzar un mejor estado físico.",
       "WOD": "WOD significa 'Workout of the Day' (Entrenamiento del Día). Es un término común en el entrenamiento funcional y el CrossFit. Un WOD es una rutina de ejercicios intensa y variada diseñada para mejorar la resistencia, la fuerza y la condición física en general.",
-      "AQUAGYM": "Aqua-Gym"
+      "AQUAGYM": "Aqua-Gym",
+      "KINIO":"Kinesiología y recovery, reservá tu turno a través de nuestros medio de comunicación."
     }
   }
 
