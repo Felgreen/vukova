@@ -1,19 +1,15 @@
+
+
 import Head from "next/head";
-import { useRouter } from "next/router";
-import en from "../public/locales/en/english.json";
-import es from "../public/locales/es/espanol.json";
-import "../components/i18n";
+
+
 
 import Layout from "../components/Layout";
 
 export default function Home() {
-  const { locale, locales, push } = useRouter();
+ 
 
-  const t = locale === "es" ? es : en;
 
-  const handleClick = (l) => () => {
-    push("/", undefined, { locale: l });
-  };
 
   return (
     <>

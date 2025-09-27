@@ -25,6 +25,7 @@
     "desc": "Veni a conocer el primer parque de Surfskate cerrado de la Argentina pensado y desarrollado para que puedas mejorar tu técnica de surf, sin importar si sos principiante o avanzado."
   },
   "servicios": {
+    "h3":"Servicios disponibles",
     "WL": "Weightlifting",
     "YOGA": "Yoga",
     "NATACION": "Natación",
@@ -33,6 +34,7 @@
     "PERSONAL": "Personal",
     "WOD": "WOD",
     "AQUAGYM": "Aqua-Gym",
+    "KINIO":"Kinesiología",
     "detalle": {
       "WL": "El weightlifting es un deporte en el que los atletas compiten para levantar la mayor cantidad de peso posible en dos movimientos: el arranque (snatch) y el envión (clean and jerk). Estos movimientos requieren fuerza, velocidad y técnica, y el weightlifting es parte de los Juegos Olímpicos.",
       "YOGA": "El yoga es una práctica holística originaria de la India que combina posturas físicas, técnicas de respiración y meditación. Busca el equilibrio entre mente y cuerpo, mejorando la flexibilidad, fortaleza y bienestar general.",
@@ -84,7 +86,7 @@
   },
   "seo": {
     "title": "Vukova",
-    "desc": "omos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
+    "desc": "Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.",
     "servTitle": "Servicios Vukova ",
     "servDesc": "Weightlifting, yoga, natacion, natacion para bebes , natacion para chicos, personal training, WOD ",
     "sedeTitulo": "Sedes Vukova - Vicente Lopez - Acassuso - Beccar",

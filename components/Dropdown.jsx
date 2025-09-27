@@ -9,6 +9,7 @@ import {
   Swim,
   WL,
   WOD,
+  Kinio,
   Yoga,
 } from "./svg/index";
 import ModalSchedule from "./ui/ModalSchedule";
@@ -29,7 +30,7 @@ const Dropdown = ({ t }) => {
           />
         </summary>
 
-        <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2">
+        <ul className="mt-8 grid  gap-4 grid-cols-3 mx-2 ">
           <li>
             <div className="group relative block">
               <Image
@@ -98,38 +99,42 @@ const Dropdown = ({ t }) => {
               </h3>
             </div>
             <div className="container mx-auto px-4 py-8">
-              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Yoga className="h-8 w-8 mr-1" />
-                  {t.servicios.YOGA}
+                  Yoga
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  WOD
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Swim className="h-8 w-8 mr-1" />
-                  {t.servicios.NATACION}
+                  Natación
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Baby className="h-7 w-7 mr-1" />
-                  {t.servicios.BABY}
+                  Bebes al agua
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Aqua className="h-7 w-7 mr-1" />
-                  {t.servicios.AQUAGYM}
+                  Aqua-Gym
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Pool className="h-7 w-7 mr-1" />
-                  {t.servicios.PILETA}
+                  Pileta Libre
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  Personal
+                </li>
+                 <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                  Recovery y Kinesiología
                 </li>
               </ul>
             </div>
@@ -235,22 +240,22 @@ const Dropdown = ({ t }) => {
                 <p className="text-gray-600">Ubicación: <span className="">Av. Maipú 545, Vicente López, Provincia de Buenos Aires</span></p> */}
             </div>
             <div className="container mx-auto px-4 py-8">
-              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-evenly items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  Personal
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  WOD
                 </li>
               </ul>
             </div>
-            <ModalSchedule sede="Vilo" t={t} />
+            <ModalSchedule sede="Vilo" />
           </div>
 
           <div className="md:w-1/2">
@@ -273,7 +278,7 @@ const Dropdown = ({ t }) => {
         closed
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
-          <h2 className=" font-antonRegular lg:text-3xl">VUKOVA DEL BAJO</h2>
+          <h2 className=" font-antonRegular lg:text-3xl">VUKOVA VICTORIA</h2>
 
           <LogoN
             className="h-7 w-7 animate-pulse shrink-0 transition duration-300 group-open:-rotate-180 "
@@ -355,19 +360,23 @@ const Dropdown = ({ t }) => {
               <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
-                  {t.servicios.PERSONAL}
+                  Personal
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WL className="h-8 w-8" />
-                  {t.servicios.WL}
+                  Weightlifting
                 </li>
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
-                  {t.servicios.WOD}
+                  WOD
+                </li>
+                 <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                   Kinesiología
                 </li>
               </ul>
             </div>
-            <ModalSchedule sede="Bajo" t={t} />
+            <ModalSchedule sede="Bajo" />
           </div>
 
           <div className="md:w-1/2">

@@ -1,10 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales:['en','es'],
-    defaultLocale:'es',
-  },
+  output:'export',
+  images: {unoptimized : true,},
+
   webpack(config){
     config.module.rules.push({
      
@@ -13,7 +12,8 @@ const nextConfig = {
       use: [{loader: '@svgr/webpack', options: { icon: true }}],
       
       
-    })
+    },
+    )
     return config
   }
 

@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const AnimatedTextCharacter = ({ text }) => {
-// splitting text into letters
+  // splitting text into letters
   const letters = Array.from(text);
 
-// Variants for Container
+  // Variants for Container
   const container = {
     hidden: { opacity: 0 },
     visible: (i = 1) => ({
@@ -14,7 +14,7 @@ const AnimatedTextCharacter = ({ text }) => {
     }),
   };
 
-// Variants for each letter
+  // Variants for each letter
   const child = {
     visible: {
       opacity: 1,
