@@ -29,7 +29,7 @@ export default function Contact() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section id="contacto" className="py-40 h-auto w-full  font-antonioBold">
-        <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
+        <div className="flex flex-col lg:flex-row justify-between md:justify-evenly lg:mb-20 lg:p-10 items-center">
           <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
             <motion.h1
               className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10"
@@ -63,16 +63,16 @@ export default function Contact() {
             variants={boxVariant}
           >
             <Image
-              src="/images/acccon.webp"
+              src="/images/aca.jpg"
               alt="Vukova acassuso"
-              width={600}
-              height={600}
+              width={300}
+              height={300}
               className="rounded"
               title="Acassuso gym"
             />
           </motion.div>
         </div>
-        <div className="flex flex-col lg:flex-row-reverse justify-between lg:mb-20 lg:p-10 items-center bg-black">
+        <div className="flex flex-col lg:flex-row-reverse justify-between  md:justify-evenly lg:mb-20 lg:p-10 items-center bg-black">
           <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
             <motion.h1
               className="font-bold text-white text-4xl md:text-6xl xl:text-7xl mb-10"
@@ -104,16 +104,16 @@ export default function Contact() {
             variants={boxVariant}
           >
             <Image
-              src="/images/vilocon.webp"
+              src="/images/vilo.jpg"
               alt="Gym Vicente Lopez"
-              width={600}
-              height={600}
+              width={300}
+              height={300}
               className="rounded"
               title="Vicente Lopez Vukova"
             />
           </motion.div>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between lg:mb-20 lg:p-10 items-center">
+        <div className="flex flex-col lg:flex-row justify-between  md:justify-evenly lg:mb-20 lg:p-10 items-center">
           <div className="text-center lg:text-left m-5 lg:mb-0 max-w-lg">
             <motion.h1
               className="font-bold text-gray-800 text-4xl md:text-6xl xl:text-7xl mb-10"
@@ -121,7 +121,7 @@ export default function Contact() {
               whileInView={"onscreen"}
               variants={boxVariant}
             >
-              Beccar
+              Victoria
             </motion.h1>
 
             <motion.p
@@ -133,7 +133,7 @@ export default function Contact() {
               <ul>
                 <li>+54 9 11 5765-0309</li>
                 <li>
-                  Av. Bartolomé Mitre 1650, B1643 Béccar, Provincia de Buenos
+                  Simón de Iriondo 840, Victoria, Provincia de Buenos
                   Aires
                 </li>
               </ul>
@@ -147,13 +147,13 @@ export default function Contact() {
             whileInView={"onscreen"}
             variants={boxVariant}
           >
-            <Image
-              src="/images/afuera_bajo.jpg"
+            <Image 
+              src="/images/vic.jpg"
               alt="Image"
-              width={600}
-              height={600}
+              width={300}
+              height={300}
               className="rounded"
-            />
+            />   
           </motion.div>
         </div>
         <a

@@ -9,6 +9,7 @@ import {
   Swim,
   WL,
   WOD,
+  Kinio,
   Yoga,
 } from "./svg/index";
 import ModalSchedule from "./ui/ModalSchedule";
@@ -130,6 +131,10 @@ const Dropdown = ({ t }) => {
                 <li className="flex items-center space-x-2 mb-2">
                   <Personal className="h-7 w-7 mr-1" />
                   Personal
+                </li>
+                 <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                  Recovery y Kinesiología
                 </li>
               </ul>
             </div>
@@ -364,6 +369,10 @@ const Dropdown = ({ t }) => {
                 <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
                   WOD
+                </li>
+                 <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                   Kinesiología
                 </li>
               </ul>
             </div>
