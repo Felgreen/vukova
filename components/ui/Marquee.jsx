@@ -62,7 +62,7 @@ const Marquee = () => {
             animate="animate"
           >
             <h1>
-              WEIGHTLIFTING - PERSONAL TRAINING - WOD - YOGA - NATACIÓN -
+              WEIGHTLIFTING - PERSONAL TRAINING - YOGA - NATACIÓN -
               WEIGHTLIFTING
             </h1>
           </motion.div>
