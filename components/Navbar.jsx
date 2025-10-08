@@ -83,7 +83,7 @@ const Navbar = () => {
             />
             
             <a href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"
-              target="_blank" className="bg-[#f37032] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">PROBA UNA CLASE 
+              target="_blank" className="bg-[#EA2479] p-4 rounded text-black mx-2 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-[#ee2967] duration-300">PROBA UNA CLASE 
             </a>
            
             {/* <div className="flex flex-col  justify-around ">
@@ -161,7 +161,7 @@ const Navbar = () => {
                 href="https://api.whatsapp.com/send/?phone=5491157650309&text&type=phone_number&app_absent=0"
                 target="_blank"
               >
-                PROBA UNA CLASE
+                PROBÁ UNA CLASE
                 </a>
               </button>
              

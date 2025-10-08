@@ -58,12 +58,12 @@ export default function Services() {
                 icon={<Personal className="text-3xl" />}
                 label="PERSONAL"
               />
-              <ServicesOptions
+              {/* <ServicesOptions
                 setOption={setOption}
                 option="WOD"
                 icon={<WOD className="text-3xl" />}
                 label="WOD"
-              />
+              /> */}
                <ServicesOptions
                 setOption={setOption}
                 option="KINIO"

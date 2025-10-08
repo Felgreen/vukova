@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer
       aria-label="Site Footer"
-      className="bg-[#f37032] font-montSemiBold"
+      className="bg-[#EA2479] font-montSemiBold"
       id="Footer"
     >
       <div className="max-w-screen-xl px-4 py-16 mx-auto space-y-8 sm:px-6 lg:space-y-16 lg:px-8">

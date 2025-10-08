@@ -47,7 +47,7 @@ const Main = () => {
                 <div className="columns-2 mt-2 text-sm w-full flex justify-center items-center">
                   <div className="mx-4 flex  ">
                     <p className=" font-antonRegular text-lg animate-pulse">
-                      La diferencia entre moverse y entrenar, deja de pensarlo y arranca hoy!
+                      La diferencia entre moverse y entrenar.  Deja de pensarlo y ¡arrancá hoy!
                     </p>
                   </div>
                 </div>

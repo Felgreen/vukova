@@ -9,7 +9,7 @@ const LiNavbarMobile = ({ customPath, tNav }) => {
     <li
       className={
         path === customPath
-          ? "p-4 text-4xl text-[#f37032] underline"
+          ? "p-4 text-4xl text-[#EA2479] underline"
           : "p-4 text-4xl"
       }
     >

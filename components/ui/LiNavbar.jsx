@@ -9,12 +9,12 @@ const LiNavbar = ({ customPath, textColor, tNav }) => {
     <li
       className={
         path === customPath
-          ? `p-4 text-[#f37032] underline`
-          : `p-4 hover:text-[#f37032] text-[${textColor}] group transition-all duration-400 ease-in-out`
+          ? `p-4 text-[#EA2479] underline`
+          : `p-4 hover:text-[#EA2479] text-[${textColor}] group transition-all duration-400 ease-in-out`
       }
     >
       <Link
-        className="bg-left-bottom bg-gradient-to-r from-[#f37032] to-[#f37032] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
+        className="bg-left-bottom bg-gradient-to-r from-[#EA2479] to-[#EA2479] bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out"
         href={customPath}
       >
         {tNav}

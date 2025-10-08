@@ -19,14 +19,7 @@ const Manifesto = () => {
 
           <div className=" text-black font-antonBold  font-bold sm:mt-2 sm:block">
             <p>
-              Somos un centro de entrenamiento semi personalizado donde nos
-              focalizamos en los objetivos de las personas para desarrollarlo en
-              comunidad.Un Equipo interdisciplinario formado por ex deportistas
-              profesionales en búsqueda de potenciar el entrenamiento de las
-              personas. Con La unificación de criterios, capacitación constante
-              y experiencia logramos generar un ámbito seguro con seguimiento
-              detallado para que superes tus objetivos. Forma parte de la
-              comunidad Vukova y superate.
+              Somos un Equipo interdisciplinario formado por ex deportistas profesionales en búsqueda de potenciar el entrenamiento de las personas. Con La unificación de criterios, capacitación constante y experiencia logramos generar un ámbito seguro con seguimiento detallado para que nuestros deportistas superen sus sus objetivos. Formá parte de la comunidad Vukova y superate.
             </p>
           </div>
         </div>

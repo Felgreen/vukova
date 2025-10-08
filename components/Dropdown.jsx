@@ -108,10 +108,10 @@ const Dropdown = ({ t }) => {
                   <Yoga className="h-8 w-8 mr-1" />
                   Yoga
                 </li>
-                <li className="flex items-center space-x-2 mb-2">
+                {/* <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
                   WOD
-                </li>
+                </li> */}
                 <li className="flex items-center space-x-2 mb-2">
                   <Swim className="h-8 w-8 mr-1" />
                   Natación
@@ -174,7 +174,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo1.webp"
+                src="/images/vilo1.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -191,7 +191,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo2.webp"
+                src="/images/vilo2.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -208,7 +208,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo3.webp"
+                src="/images/vilo3.jpg"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -249,10 +249,10 @@ const Dropdown = ({ t }) => {
                   <WL className="h-8 w-8" />
                   Weightlifting
                 </li>
-                <li className="flex items-center space-x-2 mb-2">
+                {/* <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
                   WOD
-                </li>
+                </li> */}
               </ul>
             </div>
             <ModalSchedule sede="Vilo" />
@@ -366,10 +366,10 @@ const Dropdown = ({ t }) => {
                   <WL className="h-8 w-8" />
                   Weightlifting
                 </li>
-                <li className="flex items-center space-x-2 mb-2">
+                {/* <li className="flex items-center space-x-2 mb-2">
                   <WOD className="h-8 w-8 mr-1" />
                   WOD
-                </li>
+                </li> */}
                  <li className="flex items-center space-x-2 mb-2">
                   <Kinio className="h-7 w-7 mr-1" />
                    Kinesiología
