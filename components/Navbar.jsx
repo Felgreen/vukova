@@ -152,8 +152,8 @@ const Navbar = () => {
             <LiNavbarMobile customPath="/servicios" tNav="SERVICIOS" />
             <LiNavbarMobile customPath="/equipo" tNav="EQUIPO" />
             <LiNavbarMobile customPath="/sedes" tNav="SEDES" />
-            <LiNavbarMobile customPath="/distancia" tNav="CONTACTO" />
-            <LiNavbarMobile customPath="/contacto" tNav="PLAN A DISTANCIA" />
+            <LiNavbarMobile customPath="/contacto" tNav="CONTACTO" />
+            <LiNavbarMobile customPath="/distancia" tNav="PLAN A DISTANCIA" />
             <li className="p-4">
         
               <button className="bg-[#f37032] p-4 rounded text-black text-4xl">
