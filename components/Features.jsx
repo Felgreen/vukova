@@ -43,7 +43,7 @@ export default function Features({ t }) {
                      COMUNIDAD Y ENTRENAMIENTO DE ALTA CALIDAD
                     </h1>
                     <p className="max-w-[600px] text-black md:text-xl dark:text-black mx-auto font-antonRegular">
-                      Somos un centro de entrenamiento semi personalizado donde nos focalizamos en los objetivos de las personas para desarrollarlo en comunidad o en equipo.
+                      Somos un centro de entrenamiento semi personalizado. Nos focalizamos en los objetivos de las personas para desarrollarlos en comunidad o en equipo.
                     </p>
                   </div>
                   <div className="w-full max-w-full space-y-4 mx-auto">
@@ -67,7 +67,7 @@ export default function Features({ t }) {
                         Enfoque Personal
                         </h2>
                         <p className="text-black font-antonioBold dark:text-black">
-                        Generamos un espacio comodo de entrenamiento para fomentar la escucha.
+                          Generamos un espacio cómodo de entrenamiento para fomentar la escucha                       
                         </p>
                       </div>
                       <div className="flex flex-col items-center space-y-2 border-black p-4 rounded-lg">
@@ -75,11 +75,11 @@ export default function Features({ t }) {
                           <SettingsIcon className="text-black h-7 w-7 mb-2 opacity-75" />
                         </div>
                         <h2 className="text-xl font-antonRegular text-black">
-                        Entrenamiento Customizado
+                          Entrenamiento Customizado
                         </h2>
                         <p className="text-black dark:text-black font-antonioBold">
-                        Los objetivos personales particulares necesitan de rutinas adaptadas a dichos objetivos.
-                        </p>
+                          Los objetivos son personales particulares, por eso se adaptan las rutinas  para cumplirlos.                        
+                          </p>
                       </div>
                     </div>
                   </div>
