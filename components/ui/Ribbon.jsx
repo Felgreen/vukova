@@ -44,16 +44,6 @@ const Ribbon = () => {
               </div>
             </div>
 
-            {/*     
-              <Image 
-              src={logos}
-              alt="logos"
-              objectFit='cover'
-              objectPosition=''
-              fill='contain'
-              className='flex'
-              />
-            */}
           </motion.div>
         </AnimatePresence>
         {/* <!-- end ribbon --> */}

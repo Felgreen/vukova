@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { useRouter } from "next/router";
 import Image from 'next/image'; 
 
 
@@ -8,7 +7,7 @@ import Image from 'next/image';
 
 import Manifesto from '../../components/Manifesto';
 import Navbar from '../../components/Navbar';
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Footer from '../../components/Footer';
@@ -20,7 +19,6 @@ export default function Entrenamiento() {
 
   const control = useAnimation();
   const [ref, inView] = useInView();
-  const [width, setWidth] = useState(window.innerWidth);
 
   const reservaVariant = {
     visible: {
@@ -31,7 +29,6 @@ export default function Entrenamiento() {
     hidden: { opacity: 0, scale: 0 },
   };
   useEffect(() => {
-    setWidth(window.innerWidth);
     if (inView) {
       control.start("visible");
     }
@@ -74,15 +71,6 @@ export default function Entrenamiento() {
           <div className="grid grid-cols-1 lg:h-[80vh] lg:grid-cols-2">
             <div className="relative z-10 lg:py-16">
               <div className="relative h-64 sm:h-80 lg:h-full">
-                {/* <Image
-                src="/images/logoReal.webp"
-                alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
-              
-                className="absolute inset-0 h-full w-full object-cover
-                opacity-75 transition-opacity group-hover:opacity-50"
-      /> */}
               <Image
               alt="Team Vukova"
               src="/images/equipo.webp"

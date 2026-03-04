@@ -59,8 +59,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/personaltraining.png"
                 alt="personal training"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
@@ -92,8 +91,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/crosstraining.webp"
                 alt="cross training"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
               />
 
@@ -124,8 +122,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/functionaltraining.webp"
                 alt="functional training"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -157,8 +154,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/levantamientopesas.png"
                 alt="levantamiento pesas"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-75 transition-opacity group-hover:opacity-50"
               />
@@ -190,8 +186,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/vinyasayoga.webp"
                 alt="vinyasa yoga"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-75 transition-opacity group-hover:opacity-50"
               />

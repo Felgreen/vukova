@@ -91,9 +91,8 @@ const Map = () => {
                   <Image
                     src="/images/Teesperamos.webp"
                     alt="skatefriends"
-                    layout="fill" // required
-                    objectFit="cover" // change to suit your needs
-                    className="rounded-xl" // just an example
+                    fill
+                    className="rounded-xl object-cover"
                   />
                 </div>
               </div>

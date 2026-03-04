@@ -76,8 +76,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/surfbowl.png"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
          opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -116,8 +115,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/surfskate.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
         opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -155,8 +153,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/instalaciones.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -194,8 +191,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/shop.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -233,8 +229,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/comida.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-60 transition-opacity group-hover:opacity-50"
               />
@@ -272,8 +267,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/eventos.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
        opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -311,8 +305,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/nutri.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
         opacity-70 transition-opacity group-hover:opacity-50"
               />
@@ -350,8 +343,7 @@ const GridLayout = ({ t }) => {
               <Image
                 src="/images/logoReal.webp"
                 alt="surfbowl"
-                layout="fill"
-                objectFit="cover"
+                fill
                 className="absolute inset-0 h-full w-full object-cover
         opacity-70 transition-opacity group-hover:opacity-50"
               />
