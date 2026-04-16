@@ -1,0 +1,28 @@
+# Development overrides — applied automatically when running docker compose up locally
+# This file is NOT used in production (only docker-compose.yml is used there)
+#
+# Usage:
+#   docker compose up         → uses docker-compose.yml + this override (dev mode)
+#   docker compose -f docker-compose.yml up  → production mode only
+
+services:
+  vukova:
+    build:
+      target: deps      # Only run up to the deps stage — no full build needed
+    # Override the production CMD to run the dev server instead
+    command: npm run dev
+    ports:
+      - "3000:3000"     # Expose on all interfaces for local browser access
+    environment:
+      - NODE_ENV=development
+    volumes:
+      # Mount source code so changes reflect instantly without rebuilding
+      - .:/app
+      # Preserve the container's node_modules (don't override with host's)
+      - /app/node_modules
+      - /app/.next
+    # No restart policy in dev — if it crashes, you want to see it and fix it
+    restart: "no"
+    # Disable health check in dev — startup is slower and less predictable
+    healthcheck:
+      disable: true
