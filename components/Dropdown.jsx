@@ -394,6 +394,224 @@ const Dropdown = ({ t }) => {
           </div>
         </div>
       </details>
+
+      {/* ── VUKOVA OLIVOS ────────────────────────────────────────────── */}
+      <details
+        className="relative group [&_summary::-webkit-details-marker]:hidden"
+        closed
+      >
+        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+          <h2 className="font-antonRegular lg:text-3xl">VUKOVA OLIVOS</h2>
+          <LogoN
+            className="h-7 w-7 animate-pulse shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          />
+        </summary>
+
+        <ul className="mt-8 grid gap-4 grid-cols-3 mx-2">
+          <li>
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/olivos1.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Olivos"
+                alt="Vukova Olivos gym"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+
+          <li>
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/olivos2.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Olivos entrenamiento"
+                alt="Vukova Olivos entrenamiento"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+
+          <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/olivos3.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Olivos training"
+                alt="Vukova Olivos training"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+        </ul>
+
+        <div className="container mx-auto p-8 flex flex-col md:flex-row">
+          <div className="md:w-1/2 pr-4">
+            <div className="mb-4">
+              <h3 className="text-2xl font-antonioBold mb-2">
+                Servicios disponibles
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Av. Maipu 3019, Olivos
+              </p>
+            </div>
+            <div className="container mx-auto px-4 py-8">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+                <li className="flex items-center space-x-2 mb-2">
+                  <Personal className="h-7 w-7 mr-1" />
+                  Personal
+                </li>
+                <li className="flex items-center space-x-2 mb-2">
+                  <WL className="h-8 w-8" />
+                  Weightlifting
+                </li>
+                <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                  Kinesiología
+                </li>
+              </ul>
+            </div>
+            <ModalSchedule sede="Olivos" />
+          </div>
+
+          <div className="md:w-1/2">
+            <div className="relative aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8019664224685!2d-58.49465692446263!3d-34.50790447298872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1167054190b%3A0x18d3c0d1bdb5933d!2sAv.%20Maip%C3%BA%203019%2C%20B1636AAK%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1776432326477!5m2!1sen!2sar"
+                width="500"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </details>
+
+      {/* ── VUKOVA DELTA ─────────────────────────────────────────────── */}
+      <details
+        className="relative group [&_summary::-webkit-details-marker]:hidden"
+        closed
+      >
+        <summary className="flex cursor-pointer items-center justify-between gap-1.5 rounded-lg bg-gray-50 p-4 text-gray-900">
+          <h2 className="font-antonRegular lg:text-3xl">VUKOVA DELTA</h2>
+          <LogoN
+            className="h-7 w-7 animate-pulse shrink-0 transition duration-300 group-open:-rotate-180"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+          />
+        </summary>
+
+        <ul className="mt-8 grid gap-4 grid-cols-3 mx-2">
+          <li>
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/delta1.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Delta"
+                alt="Vukova Delta gym"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+
+          <li>
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/delta2.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Delta entrenamiento"
+                alt="Vukova Delta entrenamiento"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+
+          <li className="lg:col-span-2 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+            <div className="group relative block">
+              <Image
+                className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
+                src="/images/delta3.jpg"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                title="Vukova Delta training"
+                alt="Vukova Delta training"
+              />
+              <div className="absolute inset-0 flex flex-col items-start justify-end p-6"></div>
+            </div>
+          </li>
+        </ul>
+
+        <div className="container mx-auto p-8 flex flex-col md:flex-row">
+          <div className="md:w-1/2 pr-4">
+            <div className="mb-4">
+              <h3 className="text-2xl font-antonioBold mb-2">
+                Servicios disponibles
+              </h3>
+              <p className="text-gray-600 text-sm">
+                Olivares 550, Rincon de Milberg
+              </p>
+            </div>
+            <div className="container mx-auto px-4 py-8">
+              <ul className="list-none p-0 m-0 flex flex-wrap justify-between items-center">
+                <li className="flex items-center space-x-2 mb-2">
+                  <Personal className="h-7 w-7 mr-1" />
+                  Personal
+                </li>
+                <li className="flex items-center space-x-2 mb-2">
+                  <WL className="h-8 w-8" />
+                  Weightlifting
+                </li>
+                <li className="flex items-center space-x-2 mb-2">
+                  <Kinio className="h-7 w-7 mr-1" />
+                  Kinesiología
+                </li>
+              </ul>
+            </div>
+            <ModalSchedule sede="Delta" />
+          </div>
+
+          <div className="md:w-1/2">
+            <div className="relative aspect-w-16 aspect-h-9">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3291.8240023529843!2d-58.6217470744673!3d-34.405819073025874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sOlivares%20550%2C%20Rincon%20de%20Milberg!5e0!3m2!1sen!2sar!4v1776432609998!5m2!1sen!2sar"
+                width="500"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </details>
     </div>
   );
 };
