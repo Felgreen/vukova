@@ -491,7 +491,7 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2">
             <div className="relative aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3287.8019664224685!2d-58.49465692446263!3d-34.50790447298872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1167054190b%3A0x18d3c0d1bdb5933d!2sAv.%20Maip%C3%BA%203019%2C%20B1636AAK%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1sen!2sar!4v1776432326477!5m2!1sen!2sar"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13151.442236631414!2d-58.4854516!3d-34.5064192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1005d148f17%3A0xa1fea32fd463355a!2sVUKOVA%20OLIVOS!5e0!3m2!1sen!2sar!4v1777318779203!5m2!1sen!2sar"
                 width="500"
                 height="300"
                 style={{ border: 0 }}
@@ -600,7 +600,7 @@ const Dropdown = ({ t }) => {
           <div className="md:w-1/2">
             <div className="relative aspect-w-16 aspect-h-9">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3291.8240023529843!2d-58.6217470744673!3d-34.405819073025874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sOlivares%20550%2C%20Rincon%20de%20Milberg!5e0!3m2!1sen!2sar!4v1776432609998!5m2!1sen!2sar"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3292.145885989101!2d-58.6212404!3d-34.3976377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca7002b8cb4a1%3A0x965ac023149d9ca0!2sVUKOVA%20DELTA!5e0!3m2!1sen!2sar!4v1777318636013!5m2!1sen!2sar"
                 width="500"
                 height="300"
                 style={{ border: 0 }}
