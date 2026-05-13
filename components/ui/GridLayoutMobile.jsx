@@ -74,7 +74,7 @@ const GridLayout = ({ t }) => {
           >
             <div className="group relative flex bg-black h-full">
               <Image
-                src="/images/surfbowl.png"
+                src="/images/surfbowl.webp"
                 alt="surfbowl"
                 fill
                 className="absolute inset-0 h-full w-full object-cover

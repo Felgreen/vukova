@@ -35,7 +35,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/acc3.jpg"
+                src="/images/acc3.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -52,7 +52,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/pileta.jpg"
+                src="/images/pileta.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -69,7 +69,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/acc1.jpg"
+                src="/images/acc1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -174,7 +174,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo1.jpg"
+                src="/images/vilo1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -191,7 +191,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo2.jpg"
+                src="/images/vilo2.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -208,7 +208,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/vilo3.jpg"
+                src="/images/vilo3.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -291,7 +291,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/sede-vic-1.jpg"
+                src="/images/sede-vic-1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -308,7 +308,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/sede-vic-afuera.jpg"
+                src="/images/sede-vic-afuera.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -325,7 +325,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/sede-vic.jpg"
+                src="/images/sede-vic.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -414,7 +414,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/olivos1.jpg"
+                src="/images/olivos1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -430,7 +430,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/olivos2.jpg"
+                src="/images/olivos2.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -446,7 +446,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/olivos3.jpg"
+                src="/images/olivos3.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -523,7 +523,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/delta1.jpg"
+                src="/images/Delta1.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -539,7 +539,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/delta2.jpg"
+                src="/images/Delta2.webp"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -555,7 +555,7 @@ const Dropdown = ({ t }) => {
             <div className="group relative block">
               <Image
                 className="aspect-square w-full object-cover transition duration-500 group-hover:opacity-90"
-                src="/images/delta3.jpg"
+                src="/images/Delta3.webp"
                 width={0}
                 height={0}
                 sizes="100vw"

@@ -57,7 +57,7 @@ const GridLayout = ({ t }) => {
           >
             <div className="group relative flex  h-full">
               <Image
-                src="/images/personaltraining.png"
+                src="/images/personaltraining.webp"
                 alt="personal training"
                 fill
                 className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
@@ -152,7 +152,7 @@ const GridLayout = ({ t }) => {
           >
             <div className="group relative flex  h-full">
               <Image
-                src="/images/levantamientopesas.png"
+                src="/images/levantamientopesas.webp"
                 alt="levantamiento pesas"
                 fill
                 className="absolute inset-0 h-full w-full object-cover

@@ -5,20 +5,20 @@ import Ticker from "framer-motion-ticker";
 const colors = ["#632bf3", "#f122c8", "#f16022", "#9ef344", "#44d3f3"];
 
 const images = [
-  "/images/ticker/1.jpg",
-  "/images/ticker/2.jpg",
-  "/images/ticker/13.jpg",
-  "/images/ticker/3.jpg",
-  "/images/ticker/5.jpg",
+  "/images/ticker/1.webp",
+  "/images/ticker/2.webp",
+  "/images/ticker/13.webp",
+  "/images/ticker/3.webp",
+  "/images/ticker/5.webp",
 ];
 
 const images2 = [
-  "/images/ticker/17.jpg",
-  "/images/ticker/7.jpg",
-  "/images/ticker/8.jpg",
-  "/images/ticker/11.jpg",
+  "/images/ticker/17.webp",
+  "/images/ticker/7.webp",
+  "/images/ticker/8.webp",
+  "/images/ticker/11.webp",
   ,
-  "/images/ticker/9.jpg",
+  "/images/ticker/9.webp",
 ];
 
 const TickerComponent = () => {
@@ -34,7 +34,9 @@ const TickerComponent = () => {
               width: "200px",
             }}
           >
-            <Image src={imageUrl} alt="" width={200} height={250} />
+            <Image src={imageUrl} alt="" width={200} height={250}
+                quality={70}
+                loading="lazy" />
           </div>
         ))}
       </Ticker>
@@ -49,7 +51,9 @@ const TickerComponent = () => {
               width: "200px",
             }}
           >
-            <Image src={imageUrl} alt="" width={200} height={250} />
+            <Image src={imageUrl} alt="" width={200} height={250}
+                quality={70}
+                loading="lazy" />
           </div>
         ))}
       </Ticker>

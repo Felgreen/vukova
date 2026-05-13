@@ -63,7 +63,7 @@ export default function Contact() {
             variants={boxVariant}
           >
             <Image
-              src="/images/aca.jpg"
+              src="/images/aca.webp"
               alt="Vukova acassuso"
               width={300}
               height={300}
@@ -104,7 +104,7 @@ export default function Contact() {
             variants={boxVariant}
           >
             <Image
-              src="/images/vilo.jpg"
+              src="/images/vilo.webp"
               alt="Gym Vicente Lopez"
               width={300}
               height={300}
@@ -148,7 +148,7 @@ export default function Contact() {
             variants={boxVariant}
           >
             <Image 
-              src="/images/vic.jpg"
+              src="/images/vic.webp"
               alt="Image"
               width={300}
               height={300}

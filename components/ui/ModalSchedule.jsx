@@ -53,7 +53,7 @@ const ModalSchedule = ({ sede }) => {
           <div className="items-center justify-center flex">
             <Image
               className="inset-0 rounded-md object-cover h-full w-full"
-              src={`/images/Horarios${sede}.jpg`}
+              src={`/images/Horarios${sede}.webp`}
               width={0}
               height={0}
               sizes="100vw"

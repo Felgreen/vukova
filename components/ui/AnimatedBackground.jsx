@@ -13,7 +13,7 @@ const AnimatedBackground = () => {
     >
       <div className="absolute inset-0">
         <Image
-          src="/images/snatch.jpg"
+          src="/images/snatch.webp"
           alt="Background image"
           style={{ objectFit: "cover" }}
           fill

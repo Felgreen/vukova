@@ -77,7 +77,8 @@ export default function Entrenamiento() {
               className="absolute inset-0 h-full w-full object-cover rounded" 
               style={{objectFit:"cover"}}
               fill
-              quality={100}
+          priority
+              quality={85}
               />
                 {/* <img
                   alt="Team Vukova"

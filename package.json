@@ -6,7 +6,8 @@
     "dev": "next dev --webpack",
     "build": "next build --webpack",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "optimize-images": "bash scripts/optimize-all-images.sh"
   },
   "dependencies": {
     "@mercadopago/sdk-react": "^1.0.7",
